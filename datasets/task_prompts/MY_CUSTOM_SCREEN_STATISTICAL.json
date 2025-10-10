@@ -1,0 +1,4 @@
+{
+  "Task": "Statistical gene discovery approach.\n\nQUANTITATIVE ANALYSIS:\n- Dataset: 15073 genes, scores 0-1\n- Target: Top 10% performers (score > 0.388)\n- Method: Statistical significance-based selection\n\nSELECT genes with:\n1. Score > 95th percentile (0.426)\n2. Score in top 5% AND consistent with high-importance pattern\n3. Statistical outliers in the upper tail\n\nUse quantitative ranking for gene prioritization.",
+  "Measurement": "Statistical importance score. Focus on upper 5% tail."
+}

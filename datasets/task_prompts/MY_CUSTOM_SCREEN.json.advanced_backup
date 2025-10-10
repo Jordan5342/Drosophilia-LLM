@@ -1,0 +1,4 @@
+{
+  "Task": "Find essential genes from this genetic screen dataset.\n\nSIMPLE RULE: Higher scores = more essential genes\n- Maximum score: 1.000\n- Top 25% threshold: 0.322\n- Focus on genes with scores above 0.322\n\nEXAMPLES OF HIGH-SCORING GENES:\nGENE_9491, GENE_10303, GENE_15048, GENE_10304, GENE_15049, GENE_17688, GENE_10302, GENE_17665, GENE_17662, GENE_17654, GENE_5495, GENE_17664, GENE_17549, GENE_14342, GENE_14917\n\nSTRATEGY: Select genes with the highest importance scores. These represent the most essential genes for cell survival.",
+  "Measurement": "Gene importance score (0 to 1). Higher = more essential. Focus on scores > 0.322."
+}

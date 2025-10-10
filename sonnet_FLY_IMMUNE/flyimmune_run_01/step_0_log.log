@@ -1,0 +1,864 @@
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved. 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the initial step, there are no previous results to reflect on. We need to start by identifying key genes involved in Drosophila's innate immune response based on existing knowledge.
+
+2. Research Plan: 
+Step 1: Identify and test well-known genes involved in Drosophila innate immunity (current step).
+Step 2: Analyze results and refine gene selection based on initial findings.
+Step 3: Explore genes in related pathways or with potential immune functions.
+Step 4: Investigate less-studied genes with possible immune roles.
+Step 5: Conduct final rounds of testing on genes showing promising results or unexpected effects.
+
+3. Solution:
+1. Toll, 2. IMD, 3. Relish, 4. Dorsal, 5. Dif, 6. PGRP-LC, 7. PGRP-LE, 8. Spätzle, 9. Cactus, 10. Dredd, 11. Kenny, 12. Imd, 13. Tak1, 14. Hemese, 15. Domeless, 16. Hopscotch, 17. Stat92E, 18. Pelle, 19. Tube, 20. Drosomycin, 21. Diptericin, 22. Attacin, 23. Cecropin, 24. Defensin, 25. Metchnikowin, 26. Drosocin, 27. TEP1, 28. TEP2, 29. TEP3, 30. TEP4, 31. Eater, 32. Nimrod, 33. Hemolectin, 34. Serpent, 35. Lozenge, 36. Peroxidasin, 37. Black cells, 38. Prophenoloxidase, 39. Serpin27A, 40. Punch, 41. Pale, 42. Ddc, 43. Basket, 44. Kayak, 45. Jun-related antigen, 46. Hemipterous, 47. Puckered, 48. Ras85D, 49. Sos, 50. Drk, 51. Corkscrew, 52. Rolled, 53. Pointed, 54. Aop, 55. Mekk1, 56. Licorne, 57. p38a, 58. p38b, 59. p38c, 60. Mpk2, 61. Atf-2, 62. Jra, 63. Dsor1, 64. Rl
+===================tokens=====================
+Number of prompt tokens: 306
+Number of sampled tokens: 563
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Puckered', 'Dsor1', 'Lozenge', 'Rolled', 'Licorne', 'TEP1', 'Hemolectin', 'p38c', 'Defensin', 'Cactus', 'Tube', 'Pale', 'Rl', 'Imd', 'Prophenoloxidase', 'Tak1', 'Serpin27A', 'PGRP-LC', 'Serpent', 'Pointed', 'Sos', 'Spätzle', 'p38b', 'Toll', 'Kenny', 'p38a', 'Drk', 'TEP2', 'TEP4', 'Pelle', 'Basket', 'Metchnikowin', 'IMD', 'Domeless', 'Hemese', 'Black cells', 'Aop', 'Atf-2', 'Peroxidasin', 'Drosomycin', 'Dif', 'Cecropin', 'Corkscrew', 'Stat92E', 'Dredd', 'Kayak', 'Dorsal', 'Ddc', 'Mpk2', 'Nimrod', 'TEP3', 'Drosocin', 'Eater', 'Jun-related antigen', 'Punch', 'Hopscotch', 'Ras85D', 'Mekk1', 'Relish', 'Hemipterous', 'Jra', 'PGRP-LE', 'Diptericin', 'Attacin'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. Our initial approach will be to select genes known to be involved in Drosophila's innate immune response, as well as genes in related pathways or with potential regulatory roles.
+
+2. Research Plan: 
+1) Select key genes involved in known innate immune pathways (Toll, IMD, JAK-STAT).
+2) Include genes involved in cellular stress responses and oxidative stress.
+3) Add genes involved in hemocyte differentiation and function.
+4) Include genes involved in melanization and wound healing.
+5) Select genes involved in general cellular processes that might indirectly affect immune response.
+
+3. Solution:
+1. Spatzle-processing enzyme, 2. PGRP-SA, 3. PGRP-SD, 4. GNBP1, 5. GNBP3, 6. ModSP, 7. Spirit, 8. Grass, 9. Persephone, 10. Necrotic, 11. Spheroide, 12. Sphinx1/2, 13. Osiris, 14. Serpin43Ac, 15. Serpin55B, 16. Serpin77Ba, 17. FADD, 18. PGRP-LB, 19. PGRP-SC1a, 20. PGRP-SC2, 21. Pirk, 22. Caspar, 23. Dnr1, 24. Akirin, 25. Diedel, 26. Upd1, 27. Upd2, 28. Upd3, 29. Socs36E, 30. Pias, 31. Zfh1, 32. Serpent, 33. Lozenge, 34. Gcm, 35. Gcm2, 36. Pvf1, 37. Pvf2, 38. Pvf3, 39. Pxn, 40. PPO1, 41. PPO2, 42. PPO3, 43. Hayan, 44. MP1, 45. MP2, 46. Fondue, 47. Transglutaminase, 48. Glutactin, 49. Hsp70, 50. Hsp83, 51. Catalase, 52. Superoxide dismutase 1, 53. Superoxide dismutase 2, 54. Glutathione S transferase D1, 55. Glutathione S transferase E6, 56. Nrf2, 57. Keap1, 58. Autophagy-related 1, 59. Autophagy-related 8a, 60. Rab5, 61. Rab7, 62. Rab11, 63. Rac1, 64. Rac2
+===================tokens=====================
+Number of prompt tokens: 659
+Number of sampled tokens: 612
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Lozenge', 'Gcm', 'Pvf1', 'Fondue', 'PPO3', 'Persephone', 'Rab11', 'Autophagy-related 8a', 'Nrf2', 'Spirit', 'Rac2', 'GNBP3', 'Serpent', 'GNBP1', 'Upd3', 'Hsp70', 'Zfh1', 'PGRP-SC2', 'PPO1', 'Caspar', 'Rab5', 'Glutathione S transferase D1', 'PGRP-LB', 'Pirk', 'Dnr1', 'Keap1', 'Socs36E', 'FADD', 'PPO2', 'Hayan', 'Pias', 'Gcm2', 'Rab7', 'Pvf3', 'MP2', 'Osiris', 'Superoxide dismutase 2', 'Grass', 'PGRP-SC1a', 'Diedel', 'Sphinx1/2', 'Transglutaminase', 'Serpin43Ac', 'Akirin', 'Rac1', 'Hsp83', 'Autophagy-related 1', 'Serpin55B', 'Upd1', 'Spheroide', 'Necrotic', 'PGRP-SA', 'Pxn', 'Spatzle-processing enzyme', 'Upd2', 'PGRP-SD', 'ModSP', 'Serpin77Ba', 'Catalase', 'Pvf2', 'Glutactin', 'Glutathione S transferase E6', 'Superoxide dismutase 1', 'MP1'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. Our initial approach will be to select genes known to be involved in Drosophila's innate immune response based on current scientific knowledge.
+
+2. Research Plan: We will focus on genes involved in key immune pathways such as the Toll and Imd pathways, antimicrobial peptide production, cellular immunity, and oxidative stress response. We'll also include genes involved in signal transduction, transcription factors, and regulatory proteins. This diverse selection will provide a broad overview of the innate immune system's components. In subsequent rounds, we can refine our selection based on the results.
+
+3. Solution:
+1. Relish, 2. Dorsal, 3. Dif, 4. Cactus, 5. Toll, 6. Imd, 7. Dredd, 8. Kenny, 9. Tak1, 10. Tab2, 11. IKKβ, 12. IKKγ, 13. Diptericin, 14. Drosomycin, 15. Attacin, 16. Cecropin, 17. Defensin, 18. Metchnikowin, 19. Hemese, 20. Hemolectin, 21. Prophenoloxidase activating enzyme, 22. Domeless, 23. Hopscotch, 24. Stat92E, 25. Tep1, 26. Tep2, 27. Tep3, 28. Tep4, 29. Eater, 30. Nimrod C1, 31. Croquemort, 32. Draper, 33. Puckered, 34. Basket, 35. Hemipterous, 36. Kayak, 37. Jun-related antigen, 38. Drosomycin-like 3, 39. Drosomycin-like 5, 40. Immune induced molecule 1, 41. Immune induced molecule 2, 42. Immune induced molecule 4, 43. Turandot A, 44. Turandot M, 45. Thor, 46. Vein, 47. Unpaired, 48. Spätzle, 49. Pellino, 50. Peptidoglycan recognition protein LC, 51. Peptidoglycan recognition protein LE, 52. Peptidoglycan recognition protein LF, 53. Drosomycin-like 2, 54. Drosomycin-like 4, 55. Immune induced molecule 10, 56. Immune induced molecule 23, 57. Turandot C, 58. Turandot X, 59. Ecdysone-inducible gene L2, 60. Ecdysone-inducible gene L3, 61. Drosocin, 62. Andropin, 63. Immune induced molecule 3, 64. Immune induced molecule 14
+===================tokens=====================
+Number of prompt tokens: 706
+Number of sampled tokens: 647
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Drosomycin-like 3', 'Puckered', 'Turandot C', 'Immune induced molecule 4', 'Hemolectin', 'Nimrod C1', 'Defensin', 'Immune induced molecule 23', 'Cactus', 'Ecdysone-inducible gene L3', 'Imd', 'Immune induced molecule 2', 'Drosomycin-like 2', 'Immune induced molecule 1', 'Tak1', 'Pellino', 'Peptidoglycan recognition protein LF', 'Spätzle', 'Toll', 'Kenny', 'Unpaired', 'Basket', 'Tab2', 'Draper', 'Metchnikowin', 'Immune induced molecule 3', 'IKKβ', 'Vein', 'Thor', 'Drosomycin-like 4', 'Drosomycin-like 5', 'Domeless', 'Hemese', 'Tep4', 'Immune induced molecule 14', 'Drosomycin', 'Turandot A', 'Prophenoloxidase activating enzyme', 'Dif', 'Cecropin', 'Croquemort', 'Stat92E', 'Turandot M', 'Tep1', 'Dredd', 'Immune induced molecule 10', 'Kayak', 'Dorsal', 'Tep3', 'IKKγ', 'Peptidoglycan recognition protein LE', 'Ecdysone-inducible gene L2', 'Jun-related antigen', 'Drosocin', 'Eater', 'Hopscotch', 'Peptidoglycan recognition protein LC', 'Turandot X', 'Relish', 'Hemipterous', 'Andropin', 'Attacin', 'Diptericin', 'Tep2'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. Our initial approach will be to focus on genes known to be involved in Drosophila's innate immune response, including those in key signaling pathways and antimicrobial peptide production.
+
+2. Research Plan: 
+1) Start by targeting genes in major immune signaling pathways (Toll, Imd, JAK-STAT).
+2) Include genes involved in cellular immune responses and phagocytosis.
+3) Target genes encoding antimicrobial peptides and recognition proteins.
+4) Include genes involved in stress responses and wound healing.
+5) Add some less-studied genes that may have potential immune functions based on their expression patterns or homology to known immune genes.
+
+3. Solution:
+1. Serpin 27A, 2. Persephone, 3. Sphinx1, 4. Necrotic, 5. Spirit, 6. Grass, 7. ModSP, 8. Gram-negative bacteria binding protein 1, 9. Gram-negative bacteria binding protein 2, 10. Gram-negative bacteria binding protein 3, 11. POSH, 12. Sickie, 13. Akirin, 14. Caspar, 15. Pirk, 16. PGRP-SB1, 17. PGRP-SB2, 18. PGRP-SC1a, 19. PGRP-SC1b, 20. PGRP-SC2, 21. PGRP-SD, 22. GNBP-like 3, 23. Diedel, 24. Diedel2, 25. Diedel3, 26. Ect4, 27. Fon, 28. Fondue, 29. Sphinx2, 30. Spn4, 31. Spn5, 32. Spn6, 33. Spn77Ba, 34. TEP5, 35. TEP6, 36. Thiolester containing protein II, 37. Thiolester containing protein III, 38. Thiolester containing protein IV, 39. Totl, 40. TotZ, 41. Upd2, 42. Upd3, 43. Virus-induced RNA 1, 44. Ars2, 45. Atg1, 46. Atg8a, 47. Atg8b, 48. BEAF-32, 49. Cad99C, 50. Cka, 51. Dcp-1, 52. Dronc, 53. Fadd, 54. Faf, 55. Hayan, 56. Hep, 57. Hml, 58. Hsp26, 59. Hsp27, 60. Hsp67Bc, 61. Hsp68, 62. Hsp70Aa, 63. Hsp70Ab, 64. Hsp70Ba
+===================tokens=====================
+Number of prompt tokens: 741
+Number of sampled tokens: 634
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Cad99C', 'Hsp70Aa', 'Hsp26', 'PGRP-SB1', 'Ect4', 'PGRP-SC1b', 'Fondue', 'Thiolester containing protein IV', 'Persephone', 'Sickie', 'TEP5', 'Spirit', 'Atg1', 'Diedel2', 'PGRP-SB2', 'Diedel3', 'Upd3', 'Cka', 'Hsp70Ba', 'PGRP-SC2', 'Caspar', 'BEAF-32', 'Dcp-1', 'Pirk', 'POSH', 'Spn77Ba', 'Atg8a', 'Gram-negative bacteria binding protein 1', 'TotZ', 'Hayan', 'Hml', 'Faf', 'Hsp70Ab', 'Fon', 'Grass', 'PGRP-SC1a', 'Diedel', 'Spn4', 'GNBP-like 3', 'Totl', 'Hsp67Bc', 'Atg8b', 'Thiolester containing protein II', 'Sphinx1', 'Ars2', 'Dronc', 'Akirin', 'Virus-induced RNA 1', 'Thiolester containing protein III', 'Necrotic', 'Gram-negative bacteria binding protein 3', 'Sphinx2', 'Upd2', 'Hsp27', 'PGRP-SD', 'Spn6', 'ModSP', 'TEP6', 'Fadd', 'Serpin 27A', 'Spn5', 'Gram-negative bacteria binding protein 2', 'Hep', 'Hsp68'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, there are no previous results to reflect on. The goal is to start with a diverse set of genes known or predicted to be involved in Drosophila's innate immune response.
+
+2. Research Plan: 
+1) Begin with key genes in major immune pathways (Toll, Imd, JAK-STAT).
+2) Include genes involved in antimicrobial peptide production.
+3) Add genes related to cellular immune responses (e.g., phagocytosis, encapsulation).
+4) Include some stress response and general immunity genes.
+5) Incorporate genes from different functional categories (receptors, signaling molecules, transcription factors) to get a broad overview.
+
+3. Solution:
+1. Dif, 2. Dorsal, 3. Cactus, 4. Toll, 5. Myd88, 6. Pelle, 7. Tube, 8. Spatzle, 9. Relish, 10. Kenny, 11. Imd, 12. Dredd, 13. Tak1, 14. Tab2, 15. Ird5, 16. Key, 17. Stat92E, 18. Hop, 19. Dome, 20. Upd1, 21. Diptericin, 22. Attacin, 23. Cecropin, 24. Defensin, 25. Drosomycin, 26. Metchnikowin, 27. Eater, 28. Nimrod, 29. Hemese, 30. Pxn, 31. ProPO45, 32. Hemotin, 33. Hemolectin, 34. Serpent, 35. Lozenge, 36. Gcm, 37. Pvf2, 38. Pvr, 39. Rac2, 40. Cdc42, 41. Basket, 42. Jra, 43. Kay, 44. Foxo, 45. Desat1, 46. Tep1, 47. Tep2, 48. Tep3, 49. Pgrp-la, 50. Pgrp-lc, 51. Pgrp-le, 52. Pgrp-lf, 53. Bsk, 54. Jnk, 55. p38a, 56. p38b, 57. p38c, 58. Mekk1, 59. Mkk4, 60. Licorne, 61. Dsor1, 62. Ras85D, 63. Raf, 64. Egfr
+===================tokens=====================
+Number of prompt tokens: 711
+Number of sampled tokens: 564
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Dsor1', 'Lozenge', 'Gcm', 'Hemotin', 'Licorne', 'Spatzle', 'Key', 'Hemolectin', 'p38c', 'Defensin', 'Cactus', 'Tube', 'Egfr', 'Cdc42', 'Imd', 'Rac2', 'Tak1', 'Pvr', 'Pgrp-la', 'Pgrp-lc', 'Serpent', 'p38b', 'Toll', 'Kenny', 'ProPO45', 'p38a', 'Pelle', 'Basket', 'Tab2', 'Metchnikowin', 'Raf', 'Hemese', 'Desat1', 'Myd88', 'Drosomycin', 'Mkk4', 'Dif', 'Cecropin', 'Stat92E', 'Bsk', 'Pgrp-lf', 'Tep1', 'Dredd', 'Dorsal', 'Tep3', 'Kay', 'Nimrod', 'Upd1', 'Eater', 'Pgrp-le', 'Pxn', 'Mekk1', 'Hop', 'Ras85D', 'Relish', 'Dome', 'Pvf2', 'Attacin', 'Jnk', 'Jra', 'Diptericin', 'Ird5', 'Tep2', 'Foxo'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. Our initial approach will be to select genes known or suspected to be involved in Drosophila's innate immune response, focusing on key signaling pathways, transcription factors, and antimicrobial peptides not already listed in the excluded genes.
+
+2. Research Plan: 
+1) Select genes involved in known immune signaling pathways (Toll, Imd, JAK-STAT).
+2) Include genes encoding antimicrobial peptides not already listed.
+3) Add genes involved in cellular immune responses (phagocytosis, encapsulation).
+4) Include genes related to stress responses that may modulate immunity.
+5) Select genes involved in metabolism and development that could indirectly affect immune function.
+
+3. Solution:
+1. Fadd, 2. Wengen, 3. Persephone, 4. Necrotic, 5. Spirit, 6. Grass, 7. Modsp, 8. Spheroide, 9. Easter, 10. Sphinx1, 11. Sphinx2, 12. Gprk2, 13. Dnr1, 14. Pirk, 15. Caspar, 16. Akirin, 17. Diedel, 18. Eiger, 19. Grindelwald, 20. Wengen, 21. Wntd, 22. Zfh1, 23. Apt, 24. Ush, 25. Dsp1, 26. Atf3, 27. Rel, 28. Deaf1, 29. Dl, 30. Drs, 31. IM1, 32. IM2, 33. IM3, 34. IM4, 35. IM10, 36. IM23, 37. Mtk, 38. AttA, 39. AttB, 40. AttC, 41. AttD, 42. DptB, 43. Anp, 44. Listericin, 45. Dro2, 46. Dro3, 47. Dro4, 48. Dro5, 49. Dro6, 50. CecA1, 51. CecA2, 52. CecB, 53. CecC, 54. Dro, 55. Def, 56. Nec, 57. Spn27A, 58. Spn5, 59. Tep4, 60. NimC1, 61. Draper, 62. Croquemort, 63. Sr-CI, 64. Hml
+===================tokens=====================
+Number of prompt tokens: 651
+Number of sampled tokens: 565
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'CecC', 'Spn27A', 'Def', 'AttD', 'IM2', 'Dro2', 'Listericin', 'Persephone', 'CecB', 'Dsp1', 'Grindelwald', 'IM1', 'Spirit', 'IM23', 'AttC', 'Mtk', 'AttB', 'Drs', 'Zfh1', 'Dro5', 'Anp', 'Caspar', 'Draper', 'Pirk', 'IM3', 'Easter', 'Rel', 'Dnr1', 'Gprk2', 'Deaf1', 'Atf3', 'Modsp', 'CecA2', 'AttA', 'Tep4', 'Wengen', 'Hml', 'Dl', 'Apt', 'Dro6', 'NimC1', 'Grass', 'Diedel', 'CecA1', 'Dro4', 'Croquemort', 'Sr-CI', 'Sphinx1', 'DptB', 'Ush', 'Akirin', 'Eiger', 'Spheroide', 'Necrotic', 'Dro', 'Dro3', 'Sphinx2', 'IM4', 'Wntd', 'IM10', 'Fadd', 'Spn5', 'Nec'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, there are no previous results to reflect on. We will start by selecting a diverse set of genes known or suspected to be involved in Drosophila's innate immune response based on general knowledge of immune pathways and processes.
+
+2. Research Plan: Our initial plan is to test a broad range of genes involved in various aspects of innate immunity, including pattern recognition receptors, signaling pathway components, transcription factors, antimicrobial peptides, and regulators of immune responses. We will focus on genes from the Toll and IMD pathways, JAK-STAT pathway, cellular immunity, and genes involved in melanization. This approach will provide a comprehensive overview of the innate immune system and help identify key players for further investigation.
+
+3. Solution:
+1. Toll, 2. Imd, 3. Dif, 4. Dorsal, 5. Cactus, 6. Pelle, 7. Tube, 8. Spatzle, 9. PGRP-SA, 10. PGRP-LC, 11. PGRP-LE, 12. GNBP1, 13. GNBP3, 14. Kenny, 15. Ird5, 16. Relish, 17. Dredd, 18. Tak1, 19. Tab2, 20. Hopscotch, 21. Stat92E, 22. Domeless, 23. Upd3, 24. Tep1, 25. Tep2, 26. Tep3, 27. Hemese, 28. Serpent, 29. Lozenge, 30. Prophenoloxidase1, 31. Prophenoloxidase2, 32. Prophenoloxidase3, 33. Serpin27A, 34. MP1, 35. MP2, 36. Diptericin, 37. Metchnikowin, 38. Defensin, 39. Drosomycin, 40. Attacin, 41. Cecropin, 42. Drosocin, 43. Eater, 44. Nimrod C4, 45. Hemolectin, 46. Psidin, 47. Rac2, 48. Basket, 49. Kayak, 50. Jun-related antigen, 51. Punch, 52. Pale, 53. Ddc, 54. Black cells, 55. Lozenge, 56. Serpent, 57. Ush, 58. Gcm, 59. Gcm2, 60. Pvr, 61. Pvf2, 62. Pvf3, 63. Rac1, 64. Cdc42
+===================tokens=====================
+Number of prompt tokens: 641
+Number of sampled tokens: 585
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Domeless', 'Hemese', 'Lozenge', 'Black cells', 'Gcm', 'Gcm2', 'Pvf3', 'Spatzle', 'MP2', 'Drosomycin', 'Hemolectin', 'Defensin', 'Dif', 'Cactus', 'Tube', 'Cecropin', 'Stat92E', 'Pale', 'Cdc42', 'Imd', 'Tep1', 'Dredd', 'Kayak', 'Dorsal', 'Tep3', 'Ush', 'Ddc', 'Rac1', 'Rac2', 'Tak1', 'Pvr', 'Serpin27A', 'PGRP-LC', 'GNBP3', 'Serpent', 'Drosocin', 'Eater', 'GNBP1', 'Upd3', 'Prophenoloxidase1', 'Jun-related antigen', 'Punch', 'PGRP-SA', 'Hopscotch', 'Toll', 'Kenny', 'Prophenoloxidase3', 'Relish', 'Attacin', 'Pvf2', 'Psidin', 'Pelle', 'Basket', 'Tab2', 'PGRP-LE', 'Diptericin', 'MP1', 'Ird5', 'Metchnikowin', 'Tep2', 'Nimrod C4', 'Prophenoloxidase2'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. However, we should focus on selecting genes known to be involved in Drosophila's innate immune response, including those in key signaling pathways and antimicrobial peptide production.
+
+2. Research Plan: Our plan is to test genes involved in various aspects of Drosophila's innate immune response. We will focus on:
+a) Genes in the Toll and Imd pathways
+b) Genes involved in cellular immune responses
+c) Genes encoding antimicrobial peptides
+d) Genes involved in melanization and wound healing
+e) Transcription factors and regulators of immune responses
+
+3. Solution: Here is a list of 64 predicted genes to test:
+
+1. Persephone, 2. ModSP, 3. Grass, 4. Spirit, 5. Sphinx1, 6. Sphinx2, 7. Easter, 8. Snake, 9. Gastrulation defective, 10. Nudel, 11. Spheroide, 12. Osiris, 13. Necrotic, 14. Myd88, 15. Weckle, 16. Kra, 17. Pellino, 18. Traf6, 19. Drosomycin-like, 20. Metchnikowin-like, 21. Cecropin A1, 22. Cecropin A2, 23. Cecropin B, 24. Cecropin C, 25. Diptericin B, 26. Attacin A, 27. Attacin B, 28. Attacin C, 29. Drosocin B, 30. Defensin-like, 31. PGRP-SD, 32. PGRP-SC1a, 33. PGRP-SC1b, 34. PGRP-SC2, 35. PGRP-LB, 36. PGRP-SB1, 37. PGRP-SB2, 38. GNBP2, 39. TEP4, 40. Hemotin, 41. Hayan, 42. Fondue, 43. Melanization protease 1, 44. Melanization protease 2, 45. Serpin28D, 46. Serpin77Ba, 47. Nimrod B1, 48. Nimrod B2, 49. Nimrod B4, 50. Nimrod B5, 51. Draper, 52. Croquemort, 53. Peste, 54. Sr-CI, 55. Dscam, 56. Hemipterous, 57. Licorne, 58. Misshapen, 59. Akirin, 60. Deformed epidermal autoregulatory factor-1, 61. Forkhead box O, 62. Ets at 21C, 63. Ultraspiracle, 64. Lozenge-like
+===================tokens=====================
+Number of prompt tokens: 656
+Number of sampled tokens: 647
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Peste', 'Forkhead box O', 'Diptericin B', 'PGRP-SB1', 'Metchnikowin-like', 'Ultraspiracle', 'Hemotin', 'Cecropin A1', 'PGRP-SC1b', 'Licorne', 'Fondue', 'Snake', 'Persephone', 'Defensin-like', 'Melanization protease 2', 'Serpin28D', 'Cecropin B', 'Spirit', 'Drosomycin-like', 'Here is a list of 64 predicted genes to test:', 'PGRP-SB2', 'Pellino', 'Nimrod B5', 'Drosocin B', 'TEP4', 'PGRP-SC2', 'Cecropin A2', 'PGRP-LB', 'Draper', 'Easter', 'Cecropin C', 'Melanization protease 1', 'Dscam', 'Hayan', 'Gastrulation defective', 'Attacin A', 'GNBP2', 'Osiris', 'Myd88', 'Grass', 'PGRP-SC1a', 'Croquemort', 'Sr-CI', 'Ets at 21C', 'Kra', 'Sphinx1', 'Akirin', 'Deformed epidermal autoregulatory factor-1', 'Attacin B', 'Lozenge-like', 'Spheroide', 'Necrotic', 'Nimrod B2', 'Sphinx2', 'Nudel', 'PGRP-SD', 'Nimrod B4', 'Traf6', 'Misshapen', 'ModSP', 'Serpin77Ba', 'Hemipterous', 'Attacin C', 'Nimrod B1', 'Weckle'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, there are no previous results to reflect on. We will start by selecting genes known to be involved in Drosophila's innate immune response based on current scientific knowledge.
+
+2. Research Plan: Our plan is to focus on genes involved in key innate immune pathways in Drosophila, including the Toll and Imd pathways, antimicrobial peptide production, and cellular immune responses. We will prioritize genes encoding pattern recognition receptors, signaling molecules, transcription factors, and effector proteins. This approach will provide a broad overview of the innate immune system and help identify key regulators.
+
+3. Solution: Here is a list of 64 predicted genes to test:
+
+1. Toll, 2. Imd, 3. Relish, 4. Dorsal, 5. Dif, 6. Spatzle, 7. Pelle, 8. Tube, 9. Cactus, 10. Kenny, 11. ird5, 12. PGRP-LC, 13. PGRP-LE, 14. GNBP1, 15. GNBP3, 16. Drosomycin, 17. Defensin, 18. Attacin-D, 19. Diptericin A, 20. Metchnikowin, 21. Domeless, 22. Hopscotch, 23. STAT92E, 24. Prophenoloxidase 1, 25. Prophenoloxidase 2, 26. Hemese, 27. Serrate, 28. Notch, 29. Eiger, 30. Wengen, 31. JNK, 32. Basket, 33. Kayak, 34. Jun-related antigen, 35. Puckered, 36. Tak1, 37. Tab2, 38. FADD, 39. Dredd, 40. Caspar, 41. Pirk, 42. Dnr1, 43. Sick, 44. Eater, 45. Nimrod C1, 46. Nimrod C3, 47. Tep1, 48. Tep2, 49. Tep3, 50. Dscam4, 51. Hemolectin, 52. Lozenge, 53. Serpent, 54. Gcm, 55. Gcm2, 56. Ush, 57. Pannier, 58. Zfh1, 59. Srp54, 60. Punch, 61. Pale, 62. Ddc, 63. Black, 64. Ebony
+===================tokens=====================
+Number of prompt tokens: 746
+Number of sampled tokens: 568
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Puckered', 'Lozenge', 'Gcm', 'STAT92E', 'Spatzle', 'Prophenoloxidase 2', 'Nimrod C1', 'Hemolectin', 'Defensin', 'Tube', 'Cactus', 'Pale', 'Imd', 'Nimrod C3', 'Ebony', 'Black', 'Here is a list of 64 predicted genes to test:', 'Tak1', 'PGRP-LC', 'GNBP3', 'Serpent', 'Srp54', 'GNBP1', 'Dscam4', 'Toll', 'Kenny', 'Pannier', 'Zfh1', 'JNK', 'Caspar', 'Pelle', 'Basket', 'Tab2', 'Pirk', 'Metchnikowin', 'Dnr1', 'Notch', 'FADD', 'Domeless', 'Hemese', 'Wengen', 'Diptericin A', 'Gcm2', 'Drosomycin', 'Serrate', 'Dif', 'Prophenoloxidase 1', 'Attacin-D', 'Tep1', 'Dredd', 'Kayak', 'Dorsal', 'Tep3', 'Sick', 'Ush', 'Ddc', 'Eiger', 'Jun-related antigen', 'Eater', 'Punch', 'ird5', 'Hopscotch', 'Relish', 'PGRP-LE', 'Tep2'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of predictions, I'll focus on key genes known to be involved in Drosophila's innate immune response, including components of major immune pathways and antimicrobial peptide genes. I'll also include some genes involved in melanization and cellular immune responses.
+
+2. Research Plan: 
+Step 1: Predict 64 genes likely involved in Drosophila's innate immune response (current step).
+Step 2: Analyze results from the first round of testing.
+Step 3: Refine predictions based on initial results, focusing on pathways or processes that show significant effects.
+Step 4: Conduct additional rounds of testing with refined gene lists.
+Step 5: Synthesize results to identify key genes and pathways affecting innate immunity.
+
+3. Solution:
+1. PGRP-SA, 2. PGRP-SD, 3. GNBP2, 4. ModSP, 5. Spirit, 6. Sphinx1, 7. Sphinx2, 8. Persephone, 9. Easter, 10. Grass, 11. Spheroide, 12. Osiris, 13. Drosocin, 14. Cecropin A1, 15. Cecropin A2, 16. Cecropin B, 17. Cecropin C, 18. Attacin A, 19. Attacin B, 20. Attacin C, 21. Diptericin B, 22. Andropin, 23. Anp1, 24. Mtk, 25. DptB, 26. IM1, 27. IM2, 28. IM3, 29. IM4, 30. IM10, 31. IM23, 32. Drs-l, 33. Tep4, 34. PGRP-SB1, 35. PGRP-SB2, 36. PGRP-SC1a, 37. PGRP-SC1b, 38. PGRP-SC2, 39. PGRP-LB, 40. PGRP-LF, 41. Pellino, 42. Akirin, 43. Hep, 44. Mkk4, 45. p38a, 46. p38b, 47. p38c, 48. Atf-2, 49. Dsor1, 50. Ras85D, 51. Raf, 52. Pvr, 53. Pvf1, 54. Pvf2, 55. Pvf3, 56. Hml, 57. Pxn, 58. Lz, 59. Srp, 60. Ush, 61. Cg25C, 62. Vkg, 63. Trol, 64. Viking
+===================tokens=====================
+Number of prompt tokens: 673
+Number of sampled tokens: 602
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Diptericin B', 'Dsor1', 'PGRP-SB1', 'Cecropin A1', 'PGRP-SC1b', 'IM2', 'Pvf1', 'PGRP-LF', 'Cg25C', 'p38c', 'Persephone', 'IM1', 'Cecropin B', 'Spirit', 'IM23', 'Pvr', 'PGRP-SB2', 'Pellino', 'Mtk', 'p38b', 'p38a', 'PGRP-SC2', 'Cecropin A2', 'PGRP-LB', 'Raf', 'IM3', 'Easter', 'Trol', 'Cecropin C', 'Tep4', 'Attacin A', 'Hml', 'Atf-2', 'Pvf3', 'Drs-l', 'GNBP2', 'Osiris', 'Anp1', 'Mkk4', 'Viking', 'Grass', 'PGRP-SC1a', 'Lz', 'Sphinx1', 'DptB', 'Ush', 'Akirin', 'Srp', 'Vkg', 'Attacin B', 'Drosocin', 'Spheroide', 'PGRP-SA', 'Pxn', 'Sphinx2', 'IM4', 'Ras85D', 'PGRP-SD', 'IM10', 'ModSP', 'Andropin', 'Pvf2', 'Attacin C', 'Hep'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have any previous results to reflect on. Our initial approach will be to focus on genes known to be involved in Drosophila's innate immune response, including those in the Toll and Imd pathways, as well as genes involved in antimicrobial peptide production and regulation.
+
+2. Research Plan: 
+1) Start by targeting key components of the Toll and Imd pathways.
+2) Include genes involved in the production and regulation of antimicrobial peptides.
+3) Target transcription factors known to regulate immune response genes.
+4) Include genes involved in cellular immune responses like phagocytosis and encapsulation.
+5) Add some genes involved in stress responses and general cellular processes that might indirectly affect immune function.
+
+3. Solution:
+1. Toll, 2. Spatzle, 3. MyD88, 4. Tube, 5. Pelle, 6. Cactus, 7. Dorsal, 8. Dif, 9. Relish, 10. Kenny, 11. Imd, 12. FADD, 13. Dredd, 14. TAK1, 15. IKKβ, 16. IKKγ, 17. Defensin, 18. Metchnikowin, 19. Drosomycin, 20. Bomanin, 21. PGRP-LC, 22. PGRP-LE, 23. GNBP1, 24. GNBP3, 25. Necrotic, 26. SPE, 27. Serpin27A, 28. Serpin28D, 29. Hemese, 30. Tep1, 31. Tep2, 32. Tep3, 33. Eater, 34. NimrodC1, 35. Draper, 36. Croquemort, 37. Domeless, 38. Hopscotch, 39. STAT92E, 40. Upd3, 41. Prophenoloxidase1, 42. Prophenoloxidase2, 43. Prophenoloxidase3, 44. Lozenge, 45. Serpent, 46. Gcm, 47. Gcm2, 48. Ush, 49. Foxo, 50. Thor, 51. Drosomycin-like, 52. Attacin-D, 53. Diptericin A, 54. Drosocin-like, 55. Metchnikowin-like, 56. Cecropin C-like, 57. IM14, 58. IM18, 59. Tep5, 60. Tep6, 61. PGRP-LA, 62. PGRP-LD, 63. GNBP-like3, 64. Sphinx-like
+===================tokens=====================
+Number of prompt tokens: 678
+Number of sampled tokens: 611
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Lozenge', 'Gcm', 'Metchnikowin-like', 'IM14', 'STAT92E', 'Spatzle', 'Sphinx-like', 'Defensin', 'Tube', 'Cactus', 'Tep5', 'Imd', 'MyD88', 'GNBP-like3', 'Serpin28D', 'Drosomycin-like', 'PGRP-LA', 'Serpin27A', 'PGRP-LC', 'GNBP3', 'Serpent', 'GNBP1', 'Upd3', 'Prophenoloxidase1', 'Bomanin', 'Toll', 'Kenny', 'Prophenoloxidase3', 'Pelle', 'Draper', 'Metchnikowin', 'IKKβ', 'FADD', 'Prophenoloxidase2', 'Thor', 'Cecropin C-like', 'Drosocin-like', 'Domeless', 'Hemese', 'Gcm2', 'Diptericin A', 'TAK1', 'Drosomycin', 'Dif', 'Croquemort', 'Attacin-D', 'Tep1', 'Dredd', 'Dorsal', 'Tep3', 'Ush', 'IKKγ', 'IM18', 'Tep6', 'Eater', 'Necrotic', 'NimrodC1', 'PGRP-LD', 'Hopscotch', 'SPE', 'Relish', 'PGRP-LE', 'Tep2', 'Foxo'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. Our initial approach will be to select genes known to be involved in Drosophila's innate immune response based on current scientific knowledge.
+
+2. Research Plan: 
+1) Start with key genes involved in major immune pathways (Toll, Imd, JAK-STAT).
+2) Include genes encoding antimicrobial peptides and recognition proteins.
+3) Add genes involved in cellular immune responses like phagocytosis.
+4) Include transcription factors and regulators known to affect immune responses.
+5) Select some less-studied genes that may have potential immune functions.
+
+3. Solution:
+1. Diptericin B, 2. Attacin A, 3. Attacin B, 4. Attacin C, 5. Cecropin A1, 6. Cecropin A2, 7. Cecropin B, 8. Cecropin C, 9. Drosocin, 10. Defensin, 11. PGRP-SA, 12. PGRP-SB1, 13. PGRP-SB2, 14. PGRP-SC1a, 15. PGRP-SC1b, 16. PGRP-SC2, 17. PGRP-SD, 18. GNBP2, 19. Tep4, 20. IM1, 21. IM2, 22. IM3, 23. IM4, 24. IM10, 25. IM23, 26. Attacin-like, 27. Drosomycin-2, 28. Drosomycin-3, 29. Drosomycin-4, 30. Drosomycin-5, 31. Drosomycin-6, 32. Drosomycin-7, 33. NimrodA, 34. NimrodB1, 35. NimrodB2, 36. NimrodB3, 37. NimrodB4, 38. NimrodB5, 39. Hemolectin, 40. Peroxidasin, 41. Glutathione peroxidase, 42. Catalase, 43. Superoxide dismutase 1, 44. Superoxide dismutase 2, 45. Thioester-containing protein 4, 46. Scavenger receptor class C type I, 47. Scavenger receptor class C type II, 48. Scavenger receptor class C type IV, 49. Peste, 50. Rac1, 51. Rac2, 52. Basket, 53. Kayak, 54. Jun-related antigen, 55. Pointed, 56. Serpent, 57. Lozenge, 58. Pannier, 59. U-shaped, 60. Zfh1, 61. Kruppel, 62. Caudal, 63. Deformed, 64. Antennapedia
+===================tokens=====================
+Number of prompt tokens: 685
+Number of sampled tokens: 650
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Peste', 'Diptericin B', 'Lozenge', 'PGRP-SB1', 'Antennapedia', 'Cecropin A1', 'PGRP-SC1b', 'IM2', 'Drosomycin-2', 'NimrodA', 'Hemolectin', 'Defensin', 'IM1', 'Scavenger receptor class C type IV', 'Cecropin B', 'Rac2', 'IM23', 'NimrodB1', 'PGRP-SB2', 'Serpent', 'Pointed', 'Caudal', 'Thioester-containing protein 4', 'Kruppel', 'Scavenger receptor class C type I', 'Pannier', 'Zfh1', 'PGRP-SC2', 'Drosomycin-4', 'Cecropin A2', 'Basket', 'NimrodB5', 'NimrodB4', 'IM3', 'Drosomycin-5', 'Attacin-like', 'Cecropin C', 'Deformed', 'Tep4', 'Attacin A', 'GNBP2', 'Superoxide dismutase 2', 'Peroxidasin', 'PGRP-SC1a', 'Drosomycin-3', 'Kayak', 'Rac1', 'Drosomycin-7', 'Attacin B', 'Jun-related antigen', 'Drosocin', 'PGRP-SA', 'IM4', 'PGRP-SD', 'Glutathione peroxidase', 'IM10', 'Catalase', 'Attacin C', 'NimrodB2', 'NimrodB3', 'Superoxide dismutase 1', 'U-shaped', 'Scavenger receptor class C type II', 'Drosomycin-6'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, there are no previous results to reflect on. We will start by selecting genes known to be involved in Drosophila's innate immune response based on current scientific knowledge.
+
+2. Research Plan: Our plan is to focus on genes involved in key immune pathways, antimicrobial peptide production, and cellular immune responses. We will prioritize genes in the Toll and Imd pathways, as well as those involved in melanization and phagocytosis. Additionally, we will include some transcription factors and signaling molecules known to regulate immune responses. This approach should provide a broad overview of the innate immune system's key players.
+
+3. Solution: Here is a list of 64 predicted genes to test:
+
+1. Toll, 2. Spatzle, 3. MyD88, 4. Tube, 5. Pelle, 6. Cactus, 7. Dorsal, 8. Dif, 9. Imd, 10. FADD, 11. Dredd, 12. Relish, 13. Kenny, 14. IKKβ, 15. IKKγ, 16. TAK1, 17. TAB2, 18. PGRP-LC, 19. PGRP-LE, 20. GNBP1, 21. GNBP3, 22. ModSP, 23. Grass, 24. Spirit, 25. Spheroide, 26. Sphinx1/2, 27. Persephone, 28. Necrotic, 29. SPE, 30. Domeless, 31. Hopscotch, 32. STAT92E, 33. TEP1, 34. TEP2, 35. TEP3, 36. Prophenoloxidase 1, 37. Prophenoloxidase 2, 38. Prophenoloxidase 3, 39. Serpin27A, 40. Black cells, 41. Lozenge, 42. Hemese, 43. Croquemort, 44. Eater, 45. Nimrod C1, 46. Draper, 47. Psidin, 48. Ecdysone receptor, 49. Ultraspiracle, 50. Broad-complex, 51. E74, 52. E75, 53. DHR3, 54. FTZ-F1, 55. Juvenile hormone esterase, 56. Methoprene-tolerant, 57. Kruppel homolog 1, 58. Foxo, 59. Thor, 60. 4E-BP, 61. TOR, 62. Akt1, 63. PI3K92E, 64. PTEN
+===================tokens=====================
+Number of prompt tokens: 748
+Number of sampled tokens: 598
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'E74', 'Lozenge', 'Ultraspiracle', 'STAT92E', 'Ecdysone receptor', 'Spatzle', 'Prophenoloxidase 2', 'Methoprene-tolerant', 'PTEN', 'TEP1', 'Nimrod C1', 'Kruppel homolog 1', 'Tube', 'Cactus', 'Persephone', 'Broad-complex', 'Imd', 'MyD88', 'Spirit', 'Here is a list of 64 predicted genes to test:', 'Serpin27A', 'PGRP-LC', 'GNBP3', 'GNBP1', 'Toll', 'Kenny', 'TAB2', 'TEP2', 'Pelle', 'Draper', 'IKKβ', 'FADD', 'DHR3', 'Thor', 'E75', 'Domeless', 'Hemese', 'TOR', 'Black cells', 'FTZ-F1', 'TAK1', 'Dif', 'Grass', 'Croquemort', 'Sphinx1/2', 'Prophenoloxidase 1', 'Dredd', 'Dorsal', '4E-BP', 'Akt1', 'IKKγ', 'Prophenoloxidase 3', 'TEP3', 'Spheroide', 'Necrotic', 'Eater', 'Hopscotch', 'Juvenile hormone esterase', 'SPE', 'ModSP', 'Relish', 'PI3K92E', 'Psidin', 'PGRP-LE', 'Foxo'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. Our initial approach will be to focus on genes known to be involved in Drosophila's innate immune response, including those in the Toll and Imd pathways, as well as genes involved in melanization and cellular immunity.
+
+2. Research Plan: 
+1) Start with key genes in major immune pathways (Toll, Imd, JAK-STAT).
+2) Include genes involved in melanization and cellular immunity.
+3) Add genes related to hormonal regulation of immunity (ecdysone, juvenile hormone).
+4) Include genes involved in stress responses and metabolism, which can indirectly affect immunity.
+5) Add some less-studied genes that may have potential roles in immunity based on their function or expression patterns.
+
+3. Solution:
+1. PGRP-SA, 2. PGRP-SD, 3. GNBP2, 4. Drosomycin, 5. Defensin, 6. Attacin-A, 7. Cecropin A1, 8. Diptericin, 9. Metchnikowin, 10. Drosocin, 11. Hemolectin, 12. Serpent, 13. Lozenge, 14. Pannier, 15. Gcm, 16. Serpent, 17. Ush, 18. Notch, 19. Serrate, 20. Delta, 21. Kuzbanian, 22. Neuralized, 23. Suppressor of Hairless, 24. Hairless, 25. Mastermind, 26. Fringe, 27. Wingless, 28. Armadillo, 29. Pangolin, 30. Dishevelled, 31. Shaggy, 32. Arrow, 33. Frizzled, 34. Hedgehog, 35. Patched, 36. Smoothened, 37. Cubitus interruptus, 38. Fused, 39. Costal-2, 40. Suppressor of fused, 41. Decapentaplegic, 42. Mothers against dpp, 43. Medea, 44. Schnurri, 45. Brinker, 46. Optomotor-blind, 47. Spalt, 48. Vestigial, 49. Scalloped, 50. Yorkie, 51. Salvador, 52. Warts, 53. Hippo, 54. Expanded, 55. Merlin, 56. Kibra, 57. Crumbs, 58. Fat, 59. Dachsous, 60. Four-jointed, 61. Dachs, 62. Approximated, 63. Discs large, 64. Scribble
+===================tokens=====================
+Number of prompt tokens: 694
+Number of sampled tokens: 603
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Wingless', 'Dishevelled', 'Lozenge', 'Kuzbanian', 'Fat', 'Gcm', 'Spalt', 'Fused', 'Cecropin A1', 'Mastermind', 'Dachs', 'Delta', 'Medea', 'Hemolectin', 'Defensin', 'Crumbs', 'Decapentaplegic', 'Yorkie', 'Frizzled', 'Patched', 'Cubitus interruptus', 'Discs large', 'Serpent', 'Scribble', 'Arrow', 'Armadillo', 'Hedgehog', 'Pannier', 'Neuralized', 'Metchnikowin', 'Smoothened', 'Notch', 'Kibra', 'Hairless', 'Salvador', 'Fringe', 'Scalloped', 'Shaggy', 'Optomotor-blind', 'Merlin', 'GNBP2', 'Drosomycin', 'Mothers against dpp', 'Serrate', 'Brinker', 'Ush', 'Expanded', 'Drosocin', 'Suppressor of fused', 'PGRP-SA', 'Attacin-A', 'PGRP-SD', 'Costal-2', 'Hippo', 'Warts', 'Four-jointed', 'Approximated', 'Schnurri', 'Vestigial', 'Suppressor of Hairless', 'Pangolin', 'Diptericin', 'Dachsous'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have any previous results to reflect on. Our initial approach will be to select genes known to be involved in Drosophila's innate immune response or related signaling pathways.
+
+2. Research Plan: 
+1) Select genes involved in key immune signaling pathways (Toll, IMD, JAK-STAT).
+2) Include genes encoding antimicrobial peptides and recognition proteins.
+3) Add genes involved in cellular immune responses (e.g., phagocytosis, encapsulation).
+4) Include genes from related processes (e.g., stress response, wound healing).
+5) Select some less-studied genes to potentially uncover novel regulators.
+
+3. Solution:
+1. Relish, 2. Dorsal, 3. Cactus, 4. Spätzle, 5. Toll, 6. MyD88, 7. Pelle, 8. Tube, 9. PGRP-LC, 10. PGRP-LE, 11. IMD, 12. FADD, 13. Dredd, 14. Kenny, 15. Tak1, 16. IKKβ, 17. IKKγ, 18. Hopscotch, 19. STAT92E, 20. Domeless, 21. Attacin-B, 22. Attacin-C, 23. Cecropin A2, 24. Cecropin B, 25. Cecropin C, 26. Diptericin B, 27. Andropin, 28. GNBP1, 29. GNBP3, 30. PGRP-LB, 31. PGRP-SC1a, 32. PGRP-SC1b, 33. PGRP-SC2, 34. Eater, 35. NimrodC1, 36. Draper, 37. Croquemort, 38. Hemese, 39. Prophenoloxidase1, 40. Prophenoloxidase2, 41. Prophenoloxidase3, 42. Serpin27A, 43. Punch, 44. Pale, 45. Ddc, 46. Black cells, 47. Lozenge, 48. Serpent, 49. U-shaped, 50. Pannier, 51. GATA-e, 52. Dfos, 53. Djun, 54. Basket, 55. Hemipterous, 56. Puckered, 57. Rac1, 58. Rac2, 59. Cdc42, 60. Rho1, 61. Pvr, 62. Pvf1, 63. Pvf2, 64. Pvf3
+===================tokens=====================
+Number of prompt tokens: 667
+Number of sampled tokens: 590
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Diptericin B', 'Puckered', 'Lozenge', 'Djun', 'STAT92E', 'PGRP-SC1b', 'Pvf1', 'Cactus', 'Tube', 'Pale', 'Cdc42', 'MyD88', 'Cecropin B', 'Rac2', 'Tak1', 'Pvr', 'Serpin27A', 'PGRP-LC', 'GNBP3', 'Serpent', 'GNBP1', 'Prophenoloxidase1', 'Attacin-C', 'Spätzle', 'Toll', 'Kenny', 'Prophenoloxidase3', 'Pannier', 'Rho1', 'PGRP-SC2', 'Pelle', 'Cecropin A2', 'Basket', 'PGRP-LB', 'Draper', 'IKKβ', 'FADD', 'Prophenoloxidase2', 'Cecropin C', 'IMD', 'Domeless', 'Hemese', 'Black cells', 'Attacin-B', 'Pvf3', 'PGRP-SC1a', 'Croquemort', 'Dredd', 'Dorsal', 'Ddc', 'Rac1', 'IKKγ', 'Eater', 'Punch', 'NimrodC1', 'Hopscotch', 'Relish', 'Hemipterous', 'Andropin', 'Pvf2', 'PGRP-LE', 'GATA-e', 'U-shaped', 'Dfos'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. However, we should focus on genes known to be involved in Drosophila's innate immune response, including those in key signaling pathways and antimicrobial peptide production.
+
+2. Research Plan: Our plan is to test genes involved in various aspects of Drosophila's innate immune response. We will focus on:
+a) Genes in the Toll and IMD pathways
+b) Genes involved in antimicrobial peptide production
+c) Genes related to cellular immune responses
+d) Transcription factors and regulators of immune-related genes
+e) Genes involved in recognition of pathogens
+
+3. Solution: Here is a list of 64 predicted genes to test:
+
+1. Dif, 2. Drosomycin, 3. Metchnikowin, 4. Defensin, 5. Attacin-A, 6. Diptericin A, 7. PGRP-SA, 8. PGRP-SD, 9. GNBP2, 10. Persephone, 11. Spirit, 12. Grass, 13. Sphinx1, 14. Sphinx2, 15. ModSP, 16. Easter, 17. Spheroide, 18. Necrotic, 19. Serpin43Ac, 20. Serpin55B, 21. TEP1, 22. TEP2, 23. TEP3, 24. TEP4, 25. Drosocin, 26. Ankyrin, 27. Cactus-like, 28. Pellino, 29. Akirin, 30. Caspar, 31. Pirk, 32. POSH, 33. TAB2, 34. Effete, 35. Bendless, 36. Uev1a, 37. DIAP2, 38. dUSP36, 39. Dnr1, 40. Sickie, 41. Ird5, 42. Key, 43. Diedel, 44. Drosomycin-like, 45. Listericin, 46. Thioester-containing protein 1, 47. Thioester-containing protein 2, 48. Thioester-containing protein 3, 49. Thioester-containing protein 4, 50. Nimrod A, 51. Nimrod B, 52. Nimrod C2, 53. Nimrod C3, 54. Nimrod C4, 55. Peste, 56. Sr-CI, 57. Sr-CII, 58. Sr-CIII, 59. Sr-CIV, 60. Dscam, 61. Tep2, 62. Tep3, 63. Tep4, 64. Tep6
+===================tokens=====================
+Number of prompt tokens: 682
+Number of sampled tokens: 614
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'Peste', 'Listericin', 'TEP1', 'Key', 'Defensin', 'Persephone', 'Sickie', 'Nimrod A', 'Thioester-containing protein 1', 'Nimrod C3', 'Nimrod B', 'Spirit', 'Drosomycin-like', 'Here is a list of 64 predicted genes to test:', 'Pellino', 'Thioester-containing protein 4', 'Ankyrin', 'TAB2', 'TEP2', 'TEP4', 'Caspar', 'Pirk', 'Metchnikowin', 'POSH', 'Dnr1', 'Easter', 'Sr-CIV', 'Thioester-containing protein 3', 'Bendless', 'Dscam', 'Tep4', 'Diptericin A', 'dUSP36', 'GNBP2', 'Drosomycin', 'Dif', 'Grass', 'Diedel', 'Sr-CI', 'Sphinx1', 'Tep3', 'Serpin43Ac', 'Akirin', 'Tep6', 'Sr-CIII', 'Serpin55B', 'TEP3', 'Drosocin', 'Spheroide', 'Necrotic', 'DIAP2', 'Effete', 'PGRP-SA', 'Attacin-A', 'Sphinx2', 'Uev1a', 'Cactus-like', 'PGRP-SD', 'ModSP', 'Nimrod C2', 'Sr-CII', 'Thioester-containing protein 2', 'Ird5', 'Tep2', 'Nimrod C4'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have previous results to reflect on. However, we should focus on key genes known to be involved in Drosophila's innate immune response, including those in the Toll and Imd pathways, antimicrobial peptide genes, and genes involved in cellular immunity.
+
+2. Research Plan: Our plan is to test a diverse set of genes involved in different aspects of Drosophila's innate immune response. We will include genes from the Toll and Imd signaling pathways, pattern recognition receptors, antimicrobial peptides, and genes involved in cellular immunity. This approach will provide a broad overview of the immune response and help identify key regulators. We will also include some less-studied genes to potentially uncover novel immune regulators.
+
+3. Solution: Here is a list of 64 predicted genes to test:
+1. Toll, 2. Spatzle, 3. MyD88, 4. Tube, 5. Pelle, 6. Dorsal, 7. Relish, 8. PGRP-LC, 9. PGRP-LE, 10. Imd, 11. FADD, 12. Dredd, 13. Kenny, 14. Tak1, 15. Hemese, 16. Hemipterous, 18. Basket, 19. Jun-related antigen, 20. Kayak, 21. GNBP1, 22. GNBP3, 23. Eiger, 24. Wengen, 25. Grindelwald, 26. Domeless, 27. Hopscotch, 28. Stat92E, 29. Cecropin A1, 30. Cecropin A2, 31. Cecropin B, 32. Cecropin C, 33. Attacin B, 34. Attacin C, 35. Attacin D, 36. Diptericin B, 37. Andropin, 38. Prophenoloxidase 1, 39. Prophenoloxidase 2, 40. Prophenoloxidase 3, 41. Hemolectin, 42. Lozenge, 43. Serpent, 44. Gcm, 45. Gcm2, 46. Ush, 47. Pvf2, 48. Pvr, 49. Croquemort, 50. NimrodC1, 51. Eater, 52. Draper, 53. Psidin, 54. Rac1, 55. Rac2, 56. Cdc42, 57. Rho1, 58. Mthl5, 59. Mthl10, 60. Mthl14, 61. Dscam4, 62. Dscam1, 63. Dscam2, 64. Dscam3
+===================tokens=====================
+Number of prompt tokens: 708
+Number of sampled tokens: 621
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+  Please add 64 more genes to this list from ['ZAP70', 'CBLB', 'IFNG', 'GATA3', 'CD28', 'NFKB2', 'IL2RB', 'STAT3', 'TNFRSF1A', 'LCK', 'PLCG2', 'JAK1', 'CD3E', 'FOXO4', 'TRAF6', 'PIK3AP1', 'RAC2', 'IKZF3', 'CEACAM1', 'MCM2', 'OTUD7B', 'CAD', 'PSMD4', 'MUC1', 'FOXF1', 'CD5', 'WT1', 'MAP3K7', 'KIDINS220', 'ZAP70', 'TNFRSF9', 'IFNG', 'PTPRC', 'VAV1', 'EOMES', 'TRAF6', 'STAT3', 'PLCG2', 'NFKB2', 'CEACAM1', 'GCSAML', 'EIF3D', 'SHOC2', 'PIK3AP1', 'NFKB2', 'CD3D', 'MYB', 'PLCG2', 'IL2RB', 'FOXO4', 'LAT2', 'GATA3', 'TNFRSF9', 'EOMES', 'ZEB2', 'IFNGR2', 'TRAF6', 'CBLB', 'RIPK3', 'KIDINS220', 'IFNGR2', 'GATA3', 'ZAP70', 'STAT3', 'LCK', 'CD28', 'NFKB2', 'PLCG2', 'JAK1', 'FOXO4', 'TRAF6', 'RAC2', 'IL2RB', 'EOMES', 'TBX21', 'TNFRSF9', 'RIPK3', 'ITPKB', 'VAV1', 'MCM2', 'CD3D', 'GRAP2', 'IL1R1', 'PDGFRA', 'CD28', 'IL2', 'PIK3AP1', 'STAT3', 'ZAP70', 'TNFRSF1A', 'NFKB2', 'LCK', 'PLCG1', 'VAV1', 'ITPKB', 'JAK1', 'FOXO4', 'TRAF6', 'MCM2', 'RELA', 'GATA3', 'CD2', 'IFNG', 'ZAP70', 'NFKB2', 'JAK1', 'STAT3', 'LCK', 'FOXO4', 'PLCG1', 'IL2RG', 'TBX21', 'TNFRSF1B', 'RAC2', 'MCM2', 'CBLB', 'CEACAM1', 'TRAF6', 'PDGFRA', 'RIPK3', 'PSMD4', 'GATA3', 'IL2RG', 'IFNG', 'CD3D', 'PIK3AP1', 'STAT3', 'ZAP70', 'NFKB2', 'VAV1', 'LCK', 'TRAF6', 'JAK1', 'CD28', 'PLCG1', 'FOXO4', 'RAC2', 'TNFRSF1B', 'CBLB', 'ITK', 'MAK16', 'SHOC2', 'CD5', 'WT1', 'RIPK3', 'IFNG', 'STAT3', 'ZEB2', 'PLCG1', 'TRAF6', 'FOXL2', 'IL2RB', 'JAK1', 'NFKB2', 'RAC2', 'CEACAM1', 'EOMES', 'PSMD4', 'CBLB', 'GATA3', 'SRP19', 'LCP2', 'STAT3', 'PTPRC', 'CD3G', 'NFKB2', 'IL2RB', 'ZAP70', 'PLCG2', 'FOXL2', 'JAK1', 'TNFRSF9', 'GATA3', 'TBX21', 'IFNG', 'LAT', 'IKZF3', 'PIK3AP1', 'CEACAM1', 'FPR2', 'SLA2', 'IL1R1', 'FOXL2NB', 'TNFRSF9', 'CD3E', 'STAT3', 'ITK', 'NFKB2', 'PLCG1', 'GATA3', 'LCK', 'VAV1', 'TRAF6', 'IFNG', 'ZAP70', 'CBLB', 'CEACAM1', 'RAC2', 'PTPRC', 'IKZF3', 'KIDINS220', 'CEACAM1', 'CD3D', 'RIPK3', 'FOXL2', 'GATA3', 'MYB', 'LTBR', 'ZAP70', 'STAT3', 'TNFRSF9', 'PLCG1', 'NFKB2', 'ITK', 'IFNG', 'VAV1', 'RAC2', 'TRAF6', 'IKZF3', 'PDGFRA', 'MUC21', 'IL2RG', 'ZAP70', 'CD3E', 'PLCG1', 'STAT3', 'FOXO4', 'NFKB2', 'TNFRSF1A', 'JAK1', 'LCK', 'IFNG', 'GATA3', 'TBX21', 'CD28', 'VAV1', 'IKZF3', 'CBLB', 'PDGFRA', 'ITPKB', 'STAT3', 'LCK', 'CD28', 'IFNG', 'PLCG1', 'RELA', 'ZAP70', 'TRAF6', 'IL2', 'JAK1', 'FOXO4', 'RAC2', 'NFKB2', 'CBLB', 'TNFRSF1B', 'GATA3', 'PIK3AP1', 'MCM2', 'EIF3K', 'PSMD4', 'BICDL2', 'MYB', 'CD3D', 'FOXF1', 'LCP2', 'IFNGR2', 'RELA', 'PLCG1', 'ZAP70', 'TNFRSF1B', 'STAT3', 'IL2RG', 'NFKB2', 'GATA3', 'EOMES', 'TRIM21', 'ARHGDIB', 'CBLB', 'TRAF6', 'PDGFRA', 'VAV1', 'STAT3', 'CD3E', 'IL2RG', 'PLCG1', 'NFKB2', 'IFNG', 'ZAP70', 'TRAF6', 'LCK', 'FOXF1', 'RAC2', 'GATA3', 'ITK', 'CD28', 'JAK1', 'TNFRSF1A', 'MYB', 'RELA', 'CBLB', 'GCSAML', 'VAV1', 'LHX6', 'FOXO4', 'RIPK3', 'MYB', 'GATA3', 'IFNGR2', 'ZAP70', 'PLCG1', 'TRAF6', 'CD3G', 'STAT3', 'IL2RG', 'TSC1', 'RELA', 'PDGFRA', 'PIK3AP1', 'IKZF3', 'TNFRSF9'].
+ Remember not to include any previously tested genes. Begin this list with the word 'Solution:'  
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, there are no previous results to reflect on. We will start by selecting a diverse set of genes known to be involved in immune response pathways and signaling.
+
+2. Research Plan: Our initial plan is to test genes involved in T cell activation, cytokine signaling, and innate immune response pathways. We will focus on key transcription factors, kinases, and adaptor proteins that are central to these processes. This approach will provide a broad overview of the immune response and help identify key regulators for further investigation in subsequent rounds.
+
+3. Solution: 1. ZAP70, 2. CBLB, 3. IFNG, 4. GATA3, 5. CD28, 6. NFKB2, 7. IL2RB, 8. STAT3, 9. TNFRSF1A, 10. LCK, 11. PLCG2, 12. JAK1, 13. CD3E, 14. FOXO4, 15. TRAF6, 16. PIK3AP1, 17. RAC2, 18. IKZF3, 19. CEACAM1, 20. MCM2, 21. OTUD7B, 22. CAD, 23. PSMD4, 24. MUC1, 25. FOXF1, 26. CD5, 27. WT1, 28. MAP3K7, 29. KIDINS220, 30. TNFRSF9, 31. PTPRC, 32. VAV1, 33. EOMES, 34. GCSAML, 35. EIF3D, 36. SHOC2, 37. CD3D, 38. MYB, 39. LAT2, 40. ZEB2, 41. IFNGR2, 42. RIPK3, 43. TBX21, 44. ITPKB, 45. GRAP2, 46. IL1R1, 47. PDGFRA, 48. IL2, 49. PLCG1, 50. CD2, 51. IL2RG, 52. TNFRSF1B, 53. ITK, 54. MAK16, 55. FOXL2, 56. SRP19, 57. LCP2, 58. CD3G, 59. LAT, 60. FPR2, 61. SLA2, 62. FOXL2NB, 63. LTBR, 64. MUC21
+===================tokens=====================
+Number of prompt tokens: 1969
+Number of sampled tokens: 564
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+  Please add 64 more genes to this list from ['TNFRSF1A', 'MCM2', 'LAT', 'TBX21', 'CD5', 'LCP2', 'EIF3K', 'BICDL2', 'MAK16', 'GCSAML', 'PLCG2', 'CD2', 'MUC21', 'ARHGDIB', 'CAD', 'VAV1', 'CD28', 'ZEB2', 'SHOC2', 'WT1', 'CD3E', 'RELA', 'IFNG', 'SLA2', 'FPR2', 'CEACAM1', 'FOXF1', 'CBLB', 'PIK3AP1', 'TNFRSF9', 'IL2', 'PDGFRA', 'IKZF3', 'FOXL2NB', 'FOXO4', 'GRAP2', 'TRAF6', 'PSMD4', 'ZAP70', 'TNFRSF1B', 'OTUD7B', 'JAK1', 'LHX6', 'TSC1', 'TRIM21', 'LTBR', 'GATA3', 'FOXL2', 'EOMES', 'CD3D', 'PTPRC', 'LAT2', 'IL2RB', 'PLCG1', 'STAT3', 'IFNGR2', 'EIF3D', 'IL1R1', 'MYB', 'LCK', 'RAC2', 'NFKB2', 'ITPKB', 'MUC1', 'ITK', 'RIPK3', 'KIDINS220', 'MAP3K7', 'IL2RG', 'CD3G', 'SRP19'].
+ Remember not to include any previously tested genes. Begin this list with the word 'Solution:'  
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have any previous results to reflect on. Our initial approach will be to select genes known to be involved in immune response pathways, particularly those relevant to Drosophila's innate immunity.
+
+2. Research Plan: 
+1. Select genes involved in key innate immune pathways (e.g., Toll, IMD, JAK-STAT).
+2. Include genes encoding antimicrobial peptides and their regulators.
+3. Add genes involved in cellular immune responses (e.g., phagocytosis, encapsulation).
+4. Include some genes with potential but less established roles in immunity for discovery.
+5. Analyze results after this round to refine our approach for subsequent rounds.
+
+3. Solution:
+1. TNFRSF1A, 2. MCM2, 3. LAT, 4. TBX21, 5. CD5, 6. LCP2, 7. EIF3K, 8. BICDL2, 9. MAK16, 10. GCSAML, 11. PLCG2, 12. CD2, 13. MUC21, 14. ARHGDIB, 15. CAD, 16. VAV1, 17. CD28, 18. ZEB2, 19. SHOC2, 20. WT1, 21. CD3E, 22. RELA, 23. IFNG, 24. SLA2, 25. FPR2, 26. CEACAM1, 27. FOXF1, 28. CBLB, 29. PIK3AP1, 30. TNFRSF9, 31. IL2, 32. PDGFRA, 33. IKZF3, 34. FOXL2NB, 35. FOXO4, 36. GRAP2, 37. TRAF6, 38. PSMD4, 39. ZAP70, 40. TNFRSF1B, 41. OTUD7B, 42. JAK1, 43. LHX6, 44. TSC1, 45. TRIM21, 46. LTBR, 47. GATA3, 48. FOXL2, 49. EOMES, 50. CD3D, 51. PTPRC, 52. LAT2, 53. IL2RB, 54. PLCG1, 55. STAT3, 56. IFNGR2, 57. EIF3D, 58. IL1R1, 59. MYB, 60. LCK, 61. RAC2, 62. NFKB2, 63. ITPKB, 64. MUC1
+===================tokens=====================
+Number of prompt tokens: 715
+Number of sampled tokens: 596
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have done some literature review till now and have the following information at your disposal which you may use to make your predictions: 
+ No literature review content was successfully retrieved.
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+  Please add 64 more genes to this list from ['TNFRSF1A', 'MCM2', 'LAT', 'TBX21', 'CD5', 'LCP2', 'EIF3K', 'BICDL2', 'MAK16', 'GCSAML', 'PLCG2', 'CD2', 'MUC21', 'ARHGDIB', 'CAD', 'VAV1', 'CD28', 'ZEB2', 'SHOC2', 'WT1', 'CD3E', 'RELA', 'IFNG', 'SLA2', 'FPR2', 'CEACAM1', 'FOXF1', 'CBLB', 'PIK3AP1', 'TNFRSF9', 'IL2', 'PDGFRA', 'IKZF3', 'FOXL2NB', 'FOXO4', 'TRAF6', 'GRAP2', 'PSMD4', 'ZAP70', 'TNFRSF1B', 'OTUD7B', 'JAK1', 'LHX6', 'TSC1', 'TRIM21', 'LTBR', 'GATA3', 'FOXL2', 'EOMES', 'CD3D', 'PTPRC', 'LAT2', 'IL2RB', 'PLCG1', 'STAT3', 'IFNGR2', 'EIF3D', 'IL1R1', 'MYB', 'LCK', 'RAC2', 'NFKB2', 'ITPKB', 'MUC1', 'ITK', 'RIPK3', 'KIDINS220', 'MAP3K7', 'IL2RG', 'CD3G', 'SRP19'].
+ Remember not to include any previously tested genes. Begin this list with the word 'Solution:'  
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the first round of experimentation, we don't have any previous results to reflect on. We'll start by selecting genes known to be involved in immune responses, signaling pathways, and transcription factors that may play a role in Drosophila's innate immune system.
+
+2. Research Plan: Our initial approach will focus on testing genes involved in immune signaling pathways, cytokine receptors, and transcription factors known to regulate immune responses. We'll also include some genes involved in cellular processes that might indirectly affect immune function. This diverse selection will help us identify key players in Drosophila's innate immune response and guide future rounds of experimentation.
+
+3. Solution:
+1. TNFRSF1A, 2. MCM2, 3. LAT, 4. TBX21, 5. CD5, 6. LCP2, 7. EIF3K, 8. BICDL2, 9. MAK16, 10. GCSAML, 11. PLCG2, 12. CD2, 13. MUC21, 14. ARHGDIB, 15. CAD, 16. VAV1, 17. CD28, 18. ZEB2, 19. SHOC2, 20. WT1, 21. CD3E, 22. RELA, 23. IFNG, 24. SLA2, 25. FPR2, 26. CEACAM1, 27. FOXF1, 28. CBLB, 29. PIK3AP1, 30. TNFRSF9, 31. IL2, 32. PDGFRA, 33. IKZF3, 34. FOXL2NB, 35. FOXO4, 36. TRAF6, 37. GRAP2, 38. PSMD4, 39. ZAP70, 40. TNFRSF1B, 41. OTUD7B, 42. JAK1, 43. LHX6, 44. TSC1, 45. TRIM21, 46. LTBR, 47. GATA3, 48. FOXL2, 49. EOMES, 50. CD3D, 51. PTPRC, 52. LAT2, 53. IL2RB, 54. PLCG1, 55. STAT3, 56. IFNGR2, 57. EIF3D, 58. IL1R1, 59. MYB, 60. LCK, 61. RAC2, 62. NFKB2, 63. ITPKB, 64. MUC1
+===================tokens=====================
+Number of prompt tokens: 715
+Number of sampled tokens: 581
+
+

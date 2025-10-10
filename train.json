@@ -1,0 +1,1822 @@
+[
+  {
+    "gene": "20190919",
+    "text": "ben (be) encodes a protein involved in neuromuscular synaptic transmission and long-term memory formation.",
+    "label": "Ben functions in neuromuscular synaptic transmission and long-term memory formation in Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "Delta (Delta) encodes a single pass transmembrane EGF family protein and one of two ligands of the Notch signaling pathway. It regulates cell fate decisions and cell proliferation. Post transcriptional modification (such as by fucosylation, ubiquitination and proteolysis) of the product of Delta is key for its functions.",
+    "label": "Delta is a transmembrane ligand that activates the Notch signaling pathway to regulate cell fate decisions and proliferation."
+  },
+  {
+    "gene": "20190307",
+    "text": "halo (halo) encodes a protein that acts as cofactor of the molecular motor kinesin-1 and controls travel distances of moving lipid droplets. It determines the intracellular distribution of lipid droplets.",
+    "label": "Halo acts as a cofactor for kinesin-1 to regulate lipid droplet transport and distribution within cells."
+  },
+  {
+    "gene": "20220519",
+    "text": "hook (hook) encodes a microtubule-binding protein involved in cytoskeleton-dependent intracellular transport. Its knockdown results in hooked bristles, but it is not required for viability.",
+    "label": "Hook is a microtubule-binding protein that facilitates intracellular transport along the cytoskeleton."
+  },
+  {
+    "gene": "20190314",
+    "text": "Lim3 (Lim3) encodes a transcription factor that regulates neuronal sub-type identity, including motor neuron identity.",
+    "label": "Lim3 is a transcription factor that specifies neuronal and motor neuron identity during development."
+  },
+  {
+    "gene": "20190307",
+    "text": "dre4 (dre4) encodes a chromatin regulator that, along with the product of Ssrp, forms the facilitates chromatin transcription (FACT) protein complex. FACT facilitates GAGA factor-directed chromatin remodeling.",
+    "label": "Dre4 forms part of the FACT complex that regulates chromatin remodeling and transcription."
+  },
+  {
+    "gene": "20190919",
+    "text": "lace (lace) encodes a serine C-palmitoyltransferase involved in sphingolipid biosynthesis.",
+    "label": "Lace encodes an enzyme required for sphingolipid biosynthesis through its serine C-palmitoyltransferase activity."
+  },
+  {
+    "gene": "20190926",
+    "text": "Rab32 (Rab32) encodes a small GTPase that contributes to vesicle trafficking regulation. It is involved in eye development, autophagy and lipid storage.",
+    "label": "Rab32 is a small GTPase that regulates vesicle trafficking and plays roles in eye development, autophagy, and lipid storage in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "net (net) encodes a basic helix-loop-helix protein that probably acts as a transcriptional repressor. During wing vein formation it is expressed in all interveins territories and antagonises the activity of the product of Egfr.",
+    "label": "Net functions as a transcriptional repressor that inhibits wing vein formation in Drosophila by antagonizing EGFR signaling in intervein regions."
+  },
+  {
+    "gene": "20190314",
+    "text": "nanos (nanos) encodes an RNA-binding protein that forms part of a translational repressor complex. It functions as the localized determinant of abdominal segmentation. It contributes to germline development, germline stem cell renewal, and neuronal morphogenesis and function.",
+    "label": "Nanos is an RNA-binding protein that acts as a translational repressor essential for abdominal segmentation and germline development in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "numb (numb) encodes a membrane-associated inhibitor of Notch signaling. It controls neuroblast and sense organ precursor asymmetric division. It is asymmetrically localized during mitosis and segregates exclusively to one of two daughter cells.",
+    "label": "Numb is a membrane-associated protein that inhibits Notch signaling and controls asymmetric cell division in neural development."
+  },
+  {
+    "gene": "20190314",
+    "text": "ovo (ovo) encodes a Zn finger transcription factor, with several isoforms acting as repressor or activator. It is involved in epidermis differentiation, under the control of Wnt and EGFR signaling pathways and Hox factors, as well as female germline differentiation and sex determination.",
+    "label": "Ovo is a zinc finger transcription factor that regulates epidermis and female germline differentiation in Drosophila."
+  },
+  {
+    "gene": "20190926",
+    "text": "raw (raw) encodes a membrane protein involved in dendrite patterning and the subcellular localization of JNK signalling components.",
+    "label": "Raw is a membrane protein that regulates dendrite development and JNK signaling localization in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "Z600 (Z600) encodes a mitotic inhibitor that binds to the hydrophobic patch of Cyclins. It contributes to the switch in cell cycle mode in blastoderm embryos, and delaying mitosis in the mesoderm anlage to avoid an interference of mitosis and morphogenesis.",
+    "label": "Z600 is a mitotic inhibitor that regulates cell cycle timing during Drosophila embryonic development by binding to Cyclins and delaying mitosis in specific tissues."
+  },
+  {
+    "gene": "20190321",
+    "text": "boca (boca) encodes an endoplasmic reticulum protein that is evolutionarily conserved. It is required for the intracellular trafficking of members of the low-density lipoprotein family of receptors, including the one encoded by arr. As such, boca mutants are compromised for a number of pathways including Wingless signaling.",
+    "label": "Boca is an endoplasmic reticulum protein that facilitates the trafficking of LDL family receptors, which is essential for Wingless signaling and other cellular pathways."
+  },
+  {
+    "gene": "20190314",
+    "text": "porin (porin) encodes a beta-barrel channel protein localized in the outer membrane of mitochondria that conducts translocation of various ions and metabolites between cytoplasm and mitochondria. It plays roles in mitochondria dynamics and mitophagy, and is ubiquitinated by the E3 ligases encoded by park and Mul1.",
+    "label": "Porin is a mitochondrial outer membrane channel protein that facilitates ion and metabolite transport between the cytoplasm and mitochondria."
+  },
+  {
+    "gene": "20190307",
+    "text": "Bx42 (Bx42) encodes a nuclear protein that acts as a cofactor in Notch signalling pathway.",
+    "label": "Bx42 functions as a nuclear protein cofactor in the Notch signaling pathway."
+  },
+  {
+    "gene": "20190711",
+    "text": "C15 (C15) encodes a transcription factor that regulates gene expression in the leg distal region.",
+    "label": "C15 is a transcription factor that controls gene expression in the distal leg region of Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "14-3-3zeta (14-3-3zeta) encodes three acidic protein isoforms due to alternative splicing. The isoforms homo- and heterodimerize with each other and other members of the family. It functions in multiple signaling pathways, most prominently in the Ras/MAPK cascade. It is involved in epithelial cell polarity, development of the eye, embryogenesis and in adult associative learning.",
+    "label": "14-3-3zeta is a signaling protein that regulates multiple developmental and cellular processes through protein-protein interactions, particularly in the Ras/MAPK pathway."
+  },
+  {
+    "gene": "20180913",
+    "text": "Rab3 (Rab3) encodes a member of a large family of Ras-like small GTPases.  Localized primarily at the synapse, Rab3 product is involved in mechanisms that control synaptic development and function, including the regulation of active zone protein composition at the neuromuscular junction.",
+    "label": "Rab3 is a synaptic GTPase that regulates synaptic development and function by controlling active zone protein composition at neuromuscular junctions."
+  },
+  {
+    "gene": "20180913",
+    "text": "Pabp2 (Pabp2) encodes a nuclear poly(A) binding protein that is involved in both the cleavage and polyadenylation steps of the nuclear cleavage/polyadenylation reaction. Cytoplasmic protein encoded by Pabp2 acts to shorten the poly(A) tails of specific mRNAs in oocytes and syncytial blastoderm embryos.",
+    "label": "Pabp2 encodes a nuclear protein that regulates mRNA processing through poly(A) tail modification in both the nucleus and cytoplasm."
+  },
+  {
+    "gene": "20190919",
+    "text": "Rox8 (Rox8) encodes a protein involved in the regulation of alternative mRNA splicing.",
+    "label": "Rox8 regulates alternative mRNA splicing in Drosophila."
+  },
+  {
+    "gene": "20180913",
+    "text": "pigeon (pigeon) encodes a member of the Gamma-secretase-activating protein family.",
+    "label": "Pigeon encodes a gamma-secretase-activating protein that regulates gamma-secretase activity in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "corto (corto) encodes an Enhancer of Trithorax and Polycomb (ETP) protein that physically interacts with several Polycomb proteins (encoded by Pc, ph-d, ph-p, esc, E(z)) and ETP (encoded by Trl, Dsp1). It also interacts with the product of CycG, with the methylated product of RpL12 (RPL12K3me3), and co-regulates the transcription of genes involved in ribosome biogenesis.",
+    "label": "Corto is an ETP (Enhancer of Trithorax and Polycomb) protein that regulates gene transcription through interactions with Polycomb proteins and other transcriptional regulators."
+  },
+  {
+    "gene": "20240718",
+    "text": "Rac1 (Rac1) encodes a GTPase signaling protein that acts as a molecular switch, regulating cell shape, movement, division, and wound healing. It responds to signals from RTK and PIP3 pathways, activating the WAVE regulatory complex. This promotes the formation of branched actin filaments, helping cells move and change shape.",
+    "label": "Rac1 is a GTPase that controls cell morphology and motility by regulating actin cytoskeleton dynamics in response to cellular signals."
+  },
+  {
+    "gene": "20190314",
+    "text": "TH1 (TH1) encodes one of four subunits that constitutes the NELF complex. The NELF complex along with DSIF causes RNA polymerase II to pause 20 to 50 nucleotides downstream from the transcription start site of most and possibly all actively transcribed genes in a process commonly called promoter proximal pausing.",
+    "label": "TH1 is a subunit of the NELF complex that regulates gene transcription by causing RNA polymerase II to pause near promoter regions."
+  },
+  {
+    "gene": "20190919",
+    "text": "NAT1 (NAT1) encodes a protein involved in chaeta development.",
+    "label": "NAT1 is involved in the development of chaetae (sensory bristles) in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "kermit (kermit) encodes a GIPC (GAIP interacting protein, C terminus) type protein. It interacts with the product of Gyc76C, facilitating neuron axon guidance in a process mediated by the product of PlexA. It also physically and genetically interacts with the product of jar during wing planar cell polarity establishment. It is required for locomotive activity and determination of lifespan.",
+    "label": "Kermit is a GIPC protein that functions in axon guidance and planar cell polarity through protein-protein interactions, affecting locomotion and lifespan in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "Xe7 (Xe7) encodes a protein that contributes to axon guidance and lateral inhibition.",
+    "label": "Xe7 is involved in axon guidance and lateral inhibition during neural development."
+  },
+  {
+    "gene": "20190314",
+    "text": "lark (lark) encodes an essential RNA-binding protein of the RNA recognition motif (RRM) class. It is implicated in both RNA splicing and translational control. It contributes to oogenesis, tissue development and circadian behavior.",
+    "label": "Lark is an RNA-binding protein that regulates RNA splicing and translation, playing essential roles in development and circadian rhythms."
+  },
+  {
+    "gene": "20180913",
+    "text": "twin (twin) encodes the CCR4 deadenylase, one of two enzymes in the CCR4-NOT complex that degrade mRNA poly(A) tails. It is required during oogenesis in germline stem cell self-renewal, synchronous germ cell division and prevention of cell death, as well as in early embryonic patterning through the deadenylation of specific maternal mRNAs.",
+    "label": "Twin functions as a deadenylase enzyme in the CCR4-NOT complex to regulate mRNA stability through poly(A) tail degradation, playing key roles in oogenesis and embryonic development."
+  },
+  {
+    "gene": "20190307",
+    "text": "BRWD3 (BRWD3) encodes a member of the Bromodomain and WD repeat_containing protein (BRWD) family. It regulates ecdysone and JAK-STAT signaling pathways and contributes to eye development, cell death and phagocytosis.",
+    "label": "BRWD3 is a bromodomain-containing protein that regulates developmental signaling pathways involved in eye development, cell death, and phagocytosis through ecdysone and JAK-STAT signaling."
+  },
+  {
+    "gene": "20190307",
+    "text": "Gp150 (Gp150) encodes a transmembrane glycoprotein that regulates Notch signaling and is involved in eye development.",
+    "label": "Gp150 encodes a transmembrane glycoprotein that regulates Notch signaling during eye development in Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "alien (alien) encodes the subunit 2 of the COP9 signalosome, which plays a central role in the regulation of E3-cullin RING ubiquitin ligases.",
+    "label": "Alien functions as part of the COP9 signalosome complex to regulate protein degradation through E3-cullin RING ubiquitin ligases."
+  },
+  {
+    "gene": "20190307",
+    "text": "CASK (CASK) encodes a member of the MAGUK family of scaffolding proteins. In epithelial tissues, the product of CASK functions as an adhesion molecule involved in cell proliferation, cytoskeletal remodeling and cell migration. In neurons, the product of CASK serves as a scaffold for a number of signaling and transmembrane molecules and is involved in synaptic development and plasticity.",
+    "label": "CASK is a scaffolding protein that functions in cell adhesion and signaling, playing key roles in both epithelial tissue development and neuronal synaptic organization."
+  },
+  {
+    "gene": "20180913",
+    "text": "Rab2 (Rab2) encodes a protein that belongs to the Rab family of small Ras-like GTPases that regulate vesicle trafficking. Rab2 product contributes to the maturation and fusion of endosomes and autophagosomes with lysosomes.",
+    "label": "Rab2 is a GTPase that regulates vesicle trafficking, specifically controlling the maturation and fusion of endosomes and autophagosomes with lysosomes."
+  },
+  {
+    "gene": "20190314",
+    "text": "Rab5 (Rab5) encodes a monomeric GTPase that controls entry of endocytosed cargo into the early endosome and is required for vesicle re-uptake at the synapse. Altering the activity of the product of Rab5 affects many receptor-mediated signaling pathways as well as epithelial polarity.",
+    "label": "Rab5 is a GTPase that regulates early endosomal trafficking and synaptic vesicle recycling."
+  },
+  {
+    "gene": "20240718",
+    "text": "Rac2 (Rac2) encodes a GTPase signaling protein that acts as a molecular switch, regulating cell shape, movement, division, and wound healing. It responds to signals from RTK and PIP3 pathways, activating the WAVE regulatory complex. This promotes the formation of branched actin filaments, helping cells move and change shape.",
+    "label": "Rac2 is a GTPase that regulates cytoskeletal dynamics for cell movement and morphology by controlling actin filament formation in response to cellular signals."
+  },
+  {
+    "gene": "20190314",
+    "text": "Rho1 (Rho1) encodes a GTPase signaling protein that acts as a molecular switch and functions as key regulator of the actin cytoskeleton. It plays a central role in diverse biological processes including actin cytoskeleton organization, microtubule dynamics, mophogenesis, border cell migration, cytokinesis, and wound repair.",
+    "label": "Rho1 is a GTPase that regulates the actin cytoskeleton and controls multiple cellular processes including morphogenesis, migration, and cytokinesis."
+  },
+  {
+    "gene": "20190314",
+    "text": "Set (Set) encodes a subunit of the inhibitor of histone acetyltransferase (INHAT) complex, which controls histone acetylation. It is involved in transcriptional regulation, which ultimately controls different processes such as p53-mediated apoptosis and neuronal development.",
+    "label": "Set functions as part of the INHAT complex to regulate gene expression through control of histone acetylation, affecting processes like apoptosis and neural development."
+  },
+  {
+    "gene": "20220804",
+    "text": "RabX1 (RabX1) encodes a small GTPase that is involved in the organization of late endosomal compartments. It promotes endolysosomal degradation by establishing tubules connecting late endosomes and lysosomes.",
+    "label": "RabX1 is a small GTPase that facilitates endolysosomal degradation by forming tubular connections between late endosomes and lysosomes."
+  },
+  {
+    "gene": "20180920",
+    "text": "MstProx (MstProx) encodes a protein with an intracellular Toll/interleukin-1 receptor domain and extracellular Leucine-rich repeats. Although also designated as \"Toll-3\" and related to Tl, it is not known to activate the canonical Toll signaling pathway or antimicrobial response.",
+    "label": "MstProx encodes a Toll-like receptor protein, but its specific biological function remains unclear."
+  },
+  {
+    "gene": "20190926",
+    "text": "Rab10 (Rab10) encodes a small GTPase that contributes to vesicle trafficking regulation. It is involved in basement membrane organization.",
+    "label": "Rab10 is a small GTPase that regulates vesicle trafficking and basement membrane organization in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Rab11 (Rab11) encodes a Rab type protein. Rab proteins are ubiquitously expressed family of small monomeric Ras-like GTPases that are key regulators of endomembrane traffiking, regulating exocytosis, endocytosis and membrane recycling processes essential for maintaining various cellular functions.",
+    "label": "Rab11 is a GTPase that regulates membrane trafficking and recycling in cells through control of vesicle transport."
+  },
+  {
+    "gene": "20190801",
+    "text": "Rab14 (Rab14) encodes a protein involved in phagocytosis, phagolysosome assembly and phagosome maturation.",
+    "label": "Rab14 is a protein that regulates phagocytosis and phagosome maturation processes in cells."
+  },
+  {
+    "gene": "20190926",
+    "text": "Rab7 (Rab7) encodes a small GTPase that contributes to vesicle trafficking regulation. It is involved in endosome maturation and fusion with lysosomes.",
+    "label": "Rab7 is a GTPase that regulates vesicle trafficking by controlling endosome maturation and lysosomal fusion."
+  },
+  {
+    "gene": "20180920",
+    "text": "Rab6 (Rab6) encodes a member of the Rab family, which are small Ras-like GTPases involved in vesicle trafficking. The Rab6 product localizes on late Golgi, and regulates vesicle trafficking within Golgi, post-Golgi, and endosome to Golgi.",
+    "label": "Rab6 is a GTPase that regulates vesicle trafficking between Golgi, post-Golgi compartments, and endosomes."
+  },
+  {
+    "gene": "20190307",
+    "text": "Drip (Drip) encodes a protein that belongs to the MIP/aquaporin family involved in the transport of water across the cell membrane. In addition to its cellular roles, it has been implicated in regulating aspects of reproduction and aging.",
+    "label": "Drip encodes a water channel protein (aquaporin) that facilitates water transport across cell membranes."
+  },
+  {
+    "gene": "20190307",
+    "text": "grim (grim) encodes a member of the inhibitor of apoptotic protein antagonists. In response to death signals, it induces apoptosis of cells in the central nervous system. It is important particularly for the apoptosis of specific juvenile neurons during metamorphosis.",
+    "label": "Grim is a pro-apoptotic protein that triggers programmed cell death in the Drosophila central nervous system, particularly during metamorphosis."
+  },
+  {
+    "gene": "20190711",
+    "text": "H15 (H15) encodes a T-box transcription factor that regulates the specification of cell fate in the heart and central nervous system.",
+    "label": "H15 is a T-box transcription factor that controls cell fate determination in the heart and central nervous system development."
+  },
+  {
+    "gene": "20180920",
+    "text": "Rab4 (Rab4) encodes a member of the Rab family, which are small Ras-like GTPases involved in vesicle trafficking. The product of Rab4 controls endocytic recycling and regulates synapse organization and neurotransmission in the nervous system. It also contributes to the sorting of cell adhesion molecules during epithelial morphogenesis and immune-mediators during the innate immune response.",
+    "label": "Rab4 is a GTPase that regulates vesicle trafficking, particularly in endocytic recycling, synaptic organization, and cellular sorting processes."
+  },
+  {
+    "gene": "20190314",
+    "text": "Mo25 (Mo25) encodes a protein involved in neuroblast asymmetric cell divisions via localization of the product of mira. It physically interacts with the kinase encoded by Lkb1.",
+    "label": "Mo25 regulates neuroblast asymmetric division through its role in mira localization and interaction with Lkb1 kinase."
+  },
+  {
+    "gene": "20190314",
+    "text": "Max (Max) encodes a member of the basic-helix-loop-helix-zipper family of transcription factors. It specifically forms heterodimers with the products of Myc and Mnt enabling the binding and transcriptional activity of the heterodimeric complex, which regulate genes involved in cell and organismal growth.",
+    "label": "Max is a transcription factor that forms heterodimers with Myc and Mnt proteins to regulate genes involved in cell and organismal growth."
+  },
+  {
+    "gene": "20190307",
+    "text": "gcm2 (gcm2) encodes an atypical zinc finger transcription factor. It has a redudant role with the product of gcm in the differentiation of glial cells, plasmatocytes and tendon cells differentiation.",
+    "label": "Gcm2 is a transcription factor that works redundantly with Gcm to control the differentiation of glial cells, plasmatocytes, and tendon cells in Drosophila."
+  },
+  {
+    "gene": "20181004",
+    "text": "Mitofilin (Mitofilin) encodes a major component of the mitochondrial contact site (MICOS) complex, which is located at the mitochondrial crista junctions. It maintains crista structure and contact sites, and regulates mitochondrial motility. Mitofilin product functions downstream of the kinase encoded by Pink1, to maintain mitochondrial structure and cellular homeostasis.",
+    "label": "Mitofilin is a key component of the mitochondrial MICOS complex that maintains mitochondrial crista structure and regulates mitochondrial motility."
+  },
+  {
+    "gene": "20181004",
+    "text": "Gcn2 (Gcn2) encodes a kinase activated during amino acid starvation to phosphorylate the eIF2 subunit encoded by eIF2alpha. Gcn2 product plays roles in ageing, dpp signalling, dietary choice and response to infection.",
+    "label": "Gcn2 is a kinase that phosphorylates eIF2alpha in response to amino acid starvation, regulating protein synthesis and various stress responses."
+  },
+  {
+    "gene": "20190307",
+    "text": "14-3-3epsilon (14-3-3epsilon) encodes an acidic protein that preferentially heterodimerizes with other members of the family but also can homodimerize. It functions in multiple signaling pathways, most prominently in the Ras/MAPK cascade. It is involved in embryonic hatching, germ cell migration, gonad formation, wing venation and eye development.",
+    "label": "14-3-3epsilon is a signaling protein that regulates multiple developmental processes through pathway interactions, particularly the Ras/MAPK cascade."
+  },
+  {
+    "gene": "20190314",
+    "text": "lush (lush) encodes a member of the odorant/pheromone-binding protein family. It is required for normal sensitivity to the male pheromone, 11-cis vaccenyl acetate.",
+    "label": "Lush is an odorant-binding protein required for detecting male pheromones in Drosophila."
+  },
+  {
+    "gene": "20190613",
+    "text": "stumps (stumps) encodes a fibroblast growth factor (FGF) scaffolding protein. Upon FGF receptor activation, it mediates the recruitment of the phosphatase encoded by csw, which is essential for the activation of the MAPK pathway.",
+    "label": "Stumps functions as a scaffolding protein that facilitates FGF signaling by recruiting phosphatase Csw to activate the MAPK pathway."
+  },
+  {
+    "gene": "20181004",
+    "text": "Sp1 (Sp1) encodes a member of the Sp-family of Cys2His2-type zinc finger transcription factors. It is involved in ventral thoracic appendage specification, leg growth and in the development of type-II neuroblasts.",
+    "label": "Sp1 is a zinc finger transcription factor that regulates appendage development and neuroblast formation in Drosophila."
+  },
+  {
+    "gene": "20190912",
+    "text": "Rfx (Rfx) encodes a transcription factor involved in the differentiation of ciliated sensory neurons.",
+    "label": "Rfx encodes a transcription factor that regulates the development of ciliated sensory neurons in Drosophila."
+  },
+  {
+    "gene": "20190912",
+    "text": "Pi3K21B (Pi3K21B) encodes an adaptor protein (p60) that binds the product of Pi3K92E to form the functional class IA phosphoinositide 3-kinase. This heterodimeric kinase is involved in phosphatidylinositol phosphorylation and regulates cell size and proliferation.",
+    "label": "Pi3K21B encodes an adaptor protein that forms part of a functional phosphoinositide 3-kinase complex involved in regulating cell growth and division."
+  },
+  {
+    "gene": "20190314",
+    "text": "Lcp65Ag1 (Lcp65Ag1) encodes a small structural protein of the chitin based larval cuticle.",
+    "label": "Lcp65Ag1 encodes a protein component of the larval cuticle that provides structural support."
+  },
+  {
+    "gene": "20190314",
+    "text": "Lcp65Ab1 (Lcp65Ab1) encodes a small structural protein of the chitin based larval cuticle.",
+    "label": "Lcp65Ab1 encodes a protein component of the larval cuticle that provides structural support."
+  },
+  {
+    "gene": "20190926",
+    "text": "Su(z)12 (Su(z)12) is a member of the Polycomb group of genes with products involved in transcriptional silencing. Su(z)12 encodes a subunit of Polycomb repressive complex 2 (PRC2), where it is required for the histone methyltransferase activity that yields trimethylation of histone H3 on lysine 27 (H3-K27me3).",
+    "label": "Su(z)12 is a component of the PRC2 complex essential for transcriptional silencing through histone H3K27 methylation."
+  },
+  {
+    "gene": "20190926",
+    "text": "Ptx1 (Ptx1) encodes a paired-like homeobox transcription factor expressed during embryogenesis and in the adult digestive tract. It is strongly expressed in the middle midgut (copper cell region) where it is required for local stem cell quiescence and proper function of this region.",
+    "label": "Ptx1 is a transcription factor that regulates stem cell quiescence and function in the middle midgut copper cell region of Drosophila."
+  },
+  {
+    "gene": "20190926",
+    "text": "nudC (nudC) encodes a component of a specialized dynein complex involved in nucleus localization and positive regulation of dendrite morphogenesis.",
+    "label": "nudC encodes a dynein complex protein that regulates nuclear positioning and dendrite development."
+  },
+  {
+    "gene": "20190307",
+    "text": "HLH54F (HLH54F) encodes a bHLH transcription factor that regulates caudal visceral mesoderm development.",
+    "label": "HLH54F is a transcription factor that controls the development of caudal visceral mesoderm in Drosophila."
+  },
+  {
+    "gene": "20190912",
+    "text": "Sin3A (Sin3A) encodes a chromatin regulator with roles during muscle development, cell migration and Wnt signalling regulation.",
+    "label": "Sin3A functions as a chromatin regulator that controls muscle development, cell migration, and Wnt signaling pathways."
+  },
+  {
+    "gene": "20190314",
+    "text": "Hira (Hira) encodes a histone H3-H4 chaperone that specifically assembles nucleosomes containing the histone H3.3 variant. It is involved in various replication-independent nucleosome assembly processes and is critically required for de novo chromatin assembly in the male pronucleus.",
+    "label": "Hira is a histone chaperone that assembles H3.3-containing nucleosomes during replication-independent chromatin assembly, particularly important in male pronuclear formation."
+  },
+  {
+    "gene": "20180920",
+    "text": "Mnt (Mnt) encodes a protein that belongs to the basic-helic-loop-helix-zipper class of transcription factors, which form heterodimers with the protein encoded by Max. Mnt product acts as a repressor of transcription by recruiting a co-repressor complex to its genomic binding sites. It antagonizes cell growth promoting functions of the product encoded by Myc and its depletion produces flies with larger cells, increased weight, and decreased lifespan.",
+    "label": "Mnt functions as a transcriptional repressor that antagonizes Myc-driven cell growth by forming heterodimers with Max and recruiting co-repressors to target genes."
+  },
+  {
+    "gene": "20190307",
+    "text": "Chd3 (Chd3) encodes a nuclear ATP-dependent nucleosome remodeler of the CHD family. It associates with active chromatin and utilizes the energy of ATP hydrolysis to move nucleosomes along DNA.",
+    "label": "Chd3 is an ATP-dependent chromatin remodeling protein that repositions nucleosomes along DNA to regulate chromatin structure."
+  },
+  {
+    "gene": "20190919",
+    "text": "B4 (B4) encodes a protein involved in imaginal disc development.",
+    "label": "B4 functions in imaginal disc development in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "unc-4 (unc-4) encodes a homeodomain transcription factor expressed in distinct subsets of neurons in the embryonic and post-embryonic CNS. It regulates neuronal development and differentiation at least in part via repressing the expression of HGTX. It contributes to neuronal specification and differentiation, specifically axonal pathfinding and axongenesis.",
+    "label": "Unc-4 is a homeodomain transcription factor that regulates neuronal development and differentiation, particularly in axon guidance and formation, through transcriptional repression."
+  },
+  {
+    "gene": "20190314",
+    "text": "rasp (rasp) encodes an acyltransferase enzyme that adds essential N-terminal palmitate modifications to the secreted signaling domains of the products of hh and spi. The modification of the product of spi appears to increase the local concentration of the ligand by restricting its diffusion.",
+    "label": "Rasp is an acyltransferase that palmitoylates Hedgehog and Spitz signaling proteins, which helps regulate their secretion and diffusion."
+  },
+  {
+    "gene": "20190613",
+    "text": "chico (chico) encodes a substrate of the product of InR. As a key component of the Insulin pathway, the chico product plays an essential role in the control of cell size and growth.",
+    "label": "Chico functions as an insulin receptor substrate that regulates cell size and growth through insulin signaling in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "WASp (WASp) encodes the homolog of the conserved Wiskott-Aldrich Syndrome family of nucleation promoting factors. It enables the Arp2/3 complex to nucleate polymerization of branched microfilament arrays. It contributes to gastrulation, myoblast fusion, synapse morphology at neuromuscular junctions, sensory organ development, and spermatogenesis.",
+    "label": "WASp promotes actin filament branching and polymerization by activating the Arp2/3 complex, which is essential for various developmental processes including cell movement and fusion."
+  },
+  {
+    "gene": "20180920",
+    "text": "trio (trio) encodes a Rho guanine nucleotide exchange factor (GEF) that activates the Rho-family GTPases to regulate actin structure and cell adhesion. The GEF encoded by trio acts in several signaling pathways, including Abl tyrosine kinase and BMP signaling pathways. The product of trio is involved in neural wiring (axon and dendrite patterning and synaptogenesis) and muscle development.",
+    "label": "Trio is a guanine nucleotide exchange factor that regulates cytoskeletal organization and neural development through activation of Rho GTPases."
+  },
+  {
+    "gene": "20180920",
+    "text": "Sox100B (Sox100B) encodes a group E Sox domain transcription factor. It has a role in the development of somatic components of the testis during metamorphosis, where it regulates pigment cell specification. Sox100B shows sexually dimorphic expression in the embryonic gonad.",
+    "label": "Sox100B is a transcription factor that regulates testis development and pigment cell specification during Drosophila metamorphosis."
+  },
+  {
+    "gene": "20180920",
+    "text": "Nach (Nach) encodes a predicted member of the Degenerin/Epithelial Sodium Channel family of proteins. It is mainly expressed in the tracheal system and functions in liquid clearance during tracheal development.",
+    "label": "Nach functions in liquid clearance during tracheal system development in Drosophila as a predicted sodium channel protein."
+  },
+  {
+    "gene": "20190314",
+    "text": "Mekk1 (Mekk1) encodes a MAP kinase kinase kinase that regulates the stress response. It is required for resistance to several stresses, notably osmotic shock, and for the regulation of the activity of the product of Duox.",
+    "label": "Mekk1 is a MAP kinase kinase kinase that regulates stress response pathways, particularly for osmotic shock resistance."
+  },
+  {
+    "gene": "20190314",
+    "text": "Optix (Optix) encodes a homeobox containing DNA binding protein and a member of the SIX class of proteins. It functions as a repressor via interaction with the transcriptional co-repressor encoded by gro. It is involved in eye formation and morphogenetic furrow movement.",
+    "label": "Optix is a homeobox transcription factor that regulates eye development and morphogenetic furrow movement in Drosophila."
+  },
+  {
+    "gene": "20190801",
+    "text": "Rab27 (Rab27) encodes a Rab GTPase involved in exosomal secretion.",
+    "label": "Rab27 is a GTPase that regulates exosome secretion in Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "Bub3 (Bub3) encodes a protein that functions in the spindle assembly checkpoint (SAC) pathway. This mitotic checkpoint pathway inhibits the APC/C complex and hence the transition from metaphase to anaphase, as long as there are free kinetochores that are not yet attached to the mitotic spindle in the cell. The product of Bub3 is localized at the kinetochore during mitosis with maximal levels observed at free kinetochores. Together with other SAC proteins it forms mitotic checkpoint complexes that bind and inhibit the APC/C.",
+    "label": "Bub3 is a spindle assembly checkpoint protein that prevents premature anaphase by monitoring kinetochore-microtubule attachments and inhibiting the APC/C complex during mitosis."
+  },
+  {
+    "gene": "20181018",
+    "text": "Torsin (Torsin) encodes an AAA-ATPase that is implicated in the export of large ribonuclear protein particles through the nuclear membrane. It regulates dopamine levels.",
+    "label": "Torsin is an AAA-ATPase that regulates nuclear export of ribonuclear proteins and dopamine levels in Drosophila."
+  },
+  {
+    "gene": "20230119",
+    "text": "Amnionless (Amnionless) is an evolutionarily conserved gene that encodes a type I transmembrane coreceptor which forms part of the 'Cubam' receptor complex with Cubn. This complex is required for vitamin B12 transport in the gut and protein uptake by insect nephrocytes, as well as protein reabsorption by mammalian renal epithelial cells. Mutations in the human gene are associated with the rare autosomal recessive condition Imerslund-Grasbeck syndrome, a form of vitamin B12 deficiency.",
+    "label": "Amnionless encodes a transmembrane coreceptor that functions in vitamin B12 transport and protein uptake/reabsorption as part of the Cubam receptor complex."
+  },
+  {
+    "gene": "20190919",
+    "text": "unc-13 (unc-13) encodes a protein involved in synaptic vesicle exocytosis.",
+    "label": "Unc-13 regulates synaptic vesicle release at nerve terminals through its role in synaptic vesicle exocytosis."
+  },
+  {
+    "gene": "20190307",
+    "text": "homer (homer) encodes a protein that acts as an adaptor protein binding to group I metabotropic glutamate receptors and other intracellular signaling proteins. It contributes to regulation of sleep, locomotor activity and ethanol tolerance.",
+    "label": "Homer functions as an adaptor protein that regulates sleep, locomotion, and ethanol tolerance by binding to glutamate receptors and intracellular signaling proteins."
+  },
+  {
+    "gene": "20181018",
+    "text": "Rad9 (Rad9) encodes a protein that, together with the Rad1 and Hus1-like products, forms the 9-1-1 checkpoint protein complex. This complex plays a central role in the DNA damage-induced checkpoint response.",
+    "label": "Rad9 forms part of the 9-1-1 checkpoint complex that mediates cellular responses to DNA damage."
+  },
+  {
+    "gene": "20190919",
+    "text": "wrapper (wrapper) encodes a protein involved in axon ensheathment and glial apoptosis.",
+    "label": "Wrapper is involved in axon ensheathment and glial cell death in Drosophila."
+  },
+  {
+    "gene": "20190919",
+    "text": "Gasp (Gasp) encodes a protein involved in cuticle biosynthesis during embryonic tracheal system development.",
+    "label": "Gasp is involved in cuticle formation during tracheal development in Drosophila embryos."
+  },
+  {
+    "gene": "20190613",
+    "text": "par-6 (par-6) encodes a scaffold protein that forms a complex with the products of baz and aPKC and with other cortical, cytoskeletal and regulatory proteins. It is involved in cell polarization, actin-based protrusion formation and tracheal branching.",
+    "label": "Par-6 is a scaffold protein that works with other proteins to establish and maintain cell polarity in various developmental contexts."
+  },
+  {
+    "gene": "20181018",
+    "text": "bonsai (bonsai) encodes a mitochondrial small ribosomal protein that belongs to the universal S15 ribosomal protein US15m family. It is involved in growth regulation.",
+    "label": "Bonsai encodes a mitochondrial ribosomal protein involved in regulating growth through protein synthesis."
+  },
+  {
+    "gene": "20190321",
+    "text": "X11L (X11L) encodes a scaffolding protein that is important for eye development. It interacts with the products of rst and Appl and is required for targeting several proteins to cell membranes.",
+    "label": "X11L is a scaffolding protein that facilitates eye development and protein targeting to cell membranes through interactions with other proteins like rst and Appl."
+  },
+  {
+    "gene": "20190314",
+    "text": "Tsc1 (Tsc1) encodes a tumour suppressor protein that forms a complex with the product of gig. They control cellular growth via antagonizing insulin and TOR signalling pathways.",
+    "label": "Tsc1 is a tumor suppressor that regulates cell growth by inhibiting insulin and TOR signaling pathways."
+  },
+  {
+    "gene": "20190314",
+    "text": "Nipped-B (Nipped-B) encodes a protein that interacts with the product of Mau2 to form the kollerin complex, which topologically loads the cohesin ring complex onto chromosomes. The product of Nipped-B and cohesin participate in transcriptional regulation and DNA repair.",
+    "label": "Nipped-B encodes a protein that forms part of the kollerin complex, which loads cohesin onto chromosomes and functions in transcriptional regulation and DNA repair."
+  },
+  {
+    "gene": "20180927",
+    "text": "Hus1-like (Hus1-like) encodes a protein that together with proteins encoded by Rad1 and Rad9 form the 9-1-1 checkpoint protein complex. This complex plays a central role in the DNA damage-induced checkpoint response.",
+    "label": "Hus1-like is a component of the 9-1-1 checkpoint complex that helps detect and respond to DNA damage."
+  },
+  {
+    "gene": "20190926",
+    "text": "Su(var)2-HP2 (Su(var)2-HP2) encodes a chromosomal protein that interacts with the product of Su(var)205 and is found most closely associated with centromeric heterochromatin, telomeres and the fourth chromosome. Lack of Su(var)2-HP2 can cause mitotic abnormalities and suppress position-effect variegation.",
+    "label": "Su(var)2-HP2 is a chromosomal protein that helps maintain heterochromatin structure at centromeres, telomeres, and chromosome 4 through interaction with Su(var)205."
+  },
+  {
+    "gene": "20190912",
+    "text": "Grip163 (Grip163) encodes a gamma-tubulin binding protein involved in the mitotic cell cycle.",
+    "label": "Grip163 is a gamma-tubulin binding protein that functions in mitotic cell division."
+  },
+  {
+    "gene": "20190307",
+    "text": "Grip128 (Grip128) encodes a component of the Gamma-tubulin ring complex, which is a potent microtubule nucleator in eukaryotic cells essential for successful chromosome segregation and cell division.",
+    "label": "Grip128 is a component of the Gamma-tubulin ring complex that helps nucleate microtubules for proper chromosome segregation during cell division."
+  },
+  {
+    "gene": "20180927",
+    "text": "Dek (Dek) encodes a DNA binding protein involved in DNA repair and heterochromatin integrity.",
+    "label": "Dek is a DNA binding protein that functions in DNA repair and maintains heterochromatin structure."
+  },
+  {
+    "gene": "20190919",
+    "text": "drosha (drosha) encodes a protein that contributes to miRNA processing. It is involved in salivary gland histolysis and oocyte development.",
+    "label": "Drosha is a protein that processes miRNAs and plays a role in salivary gland breakdown and oocyte development in Drosophila."
+  },
+  {
+    "gene": "20190912",
+    "text": "Tehao (Tehao) encodes a homologue of the receptor encoded by Tl. It is involved in the Toll signaling pathway and innate immune response.",
+    "label": "Tehao functions as a receptor in the Toll signaling pathway involved in Drosophila innate immunity."
+  },
+  {
+    "gene": "20190314",
+    "text": "Trap1 (Trap1) encodes a mitochondrial chaperone protein of the heat shock protein (HSP90) family. It shows an ATPase activity and is involved in neurodegeneration associated with mitochondrial dysfunction.",
+    "label": "Trap1 is a mitochondrial chaperone protein that protects against neurodegeneration by regulating mitochondrial function through its ATPase activity."
+  },
+  {
+    "gene": "20180927",
+    "text": "Rad23 (Rad23) encodes an evolutionarily conserved member of the proteasome-associated proteins. It acts as a shuttle -or bridge- protein helping ubiquitinated proteins to interact with the proteasome, which in turn regulates their turnover.",
+    "label": "Rad23 functions as a shuttle protein that facilitates the interaction between ubiquitinated proteins and the proteasome to regulate protein degradation."
+  },
+  {
+    "gene": "20190926",
+    "text": "Eb1 (Eb1) encodes a microtubule end-binding protein that contributes to organization of the microtubule cytoskeleton. It is involved in chromosome segregation, wound healing and flight behavior.",
+    "label": "Eb1 is a microtubule end-binding protein that regulates microtubule organization and dynamics to support chromosome segregation, wound healing, and flight behavior in Drosophila."
+  },
+  {
+    "gene": "20190711",
+    "text": "jim (jim) encodes a zinc finger C2H2 transcription factor involved in dendrite morphogenesis and regulation of chromatin silencing.",
+    "label": "Jim functions as a zinc finger transcription factor that regulates dendrite development and chromatin silencing in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Six4 (Six4) encodes a homeodomain-containing transcription factor required for mesodermal patterning to form the embryonic gonad.",
+    "label": "Six4 is a transcription factor that regulates mesodermal development and gonad formation during Drosophila embryogenesis."
+  },
+  {
+    "gene": "20190314",
+    "text": "rha (rha) encodes a protein that is postmeiotically present in spermatid nuclei and might be involved in the chromatin substitution process removing histones from the chromatin during sperm development.",
+    "label": "Rha is a protein present in spermatid nuclei that likely helps remove histones from chromatin during sperm development in Drosophila."
+  },
+  {
+    "gene": "20190627",
+    "text": "D12 (D12) encodes a protein involved in chromatin remodeling and histone acetylation.",
+    "label": "D12 functions in chromatin remodeling and histone acetylation to regulate gene expression."
+  },
+  {
+    "gene": "20190912",
+    "text": "Kank (Kank) encodes a microtubule plus-end binding protein.",
+    "label": "Kank is a protein that binds to the plus ends of microtubules in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "Ulp1 (Ulp1) encodes a cysteine protease that catalyzes both SUMO maturation and SUMO deconjugation. It localizes to the nucleoplasmic face of the nuclear pore complex. Ulp1 knockdown in S2 cells results in relocalization of SUMO from the nucleus to the cytoplasm.",
+    "label": "Ulp1 is a cysteine protease that processes and removes SUMO modifications from proteins at the nuclear pore complex."
+  },
+  {
+    "gene": "20180927",
+    "text": "GV1 (GV1) encodes a protein with foci that are observed in interphase nuclei and often associated with nuclear periphery.",
+    "label": "GV1 is a protein that localizes to nuclear foci, particularly near the nuclear periphery during interphase."
+  },
+  {
+    "gene": "20190314",
+    "text": "ric8a (ric8a) encodes a guanine nucleotide-exchange factor for the product of Galphai. Its function is necessary to ensure cortical localization of the heterotrimeric subunits encoded by Galphai and Gbeta13F, thereby regulating spindle orientation during asymmetric cell division in the sensory lineage.",
+    "label": "Ric8a functions as a guanine nucleotide-exchange factor that regulates spindle orientation during asymmetric cell division by controlling the cortical localization of G protein subunits."
+  },
+  {
+    "gene": "20190307",
+    "text": "Ankle2 (Ankle2) encodes an important protein for proper development of the third instar larval CNS. Ankle2 loss causes a small brain phenotype, defects in proliferation and excessive apoptosis.",
+    "label": "Ankle2 is essential for proper central nervous system development in Drosophila by regulating cell proliferation and preventing excessive cell death."
+  },
+  {
+    "gene": "20190307",
+    "text": "Ercc1 (Ercc1) encodes the non-catalytic partner of the nuclease encoded by mei-9 that cuts structures formed during DNA repair. The mei-9-Ercc1 heterodimer interacts with the product of mus312 to make meiotic crossovers. The functions of the product of Ercc1 include repair of UV-induced DNA damage, repair of base adducts, a backup pathway for mismatch repair and meiotic recombination.",
+    "label": "Ercc1 forms part of a DNA repair complex that fixes UV damage and enables meiotic crossovers by partnering with mei-9 to cut DNA structures."
+  },
+  {
+    "gene": "20181011",
+    "text": "Lnk (Lnk) encodes a member of the SH2B family of adaptor proteins. It functions within the insulin signalling pathway as an intracellular adaptor for the insulin receptor. It stabilises the interaction between the activated insulin receptor and the insulin receptor substrate, which are encoded by InR and chico respectively.",
+    "label": "Lnk functions as an adaptor protein in the insulin signaling pathway by stabilizing the interaction between the insulin receptor and its substrate."
+  },
+  {
+    "gene": "20190314",
+    "text": "onecut (onecut) encodes a transcription factor that binds two different DNA motifs (Cut and Hox). It is mainly expressed in mature neurons and maintains neuronal identity.",
+    "label": "Onecut is a transcription factor that maintains neuronal identity in mature neurons through binding to Cut and Hox DNA motifs."
+  },
+  {
+    "gene": "20190307",
+    "text": "icln (icln) encodes a cytosolic protein that functions as an assembly chaperone in the biogenesis of pre-mRNA processing small nuclear ribonucleoproteins (snRNPs) via interaction with Sm proteins. It is required in the motor system for viability and motor behaviour.",
+    "label": "ICLN functions as an assembly chaperone that helps form snRNPs by interacting with Sm proteins during pre-mRNA processing."
+  },
+  {
+    "gene": "20190307",
+    "text": "ced-6 (ced-6) encodes an intracellular adaptor protein involved in signal transduction. It binds the engulfment receptor encoded by drpr and transmits a signal for the induction of the phagocytosis of apoptotic cells.",
+    "label": "Ced-6 is an adaptor protein that facilitates phagocytosis of apoptotic cells by binding to the Drpr receptor and mediating signal transduction."
+  },
+  {
+    "gene": "20190314",
+    "text": "Tollo (Tollo) encodes a member of the Toll-like receptor family. It contributes to the innate immune response, regulation of glucose metabolism and protein glycosylation, as well as peripheral nervous system development. Genetic interaction with 18w and Toll-6 suggests a Tollo role in convergent extension during early embryogenesis.",
+    "label": "Tollo is a Toll-like receptor that functions in innate immunity, metabolism, and nervous system development in Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "Fad2 (Fad2) encodes a transmembrane fatty acid desaturase that utilizes mono-unsaturated long-chain fatty acids (LCFAs) to synthesize di-unsaturated LCFAs. It is involved in the synthesis of the female pheromones.",
+    "label": "Fad2 is a fatty acid desaturase that converts mono-unsaturated fatty acids to di-unsaturated fatty acids and plays a role in female pheromone synthesis."
+  },
+  {
+    "gene": "20190912",
+    "text": "CHOp24 (CHOp24) encodes a p24 transporter that contributes to the intracellular trafficking between the ER and Golgi. It is required for secretion of Wnt ligands.",
+    "label": "CHOp24 is a p24 transporter protein that facilitates ER-to-Golgi trafficking and is necessary for Wnt ligand secretion."
+  },
+  {
+    "gene": "20190321",
+    "text": "Usf (Usf) encodes a bHLH family transcription factor that recognizes E-boxes in the Ste promoter.",
+    "label": "Usf is a transcription factor that binds to E-box sequences to regulate gene expression."
+  },
+  {
+    "gene": "20190321",
+    "text": "lin-52 (lin-52) encodes a subunit of the MuvB core complex. The MuvB core binds to the oncoprotein encoded by Myb and the Rbf-E2f2-Dp tumor suppressor complex, thereby controlling the expression of many genes, including critical regulators of the cell cycle.",
+    "label": "Lin-52 functions as part of the MuvB core complex to regulate cell cycle-related gene expression through interactions with Myb and Rbf-E2f2-Dp complexes."
+  },
+  {
+    "gene": "20181011",
+    "text": "raptor (raptor) encodes a crucial component of target of rapamycin (TOR) complex 1, which is a conserved regulator of cell growth and metabolism.",
+    "label": "Raptor functions as a key component of TOR complex 1 to regulate cell growth and metabolism in Drosophila."
+  },
+  {
+    "gene": "20181011",
+    "text": "Nek2 (Nek2) encodes a Ser/Thr kinase belonging to the NIMA family of kinases. It regulates centrosome disjunction, bipolar spindle formation, and kinetochore microtubule dynamics during mitosis. It also participates in meiosis by regulating chromatin condensation events.",
+    "label": "Nek2 is a kinase that regulates key mitotic and meiotic processes including centrosome separation, spindle formation, and chromosome dynamics."
+  },
+  {
+    "gene": "20181011",
+    "text": "spidey (spidey) encodes a member of the short chain dehydrogenase/reductase family. It regulates oenocyte growth and maturation, as well as the metabolism of ecdysteroids and cuticular hydrocarbons.",
+    "label": "Spidey is a short chain dehydrogenase that regulates oenocyte development and lipid metabolism in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "Upf2 (Upf2) encodes a protein required for nonsense-mediated mRNA decay (NMD). It interacts directly with the product of Upf1 to identify and degrade NMD-substrate mRNAs, including mRNAs containing premature termination codons and a number of normal endogenous mRNAs.",
+    "label": "Upf2 is a protein that works with Upf1 to identify and degrade specific mRNAs through the nonsense-mediated decay pathway."
+  },
+  {
+    "gene": "20190321",
+    "text": "Zpr1 (Zpr1) encodes a protein that functions downstream of the EGFR and other tyrosine kinase receptors. It also contributes to the assembly of spliceosome snRNPs. In the developing tracheal system it is required for terminal cell lumen formation.",
+    "label": "Zpr1 is involved in receptor tyrosine kinase signaling, spliceosome assembly, and tracheal development in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "Vago (Vago) encodes a single von Willebrand type C factor domain protein, induced by viral infection. Its induction depends on the product of Dcr-2, and it functions to restrict Drosophila C virus replication in the fat body of adult flies.",
+    "label": "Vago is an antiviral protein that restricts virus replication in Drosophila fat body tissue following viral infection."
+  },
+  {
+    "gene": "20190912",
+    "text": "ATP7 (ATP7) encodes a copper transmembrane transporter involved in cuticle pigmentation, copper homeostasis and larval development.",
+    "label": "ATP7 encodes a copper transporter that regulates copper homeostasis and is essential for cuticle pigmentation and larval development in Drosophila."
+  },
+  {
+    "gene": "20190919",
+    "text": "Tomosyn (Tomosyn) encodes a protein involved in long-term memory and neuromuscular synaptic transmission.",
+    "label": "Tomosyn regulates synaptic transmission and long-term memory formation in Drosophila."
+  },
+  {
+    "gene": "20190912",
+    "text": "Rbp1-like (Rbp1-like) encodes a mRNA binding protein involved in RNA splicing and RNA metabolism.",
+    "label": "Rbp1-like encodes an mRNA binding protein that functions in RNA splicing and metabolism."
+  },
+  {
+    "gene": "20210121",
+    "text": "Tim9a (Tim9a) encodes a subunit of the soluble mitochondrial intermembrane space protein transporter complex that acts as a chaperone for the import and insertion of proteins into the mitochondrial inner membrane.",
+    "label": "Tim9a functions as a chaperone protein in the mitochondrial intermembrane space to facilitate protein import and insertion into the inner membrane."
+  },
+  {
+    "gene": "20190926",
+    "text": "Ndc80 (Ndc80) encodes a protein involved in mitotic metaphase plate congression.",
+    "label": "Ndc80 is a protein required for proper chromosome alignment during mitotic cell division."
+  },
+  {
+    "gene": "20190801",
+    "text": "Spt7 (Spt7) encodes a subunit of the SAGA chromatin modifying complex.",
+    "label": "Spt7 functions as a component of the SAGA complex that modifies chromatin structure."
+  },
+  {
+    "gene": "20190307",
+    "text": "Hayan (Hayan) encodes a hemolymphatic serine protease involved in the activation of the melanization cascade. It is thought to directly cleave the prophenoloxidases encoded by PPO1 and/or PPO2.",
+    "label": "Hayan is a serine protease that activates melanization in Drosophila by cleaving prophenoloxidases."
+  },
+  {
+    "gene": "20190314",
+    "text": "Tao (Tao) encodes a Ser/Thr kinase belonging to the Mst/Ste20 family. It is implicated in the Hippo and PAR-1 pathways. It contributes to restriction of tissue growth during development, regulation of microtubule dynamics, neuronal polarity, neural development, ethanol-stimulated behavioral response, and apoptosis.",
+    "label": "Tao is a serine/threonine kinase that regulates multiple developmental processes including tissue growth, neuronal development, and microtubule dynamics through the Hippo and PAR-1 signaling pathways."
+  },
+  {
+    "gene": "20190912",
+    "text": "Shawn (Shawn) encodes a mitochondrial carrier involved in metal homeostasis.",
+    "label": "Shawn functions as a mitochondrial carrier protein that regulates metal homeostasis in Drosophila."
+  },
+  {
+    "gene": "20181004",
+    "text": "THADA (THADA) encodes a metabolic regulator that controls the balance between fat storage and heat production. It physically interacts with the ER calcium pump encoded by SERCA and regulates its activity to control metabolism.",
+    "label": "THADA regulates metabolism by controlling the balance between fat storage and heat production through its interaction with the SERCA calcium pump in the endoplasmic reticulum."
+  },
+  {
+    "gene": "20181004",
+    "text": "Rab35 (Rab35) encodes a protein that regulates proximal versus distal growth of seamless tubes in the terminal cells of the tracheal system.",
+    "label": "Rab35 regulates tube growth directionality in Drosophila tracheal terminal cells."
+  },
+  {
+    "gene": "20181004",
+    "text": "cactin (cactin) encodes a conserved protein that functions in the Rel-NFkB pathway, possibly by controlling the stability of the product of cact.",
+    "label": "Cactin regulates the Rel-NFkB signaling pathway by potentially controlling the stability of Cactus protein."
+  },
+  {
+    "gene": "20190912",
+    "text": "galectin (galectin) encodes a galactoside binding protein involved in synaptic target recognition.",
+    "label": "Galectin encodes a galactoside binding protein that helps neurons recognize their correct synaptic targets."
+  },
+  {
+    "gene": "20181004",
+    "text": "Charon (Charon) encodes a nuclear chromatin associated protein that controls Rel-dependent innate immune response and functions as a regulator of antibacterial and antifungal immune defense. It mediates Parp1-dependent transcriptional responses downstream of the innate immune pathway.",
+    "label": "Charon is a nuclear protein that regulates innate immune responses in Drosophila by controlling Rel-dependent transcription of antimicrobial defense genes."
+  },
+  {
+    "gene": "20181004",
+    "text": "tho2 (tho2) encodes a component of the THO complex that plays an essential role in nuclear export of mRNAs.",
+    "label": "The tho2 gene encodes a protein component of the THO complex that is essential for mRNA nuclear export in Drosophila."
+  },
+  {
+    "gene": "20181115",
+    "text": "Spindly (Spindly) encodes a key regulator of dynein recruitment to kinetochores and is involved in the spindle assembly checkpoint during the cell cycle. It also contributes to cell morphology and migration.",
+    "label": "Spindly regulates dynein recruitment to kinetochores and controls spindle assembly checkpoint signaling during cell division."
+  },
+  {
+    "gene": "20190314",
+    "text": "tank (tank) encodes the homolog of tumor suppressor EI24/PIG8. It regulates ethanol sedation sensitivity.",
+    "label": "Tank regulates ethanol sensitivity in Drosophila and is homologous to the tumor suppressor EI24/PIG8."
+  },
+  {
+    "gene": "20190314",
+    "text": "Marcal1 (Marcal1) encodes an ATP-dependent DNA annealing helicase that recognizes single-stranded to double-stranded DNA transitions. It maintains genomic integrity through its roles in DNA repair, DNA replication, DNA recombination and gene expression.",
+    "label": "Marcal1 is an ATP-dependent DNA annealing helicase that maintains genomic integrity through DNA repair, replication, recombination, and gene expression processes."
+  },
+  {
+    "gene": "20190314",
+    "text": "rau (rau) encodes a protein that sustains RTK signaling downstream of the product of htl or Egfr. This effect is mediated by the two Ras association (RA) domains that together show a binding preference for GTP-loaded Ras. rau depletion produces a rough eye phenotype and reduced differentiation of retinal wrapping glia.",
+    "label": "Rau is a protein that maintains RTK signaling through interaction with GTP-loaded Ras, affecting eye development and glial differentiation in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Pez (Pez) encodes an adaptor protein that is degraded via the product of Su(dx). It contributes to stem cell proliferation by regulating Hippo signalling. It interacts with the product of kibra and restricts the product of yki activity.",
+    "label": "Pez is an adaptor protein that regulates stem cell proliferation through the Hippo signaling pathway."
+  },
+  {
+    "gene": "20190801",
+    "text": "Gas41 (Gas41) encodes a protein that contributes to histone acetylation and is involved in chromatin organization and RNA interference.",
+    "label": "Gas41 functions as a chromatin regulator through its role in histone acetylation and RNA interference pathways."
+  },
+  {
+    "gene": "20190801",
+    "text": "Rab30 (Rab30) encodes a JNK transcriptional target. It is involved in JNK-mediated processes such as dorsal closure, embryonic head involution and thorax closure.",
+    "label": "Rab30 is a JNK transcriptional target involved in developmental processes like dorsal closure, head involution, and thorax closure in Drosophila."
+  },
+  {
+    "gene": "20190919",
+    "text": "Caper (Caper) encodes an RNA-binding protein involved in regulation of alternative mRNA splicing.",
+    "label": "Caper encodes an RNA-binding protein that regulates alternative mRNA splicing in Drosophila."
+  },
+  {
+    "gene": "20190926",
+    "text": "Nuf2 (Nuf2) encodes a protein involved in mitotic metaphase plate congression.",
+    "label": "Nuf2 is a protein required for proper chromosome alignment during mitotic cell division."
+  },
+  {
+    "gene": "20190314",
+    "text": "r2d2 (r2d2) encodes a double-stranded RNA-binding protein. It interacts with the product of Dcr-2 to form the core of RISC loading complex, which recruits duplex siRNA to the RISC.",
+    "label": "R2d2 is a double-stranded RNA-binding protein that helps load small interfering RNAs (siRNAs) into the RNA-induced silencing complex (RISC) through interaction with Dicer-2."
+  },
+  {
+    "gene": "20181115",
+    "text": "Toll-4 (Toll-4) encodes a putative transmembrane protein related to Toll by virtue of containing intracellular TIR domain and extracellular Leucine-rich repeats. It is expressed in the apical part of the embryonic lymph gland precursors.",
+    "label": "Toll-4 is a transmembrane protein expressed in embryonic lymph gland precursors that likely functions in immune signaling through its TIR domain and leucine-rich repeats."
+  },
+  {
+    "gene": "20181115",
+    "text": "Etl1 (Etl1) encodes a protein belonging to the Etl1 subfamily of the Snf2 family of helicase-related proteins. It mediates nucleosomal H2A acetylation in an ATP-dependent fashion via the product of nej, resulting in transcriptional regulation.",
+    "label": "Etl1 is a helicase-related protein that regulates transcription through ATP-dependent nucleosomal H2A acetylation."
+  },
+  {
+    "gene": "20190307",
+    "text": "Hand (Hand) encodes a transcription factor that contributes to cardiogenesis, hemopoiesis, and muscle function.",
+    "label": "Hand is a transcription factor that regulates heart, blood cell, and muscle development in Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "escl (escl) encodes an essential component of the Polycomb Repressive Complex 2, whose function is to methylate histone H3K27. Although the product of escl is functionally equivalent to the product of esc, it is not maternally supplied in equally high levels and some homeotic phenotypes occur in the absence of the product of esc.",
+    "label": "ESCL functions as a component of the Polycomb Repressive Complex 2 that methylates histone H3K27 to regulate gene expression through chromatin modification."
+  },
+  {
+    "gene": "20181115",
+    "text": "Ced-12 (Ced-12) encodes a protein that functions with Dock family members (encoded by mbc or spg) to regulate GTPase activity. It contributes to myoblast fusion, apoptotic cell engulfment, cell migration, and embryonic cellularization.",
+    "label": "Ced-12 is a protein that works with Dock family proteins to regulate GTPase activity, enabling key cellular processes like myoblast fusion, cell migration, and phagocytosis."
+  },
+  {
+    "gene": "20190711",
+    "text": "Ski6 (Ski6) encodes a protein involved in gene expression regulation.",
+    "label": "Ski6 functions in RNA processing and degradation as part of the exosome complex."
+  },
+  {
+    "gene": "20181011",
+    "text": "yellow-b (yellow-b) is a member of the multifunctional yellow family of genes that encodes a protein involved in color pattering, eggshell integrity and mating behavior.",
+    "label": "Yellow-b functions in color patterning, eggshell formation, and mating behavior in Drosophila."
+  },
+  {
+    "gene": "20190606",
+    "text": "elfless (elfless) encodes a RING-finger E3 ubiquitin ligase expressed in the tail cyst cell nuclei of testes, although it is not required for male fertility. It interacts with the apoptosis pathway (with the products of Dronc, eff, Diap1) and may be involved in tail cyst cell degradation.",
+    "label": "Elfless is a RING-finger E3 ubiquitin ligase that may regulate apoptosis in testis tail cyst cells through protein degradation pathways."
+  },
+  {
+    "gene": "20231116",
+    "text": "Grip71 (Grip71) encodes a recruitment adapter protein for multi-protein gamma-tubulin ring complexes (gammaTuRCs), which template microtubule nucleation. It associates with gammaTuRCs, but is not required for their assembly. Grip71 is required, however, for gammaTuRC localisation to spindle microtubules and to centrosomes once other recruitment pathways have been removed.",
+    "label": "Grip71 functions as an adapter protein that helps recruit gamma-tubulin ring complexes (\u03b3TuRCs) to spindle microtubules and centrosomes to facilitate microtubule nucleation."
+  },
+  {
+    "gene": "20190314",
+    "text": "Rab9 (Rab9) encodes a member of the Rab subfamily of small GTPases associated with late endosomes. It promotes membrane budding and retrograde recycling of endocytosed materials to the Golgi apparatus. Its roles include recycling of tracheal luminal proteins and tracheal tube length control.",
+    "label": "Rab9 is a small GTPase that regulates membrane trafficking between late endosomes and the Golgi apparatus."
+  },
+  {
+    "gene": "20190307",
+    "text": "Hakai (Hakai) encodes a ring finger type E3 ubiquitin ligase that associates with the cadherin encoded by shg. It is essential for organismal viability and embryonic morphogenesis, but is dispensable for cell viability and proliferation.",
+    "label": "Hakai is an E3 ubiquitin ligase that regulates cadherin and is essential for embryonic development and survival in Drosophila."
+  },
+  {
+    "gene": "20181011",
+    "text": "Mondo (Mondo) encodes a basic helix-loop-helix-leucine zipper transcription factor involved in lipid and carbohydrate metabolism. Together with its binding partner encoded by bigmax, it controls sugar-dependent gene expression, including activation of genes involved in lipogenesis. Mondo mutants are intolerant to dietary sugars and have impaired muscle function.",
+    "label": "Mondo is a transcription factor that regulates sugar-dependent gene expression and metabolism of lipids and carbohydrates in Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "geminin (geminin) encodes a protein that interacts with the replication factor encoded by dup and regulates the Egfr pathway, DNA replication and chromosome ploidy.",
+    "label": "Geminin regulates DNA replication and chromosome ploidy through interaction with replication factors and the EGFR pathway."
+  },
+  {
+    "gene": "20190919",
+    "text": "p47 (p47) encodes a protein involved in nuclear envelope reassembly and rhabdomere development.",
+    "label": "p47 is involved in nuclear envelope reassembly after cell division and development of rhabdomeres (light-sensing structures) in Drosophila eyes."
+  },
+  {
+    "gene": "20190314",
+    "text": "U2A (U2A) encodes a protein component of the U2 snRNP, which combines with other snRNPs on the pre-mRNA to assemble a spliceosome.",
+    "label": "U2A encodes a protein component of the U2 snRNP that helps form spliceosomes for pre-mRNA splicing."
+  },
+  {
+    "gene": "20190307",
+    "text": "Gasz (Gasz) encodes an essential factor for primary piRNA biogenesis. It is predicted to stimulate cleavage of piRNA precursors by the endonuclease encoded by zuc via the recruitment of piRNA precursors and biogenesis factors to the mitochondrial surface.",
+    "label": "Gasz is essential for primary piRNA biogenesis by helping recruit piRNA precursors and processing factors to mitochondria."
+  },
+  {
+    "gene": "20190314",
+    "text": "Myd88 (Myd88) encodes an adaptor protein involved in in the Toll pathway functioning downstream of the product of Tl and upstream of the product of tub. Toll pathway is a signaling cascade that plays a key role in various developmental and immune processes, notably embryonic dorsoventral patterning and regulation of antimicrobial peptides.",
+    "label": "Myd88 is an adaptor protein that mediates Toll pathway signaling for embryonic development and immune responses in Drosophila."
+  },
+  {
+    "gene": "20181011",
+    "text": "Lsm11 (Lsm11) encodes one of the seven proteins that form a heptameric Sm ring in the U7 snRNP, which is a key factor involved in 3' end processing of histone pre-mRNAs. It interacts with the product of FLASH. The two interacting proteins form a biochemical platform that recruits a number of polyadenylation subunits to the U7 snRNP, including the products of Sym, Cpsf100, Cpsf73 and CstF64.",
+    "label": "Lsm11 is a component of the U7 snRNP complex that processes histone pre-mRNAs by mediating their 3' end formation."
+  },
+  {
+    "gene": "20181011",
+    "text": "CAP (CAP) encodes a protein that localizes to focal adhesions and associates with proteins that regulate cytoskeletal organization, including the product of Vinc. It regulates the assembly and function of two actin-rich structures: the larval muscle attachment site, and the fly chordotonal organs in the larval body wall and in the adult Johnston's organ.",
+    "label": "CAP regulates actin-rich structures in muscle attachment sites and chordotonal organs through focal adhesion interactions and cytoskeletal organization."
+  },
+  {
+    "gene": "20181011",
+    "text": "Lsm10 (Lsm10) encodes a core component of the U7 snRNP complex, which functions in 3' end processing of the non-polyadenylated, replication-dependent histone mRNAs. The product of Lsm10 is part of the heptameric Sm ring complex that binds directly to U7 snRNA. It replaces the protein encoded by SmD1 in the canonical heptameric Sm protein ring that binds spliceosomal snRNAs.",
+    "label": "Lsm10 is a component of the U7 snRNP complex that processes the 3' ends of histone mRNAs."
+  },
+  {
+    "gene": "20190314",
+    "text": "Listericin (Listericin) encodes an antibacterial protein whose induction is cooperatively regulated by the product of PGRP-LE and the JAK-STAT pathway.",
+    "label": "Listericin encodes an antibacterial protein that helps defend against bacterial infections through immune signaling pathways in Drosophila."
+  },
+  {
+    "gene": "20181011",
+    "text": "mars (mars) encodes a microtubule-associated protein that shuttles between the mitotic spindle and the nucleus. It is required for mitotic spindle attachment to the centrosome.",
+    "label": "Mars is a microtubule-associated protein essential for proper spindle-centrosome attachment during mitosis."
+  },
+  {
+    "gene": "20190321",
+    "text": "unc-5 (unc-5) encodes a netrin receptor involved in motor axon guidance and glial migration as well as netrin-mediated repulsion during salivary gland migration.",
+    "label": "Unc-5 is a netrin receptor that guides motor axon and glial cell migration through repulsive signaling."
+  },
+  {
+    "gene": "20190314",
+    "text": "SP2353 (SP2353) encodes a EGF-like- and LamininG-domain-containing protein. It interacts genetically with Dg, which encodes a extracellular matrix receptor. It regulates muscle homeostasis, rhabdomere differentiation and innate immune response.",
+    "label": "SP2353 is involved in muscle maintenance, eye development, and immune function through interactions with the extracellular matrix receptor Dg."
+  },
+  {
+    "gene": "20190919",
+    "text": "resilin (resilin) encodes an extracellular matrix constituent.",
+    "label": "Resilin produces an elastic protein that forms part of the extracellular matrix in insect tissues."
+  },
+  {
+    "gene": "20190919",
+    "text": "veil (veil) encodes a GPI-linked protein that functions as a 5'-nucleotidase.",
+    "label": "Veil is a GPI-anchored 5'-nucleotidase enzyme that breaks down nucleotides by removing phosphate groups."
+  },
+  {
+    "gene": "20190314",
+    "text": "P32 (P32) encodes an evolutionarily conserved mitochondrial protein that functions in presynaptic calcium signaling and neurotransmitter release as well as chromatin metabolism.",
+    "label": "P32 is a mitochondrial protein that regulates presynaptic calcium signaling, neurotransmitter release, and chromatin metabolism."
+  },
+  {
+    "gene": "20181018",
+    "text": "Toll-7 (Toll-7) encodes a plasma membrane Toll receptor that binds to viral glycoproteins, leading to the activation of antiviral defenses including autophagy.",
+    "label": "Toll-7 is a membrane receptor that recognizes viral proteins and triggers antiviral immune responses in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Nnf1a (Nnf1a) encodes a component of the Mis12 complex, which is an essential constituent of the kinetochore.",
+    "label": "Nnf1a encodes a kinetochore protein that functions as part of the Mis12 complex during cell division."
+  },
+  {
+    "gene": "20181018",
+    "text": "Magi (Magi) encodes a molecular scaffolding protein that is involved in adherens junction (AJ) organization. Magi is ubiquitously expressed and its product localizes at AJ with the Par polarity complex.",
+    "label": "Magi encodes a scaffolding protein that helps organize adherens junctions and interacts with the Par polarity complex."
+  },
+  {
+    "gene": "20190314",
+    "text": "Rae1 (Rae1) encodes a nucleoporin member of the WD40-repeat beta propeller protein super family. Biological roles of the pleiotropic Rae1 gene product include poly(A)+ mRNA export, cell cycle regulation, male meiosis control and male germ cell post-meiotic differentiation.",
+    "label": "Rae1 is a nucleoporin protein that functions in mRNA export, cell cycle regulation, and male germ cell development in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Liprin-gamma (Liprin-gamma) encodes an adaptor protein that counteracts the functions of the product of Liprin-alpha in photoreceptor axon targeting and the product of Liprin-beta in neuromuscular junction development, potentially through competition for binding partners.",
+    "label": "Liprin-gamma is an adaptor protein that negatively regulates Liprin-alpha and Liprin-beta functions in neuronal development through competitive binding interactions."
+  },
+  {
+    "gene": "20190314",
+    "text": "Rtf1 (Rtf1) encodes a transcription elongation factor that acts downstream of the products of Ubc6 and Bre1 in regulating the histone modification activity of the Set1/COMPASS complex. It regulates Notch signaling.",
+    "label": "Rtf1 is a transcription elongation factor that regulates histone modifications through the Set1/COMPASS complex and influences Notch signaling."
+  },
+  {
+    "gene": "20190307",
+    "text": "babos (babos) encodes a cell surface protein that belongs to the group of immunoglobulin superfamily cell adhesion molecules. If functions in learning and memory, as well as in developmental dendrite plasticity.",
+    "label": "Babos is a cell adhesion molecule that plays a role in learning, memory, and dendrite development in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "rad50 (rad50) encodes a protein belonging to the SMC family and RAD50 subfamily that is involved in DNA repair. It is required for double-strand break repair and telomere maintenance.",
+    "label": "Rad50 is a DNA repair protein that helps fix double-strand breaks and maintain telomeres in Drosophila."
+  },
+  {
+    "gene": "20220217",
+    "text": "asrij (asrij) encodes a conserved ovarian carcinoma immunoreactive antigen domain-containing endosomal protein that maintains stemness. It positively regulates JAK/STAT signalling and negatively regulates the Notch pathway. It interacts with the GTP-bound form of the product of Arf1 to regulate hematopoiesis and immunity, and regulates mitochondrial dynamics through functional interactions with Drp1 and Marf.",
+    "label": "Asrij is an endosomal protein that regulates stem cell maintenance, hematopoiesis, and immunity through interactions with multiple signaling pathways and mitochondrial dynamics."
+  },
+  {
+    "gene": "20211104",
+    "text": "atlas (atlas) encodes a newly evolved protein that is required for the condensation of chromatin in the nuclei of developing sperm cells.",
+    "label": "Atlas is required for chromatin condensation during Drosophila spermatogenesis."
+  },
+  {
+    "gene": "20180913",
+    "text": "pita (pita) encodes an architectural chromatin protein essential for embryonic development that organizes open chromatin in the regulatory regions (predominantly promoters). pita product functions include enhancer blocking, support of distant interactions, protection from spreading of repressed chromatin and recruitment of transcription factors.",
+    "label": "Pita is a chromatin-organizing protein that regulates gene expression by controlling chromatin structure and accessibility at regulatory regions during Drosophila development."
+  },
+  {
+    "gene": "20190711",
+    "text": "Rrp4 (Rrp4) encodes a protein involved in gene expression regulation.",
+    "label": "Rrp4 is a component of the exosome complex that processes and degrades RNA molecules."
+  },
+  {
+    "gene": "20190321",
+    "text": "Upf3 (Upf3) encodes a protein that regulates targets of the nonsense-mediated mRNA decay pathway. This pathway participates in homeostatic gene expression regulation and plays a quality control role in the elimination of mRNAs with premature termination codons. The product of Upf3 is involved in cell cycle progression and general developmental rate.",
+    "label": "Upf3 encodes a protein that regulates nonsense-mediated mRNA decay, which eliminates defective mRNAs and helps control gene expression."
+  },
+  {
+    "gene": "20220310",
+    "text": "Orcokinin (Orcokinin) encodes a neuropeptide whose knockdown causes a disinhibition of male courtship behavior, including the occurrence of male to male courtship, and a reduction in egg production.",
+    "label": "Orcokinin is a neuropeptide that regulates male courtship behavior and female egg production in Drosophila."
+  },
+  {
+    "gene": "20190926",
+    "text": "MAN1 (MAN1) encodes a protein that functions as a tissue-specific antagonist of BMP signaling.",
+    "label": "MAN1 encodes a protein that inhibits BMP signaling in specific tissues."
+  },
+  {
+    "gene": "20190314",
+    "text": "p130CAS (p130CAS) encodes an SH3 domain-containing protein phosphorylated by Src kinases. It contributes to integrin-mediated adhesion and in vertebrate cells is phosphorylated in response to mechanical stretch.",
+    "label": "p130CAS functions as an adaptor protein involved in integrin-mediated cell adhesion and mechanotransduction through its interactions with Src kinases."
+  },
+  {
+    "gene": "20190321",
+    "text": "Ctr9 (Ctr9) encodes a highly conserved member of the polymerase-associated factor 1 complex, which controls a number of transcriptional and epigenetic processes. It is involved in the proliferation and terminal differentiation of the central nervous system.",
+    "label": "Ctr9 is a component of the PAF1 complex that regulates transcription and epigenetics, particularly in central nervous system development and differentiation."
+  },
+  {
+    "gene": "20190926",
+    "text": "sturkopf (sturkopf) encodes an evolutionary conserved lipid droplet-associated protein. In the absence of lipid droplets, the protein localizes to the endoplasmic reticulum.",
+    "label": "Sturkopf is a protein that associates with lipid droplets and the endoplasmic reticulum, likely playing a role in lipid metabolism or storage."
+  },
+  {
+    "gene": "20190314",
+    "text": "MEP-1 (MEP-1) encodes a zinc finger protein that associates with the ATP-dependent nucleosome remodeler encoded by Mi-2. It cooperates with the product of Mi-2 in the repression of cell type-specific genes.",
+    "label": "MEP-1 encodes a zinc finger protein that works with Mi-2 to repress cell type-specific genes through nucleosome remodeling."
+  },
+  {
+    "gene": "20190912",
+    "text": "Chd64 (Chd64) encodes a protein involved in the juvenile hormone mediated signaling pathway.",
+    "label": "Chd64 is involved in juvenile hormone signaling, which regulates insect development and reproduction."
+  },
+  {
+    "gene": "20190307",
+    "text": "Gdap1 (Gdap1) encodes a transmembrane protein of the outer mitochondrial membrane. Dysregulation of Gdap1 expression has been related to mitochondrial dynamics, oxidative stress and neuromuscular degeneration.",
+    "label": "Gdap1 is a mitochondrial outer membrane protein involved in regulating mitochondrial dynamics and protecting against oxidative stress."
+  },
+  {
+    "gene": "20181018",
+    "text": "blanks (blanks) encodes a nuclear siRNA binding protein expressed in spermatocytes. It contributes to sperm individualization and chromatin silencing regulation.",
+    "label": "Blanks is a nuclear siRNA binding protein that regulates chromatin silencing and sperm development in Drosophila spermatocytes."
+  },
+  {
+    "gene": "20190307",
+    "text": "Blimp-1 (Blimp-1) encodes a zinc finger transcription repressor that is induced by 20-hydroxylecdysone and plays important roles for metamorphosis. It also contributes to embryonic trachea formation.",
+    "label": "Blimp-1 is a transcription repressor that regulates metamorphosis in response to ecdysone signaling and controls tracheal development during embryogenesis."
+  },
+  {
+    "gene": "20190314",
+    "text": "mad2 (mad2) encodes a conserved component of the spindle checkpoint. During mitosis, it is recruited to unattached kinetochores, where it binds the products of Mad1 and fzy, promoting the assembly of the mitotic checkpoint complex. During interphase, the product of mad2 is intranuclear, bound to the product of Mad1, and associated primarily with the nuclear pore complex.",
+    "label": "Mad2 is a spindle checkpoint protein that helps ensure proper chromosome segregation during cell division by monitoring kinetochore-microtubule attachments."
+  },
+  {
+    "gene": "20190926",
+    "text": "Mis12 (Mis12) encodes a protein involved in chromosome movement and metaphase plate congression during mitosis.",
+    "label": "Mis12 is a protein required for proper chromosome alignment and movement during cell division."
+  },
+  {
+    "gene": "20190307",
+    "text": "CTCF (CTCF) encodes a ubiquitous transcription factor that binds to insulators and domain boundaries. It mediates insulator function and blocks enhancers by binding to the product of Cp190. It contributes to long-range chromatin interaction, organizes chromatin domain boundaries and coordinates nuclear architecture.",
+    "label": "CTCF is a transcription factor that organizes chromatin structure and regulates gene expression by binding to insulator elements and establishing domain boundaries."
+  },
+  {
+    "gene": "20190314",
+    "text": "nudE (nudE) encodes a conserved protein that localizes to kinetochores and spindle microtubules. It contributes to the spindle checkpoint, spindle orientation, centrosome behavior and dendrite morphogenesis.",
+    "label": "NudE is a protein involved in cell division processes through its roles in kinetochore/microtubule interactions, spindle assembly, and centrosome function."
+  },
+  {
+    "gene": "20200924",
+    "text": "emei (emei) encodes a regulator of calcium levels localized to the endoplasmatic reticulum. Loss of emei synergizes with oncogenic Ras85D to promote tumor growth via JNK-mediated Hippo signaling.",
+    "label": "Emei regulates calcium levels in the endoplasmic reticulum and suppresses tumor growth through interactions with Ras and JNK-Hippo signaling pathways."
+  },
+  {
+    "gene": "20190801",
+    "text": "Pop2 (Pop2) encodes a poly(A)-specific ribonuclease involved in translation inhibition.",
+    "label": "Pop2 is a ribonuclease that degrades poly(A) tails of mRNAs to inhibit translation."
+  },
+  {
+    "gene": "20190314",
+    "text": "Liprin-beta (Liprin-beta) encodes an adaptor protein that can interact with the product of Liprin-alpha. It is required for normal photoreceptor axon targeting and neuromuscular junction development.",
+    "label": "Liprin-beta is an adaptor protein required for proper photoreceptor axon targeting and neuromuscular junction development in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "upSET (upSET) encodes a Polycomb/Trithorax-type global transcriptional regulator. It is recruited to active and inducible genes where it restricts chromatin accessibility and histone acetylation to promoter regions. upSET loss produces female sterility.",
+    "label": "upSET is a transcriptional regulator that controls gene expression by limiting chromatin accessibility and histone acetylation to promoter regions of active genes."
+  },
+  {
+    "gene": "20190314",
+    "text": "Sox21a (Sox21a) encodes a Sox family transcription factor involved in the differentiation of stem cells in the midgut.",
+    "label": "Sox21a is a transcription factor that regulates stem cell differentiation in the Drosophila midgut."
+  },
+  {
+    "gene": "20190314",
+    "text": "Msh6 (Msh6) encodes a heterodimer with the product of spel1 to detect base-base mismatches and small insertion/deletion loops. It then recruits the rest of the mismatch repair machinery.",
+    "label": "Msh6 functions in DNA mismatch repair by detecting base mismatches and small insertion/deletion loops as part of a heterodimer complex."
+  },
+  {
+    "gene": "20190314",
+    "text": "Toll-6 (Toll-6) encodes a member of the Toll-like receptor family. It has neurotrophin receptor activity and contributes to dendrite guidance. Genetic interaction with 18w and Tollo suggests a Toll-6 role in convergent extension during early embryogenesis.",
+    "label": "Toll-6 is a Toll-like receptor that functions in dendrite guidance and embryonic development through neurotrophin receptor activity."
+  },
+  {
+    "gene": "20181025",
+    "text": "rogdi (rogdi) encodes a protein that plays a role in promoting sleep by controlling GABA transmission in GABA neurons.",
+    "label": "Rogdi promotes sleep by regulating GABA neurotransmission in GABA neurons."
+  },
+  {
+    "gene": "20190314",
+    "text": "QIL1 (QIL1) encodes a subunit of the mitochondrial contact site and cristae organizing system (MICOS) complex. It is required for MICOS stability regulating mitochondrial cristae architecture.",
+    "label": "QIL1 is a component of the MICOS complex that helps maintain proper mitochondrial cristae structure and organization."
+  },
+  {
+    "gene": "20241219",
+    "text": "Prestin (Prestin) encodes a plasma membrane transmembrane anion transporter that mediates the electrogenic exchange of chloride/bicarbonate, chloride/oxalate, chloride/sulfate and chloride/formate. It is involved in pH homeostasis in the midgut lumen and oxalate excretion in Malpighian tubules.",
+    "label": "Prestin is a membrane anion transporter that exchanges chloride with other ions to regulate pH in the midgut and handle oxalate excretion in Malpighian tubules."
+  },
+  {
+    "gene": "20190314",
+    "text": "Nufip (Nufip) encodes an adaptor protein for the assembly of RiboNucleo-Particles (RNPs) such as the small nuclear RNP U4 (snRNP U4; part of the spliceosome) and the mRNPs encoding seleno-proteins. It is necessary for the biogenesis of the small nucleolar RNPs (snoRNPs).",
+    "label": "Nufip functions as an adaptor protein essential for the assembly of various ribonucleoproteins (RNPs), including spliceosomal components and small nucleolar RNPs."
+  },
+  {
+    "gene": "20190307",
+    "text": "Grasp65 (Grasp65) encodes a myristoylated Golgi protein that binds the product of GM130 and has been shown to mediate the Golgi bypass of transmembrane proteins.",
+    "label": "Grasp65 is a Golgi protein that facilitates protein trafficking by binding GM130 and mediating transmembrane protein transport through the Golgi apparatus."
+  },
+  {
+    "gene": "20190314",
+    "text": "Toll-9 (Toll-9) encodes a transmembrane signalling receptor belonging to the Toll family of protein.",
+    "label": "Toll-9 is a transmembrane receptor involved in immune signaling as part of the Toll family of proteins in Drosophila."
+  },
+  {
+    "gene": "20190926",
+    "text": "M6 (M6) encodes a four-transmembrane glycoprotein involved in eye morphogenesis and oogenesis.",
+    "label": "M6 is a transmembrane glycoprotein that functions in eye development and egg formation in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Nopp140 (Nopp140) encodes a nucleolar and Cajal body protein. It is predicted to function as a chaperone in the assembly of small nucleolar ribonucleoprotein particles within Cajal bodies, their transit to nucleoli, and their association with pre-ribosomal RNA within nucleolar dense fibrillar regions.",
+    "label": "Nopp140 acts as a chaperone protein that helps assemble and transport small nucleolar ribonucleoprotein particles between Cajal bodies and nucleoli."
+  },
+  {
+    "gene": "20190314",
+    "text": "spartin (spartin) encodes a multi-functional protein associated with organelle membranes, including endosomes, lipid droplets, and mitochondria. It participates in cytokinesis, BMP receptor trafficking, lipid droplet turnover, and mitochondrial Ca[2+] homeostasis.",
+    "label": "Spartin is a membrane-associated protein that regulates multiple cellular processes including cytokinesis, receptor trafficking, lipid metabolism, and mitochondrial calcium balance."
+  },
+  {
+    "gene": "20190321",
+    "text": "Rab23 (Rab23) encodes a member of the Rab family of small GTPases known to be involved in vesicle transport processes. It cooperates with the product of in and the core group of planar cell polarity genes. It contributes to restricting actin accumulation and thus, prehair initiation to a single site within each wing cell, and to regulate the number and orientation of hairs on the leg and the abdominal cuticle. In addition, it regulates the trafficking of the ligand encoded by hh in the germline stem cell niche.",
+    "label": "Rab23 is a small GTPase that regulates vesicle transport, planar cell polarity, and Hedgehog ligand trafficking in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Tailor (Tailor) encodes a cytoplasmic RNA-specific terminal uridylyltransferase. It acts as part of the terminal RNA uridylation-mediated processing (TRUMP) complex, marking RNA species for 3'-to-5' exoribonucleolytic decay by the product of Dis3l2. The product of Tailor regulates microRNA biogenesis by targeting precursor-microRNAs (predominantly mirtron hairpins) and targets unprocessed RNA polymerase III transcripts for degradation in a cytoplasmic RNA surveillance pathway.",
+    "label": "Tailor is a terminal uridylyltransferase that marks specific RNAs (including pre-miRNAs and RNA pol III transcripts) for degradation through uridylation."
+  },
+  {
+    "gene": "20181115",
+    "text": "MAGE (MAGE) encodes a component of the SMC5/6 protein complex. This complex is critical to genome stability, and is required for homologous DNA recombination-based processes.",
+    "label": "MAGE encodes a component of the SMC5/6 protein complex that maintains genome stability through DNA recombination processes."
+  },
+  {
+    "gene": "20190314",
+    "text": "pyd3 (pyd3) encodes a beta-alanine synthase involved in pyrimidine catabolism, beta-alanine biosynthesis and cuticle pigmentation.",
+    "label": "Pyd3 functions as a beta-alanine synthase that breaks down pyrimidines to produce beta-alanine, which is important for cuticle pigmentation."
+  },
+  {
+    "gene": "20190307",
+    "text": "Veneno (Veneno) encodes a protein belonging to the TDRD1 family that is predicted to have a role in the piRNA pathway.",
+    "label": "Veneno is involved in the piRNA pathway, which helps protect genomic stability by regulating transposable elements."
+  },
+  {
+    "gene": "20190711",
+    "text": "ranshi (ranshi) encodes a protein involved in oocyte differentiation.",
+    "label": "Ranshi functions in oocyte differentiation in Drosophila."
+  },
+  {
+    "gene": "20181115",
+    "text": "beag (beag) encodes a spliceosomal protein required for normal neuromuscular junction development and function. It functions together with the product of Smu1 and can regulate the alternative mRNA splicing of Fas2.",
+    "label": "Beag is a spliceosomal protein that regulates alternative mRNA splicing and is essential for proper neuromuscular junction development and function in Drosophila."
+  },
+  {
+    "gene": "20181115",
+    "text": "Fancl (Fancl) encodes a member of the Fanconi anemia pathway, which is a key mediator of DNA damage repair through homologous recombination. When mono-ubiquinated by the Fanconi core complex, it associates with the product of Fancd2 and localizes to sites of DNA damage.",
+    "label": "Fancl functions as part of the Fanconi anemia pathway to facilitate DNA damage repair through homologous recombination."
+  },
+  {
+    "gene": "20190711",
+    "text": "Rrp46 (Rrp46) encodes a protein involved in gene expression regulation.",
+    "label": "Rrp46 is a component of the exosome complex that processes and degrades RNA molecules."
+  },
+  {
+    "gene": "20190314",
+    "text": "Leash (Leash) encodes a member of the arrestin domain-containing protein family, which functions as an adaptor molecule for protein degradation. It inhibits growth by inducing degradation of the product of yki via the lysosomal pathway.",
+    "label": "Leash functions as an adaptor protein that inhibits growth by promoting the lysosomal degradation of Yorkie (Yki) protein."
+  },
+  {
+    "gene": "20190314",
+    "text": "ninaG (ninaG) encodes a glucose-methanol-choline oxidoreductase required for the biogenesis of the rhodopsin chromophore (3S)-3-hydroxyretinal, likely by stimulating conversion between the two enantiomers of 3-hydroxyretinal.",
+    "label": "ninaG encodes an oxidoreductase enzyme that helps produce the visual pigment chromophore in Drosophila eyes by converting between forms of 3-hydroxyretinal."
+  },
+  {
+    "gene": "20190801",
+    "text": "Spt3 (Spt3) encodes a encodes a subunit of the SAGA chromatin modifying complex.",
+    "label": "Spt3 functions as part of the SAGA complex to modify chromatin structure and regulate transcription."
+  },
+  {
+    "gene": "20190912",
+    "text": "MBD-R2 (MBD-R2) encodes a Zinc finger C2H2 transcription factor. It is a component of nonspecific lethal (NSL) complex involved in transcriptional activation.",
+    "label": "MBD-R2 is a transcription factor that functions as part of the NSL complex to activate gene transcription."
+  },
+  {
+    "gene": "20190314",
+    "text": "Tim17a1 (Tim17a1) encodes a subunit of the TIM23 complex, which is a presequence translocase responsible for transporting proteins across the inner mitochondrial membrane. It modulates the gating of the transmembrane channel of TIM23 and plays a role in both matrix translocation as well as lateral membrane sorting.",
+    "label": "Tim17a1 is a component of the mitochondrial TIM23 complex that helps transport proteins across the inner mitochondrial membrane."
+  },
+  {
+    "gene": "20190314",
+    "text": "timeout (timeout) encodes a role in the maintenance of chromosome integrity and in the light synchronization of the adult circadian clock",
+    "label": "Timeout functions in maintaining chromosome integrity and synchronizing the circadian clock in response to light in Drosophila."
+  },
+  {
+    "gene": "20190912",
+    "text": "Rrp6 (Rrp6) encodes an exoribonuclease that forms part of the RNA processing exosome complex. It is involved in the regulation of cell cycle progresion and mRNA surveillance.",
+    "label": "Rrp6 is an exoribonuclease that functions in RNA processing and degradation as part of the exosome complex to regulate cell cycle and mRNA quality control."
+  },
+  {
+    "gene": "20190912",
+    "text": "GATAe (GATAe) encodes a endoderm-specific GATA factor. It regulates endoderm differentiation and intestinal stem cell maintenance.",
+    "label": "GATAe is a transcription factor that controls endoderm development and maintains intestinal stem cells in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Keap1 (Keap1) encodes a protein that interacts with the product of cnc to regulate the activation of genes by oxidative stress.",
+    "label": "Keap1 regulates oxidative stress response genes through interaction with the Cnc protein."
+  },
+  {
+    "gene": "20181115",
+    "text": "subdued (subdued) encodes a chloride ion channel activated by calcium and heat belonging to the TMEM16 family. Its roles include host defense against ingested pathogenic bacteria and modulation of sensory neuronal signaling.",
+    "label": "Subdued is a calcium/heat-activated chloride channel that functions in bacterial defense and sensory neuron signaling."
+  },
+  {
+    "gene": "20181108",
+    "text": "ETHR (ETHR) encodes two distinct G protein-coupled receptors through alternative splicing. During development, the receptors are essential in initiating the molt-related behaviors of ecdysis, and in adults they function to promote juvenile hormone signaling and reproduction.",
+    "label": "ETHR encodes G protein-coupled receptors that regulate molting behavior, juvenile hormone signaling, and reproduction in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "p53 (p53) encodes a transcriptional factor required for adaptive responses to genotoxic stress, including cell death, compensatory proliferation and DNA repair.",
+    "label": "p53 is a transcription factor that regulates cellular responses to DNA damage, including apoptosis, cell proliferation, and DNA repair mechanisms."
+  },
+  {
+    "gene": "20190912",
+    "text": "Dis3 (Dis3) encodes an exoribonuclease that forms part of the RNA processing exosome complex. It is involved in the regulation of cell cycle progresion, microRNA expression and mRNA surveillance.",
+    "label": "Dis3 is an exoribonuclease that functions as part of the RNA exosome complex to process and degrade various RNA species."
+  },
+  {
+    "gene": "20190321",
+    "text": "polybromo (polybromo) encodes a subunit of Polybromo-associated Brahma complex (PBAP). Its main biological role is involved in chromatin remodeling together with Brahma complex. It can also regulate gene transcription through DNA binding, which is dependent or independent ofthe PBAP complex.",
+    "label": "Polybromo functions as a chromatin remodeling factor as part of the PBAP complex to regulate gene transcription in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "sosie (sosie) encodes a protein that localizes to the plasma membrane in the germ line and the follicle cells during oogenesis. It interacts with the products of kst, jbug and chic, and helps localizing the product of kst and Actins.",
+    "label": "Sosie is a plasma membrane protein that helps localize actin and other proteins during Drosophila oogenesis."
+  },
+  {
+    "gene": "20181108",
+    "text": "Smg6 (Smg6) encodes an RNA endonuclease that is required for nonsense mediated mRNA decay (NMD). Upon recognition of an NMD-targeted transcript, it cleaves the mRNA in the vicinity of the termination codon, exposing free 5' and 3' ends leading to the complete exonucleolytic degradation of the target.",
+    "label": "Smg6 is an RNA endonuclease that degrades aberrant mRNAs through nonsense-mediated decay by cleaving them near termination codons."
+  },
+  {
+    "gene": "20190919",
+    "text": "veli (veli) encodes a protein involved in border follicle cell migration and regulation of synaptic growth at the neuromuscular junction.",
+    "label": "Veli functions in border follicle cell migration and regulates synaptic growth at neuromuscular junctions in Drosophila."
+  },
+  {
+    "gene": "20250320",
+    "text": "shams (shams) encodes an endoplasmic reticulum protein xylosyltransferase that catalyzes the attachment of alpha-D-xylose to O-glucosylated EGF-like repeats of selected membrane and secreted proteins. O-linked glucosylation of the N protein plays an important role in the modulation of the N signalling pathway.",
+    "label": "Shams is an ER xylosyltransferase that modifies EGF-like repeats on proteins through O-linked glycosylation, which helps regulate Notch signaling."
+  },
+  {
+    "gene": "20181108",
+    "text": "XNP (XNP) encodes two protein isoforms that participate in the maintenance of heterochromatin and chromosomal stability. They interact with heterochromatin proteins such as those encoded by Su(var)205 and ADD1.",
+    "label": "XNP functions in maintaining heterochromatin structure and chromosomal stability through interactions with heterochromatin proteins."
+  },
+  {
+    "gene": "20190919",
+    "text": "Sld5 (Sld5) encodes a subunit of the Cdc45/Mcm2-7/GINS (CMG) complex, which is associated with an ATP-dependent DNA helicase function and is involved in the regulation of the mitotic G1/S transition.",
+    "label": "Sld5 encodes a component of the CMG helicase complex essential for DNA replication during cell division."
+  },
+  {
+    "gene": "20190314",
+    "text": "plum (plum) encodes an Ig-superfamily transmembrane protein. It is required for developmental pruning of both mushroom body neurons and motor neurons via TGF-beta signaling. plum genetically interacts with myo and babo.",
+    "label": "Plum is a transmembrane protein required for developmental pruning of mushroom body and motor neurons through TGF-beta signaling."
+  },
+  {
+    "gene": "20190307",
+    "text": "bigmax (bigmax) encodes a basic helix-loop-helix-leucine zipper transcription factor. Together with its binding partner encoded by Mondo, the product of bigmax is involved in sugar-dependent gene regulation. It is involved in transcriptional control of many metabolic pathways, including glycolysis, de novo lipogenesis and the pentose phosphate pathway. Loss of bigmax function produces dietary sugar intolerance.",
+    "label": "Bigmax is a transcription factor that partners with Mondo to regulate sugar-dependent metabolic genes in Drosophila."
+  },
+  {
+    "gene": "20190919",
+    "text": "Tusp (Tusp) encodes a protein involved in SNARE complex assembly.",
+    "label": "Tusp functions in SNARE complex assembly, which is important for membrane fusion and vesicle trafficking."
+  },
+  {
+    "gene": "20181108",
+    "text": "BCAS2 (BCAS2) encodes an essential protein that regulates wing development via Delta-Notch signaling.",
+    "label": "BCAS2 is essential for wing development in Drosophila through regulation of Delta-Notch signaling."
+  },
+  {
+    "gene": "20190919",
+    "text": "Moca-cyp (Moca-cyp) encodes a peptidyl-prolyl cis-trans isomerase.",
+    "label": "Moca-cyp encodes a peptidyl-prolyl cis-trans isomerase that catalyzes protein folding by isomerizing peptide bonds at proline residues."
+  },
+  {
+    "gene": "20190307",
+    "text": "Diedel (Diedel) encodes a small extracellular immunomodulatory cytokine, which down-regulates the immune deficiency pathway of host defense. Some insect DNA viruses encode proteins homologous to the product of Diedel.",
+    "label": "Diedel encodes a cytokine that suppresses the immune response in Drosophila by downregulating the immune deficiency pathway."
+  },
+  {
+    "gene": "20190321",
+    "text": "Tace (Tace) encodes a transmembrane anchored, cell surface metalloprotease and member of the ADAM family of proteins. The product of Tace, along with the related ADAM protease encoded by kuz, performs ectodomain shedding by cleaving cell surface receptors and/or ligands to affect cell-cell signaling or adhesion. Both proteases are implicated in the Notch signaling pathway.",
+    "label": "Tace encodes a metalloprotease that regulates cell signaling and adhesion through ectodomain shedding of cell surface proteins, particularly in the Notch pathway."
+  },
+  {
+    "gene": "20190516",
+    "text": "Asator (Asator) encodes a tau-tubulin kinase homolog that is localized to the cytoplasm at interphase. It directly interacts with the spindle matrix protein encoded by Mgtor and localizes to the spindle region during mitosis.",
+    "label": "Asator is a tau-tubulin kinase that interacts with spindle matrix proteins and plays a role in mitotic spindle organization during cell division."
+  },
+  {
+    "gene": "20190314",
+    "text": "Sox102F (Sox102F) encodes a transcription factor in the Sox gene family that regulates the Wnt signaling pathway. Its roles include heart development and cardiac function, and wing vein development and patterning.",
+    "label": "Sox102F is a transcription factor that regulates Wnt signaling to control heart and wing development in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "p115 (p115) encodes a key protein of the early secretory pathway where it interacts with the product of GM130 and Rab proteins. p115 depletion from S2 cells leads to a fragmentation of the Golgi but without impairing transport efficiency.",
+    "label": "p115 is a protein involved in maintaining Golgi structure and function in the early secretory pathway through interactions with GM130 and Rab proteins."
+  },
+  {
+    "gene": "20190314",
+    "text": "lectin-46Cb (lectin-46Cb) encodes a protein with homology to C-type lectins. It is produced in the male accessory gland and transferred to females during mating. In mated females, is required for the binding of product of SP to sperm, and for maintenance of long-term post-mating responses.",
+    "label": "Lectin-46Cb is a C-type lectin protein produced in male accessory glands that helps bind sex peptide to sperm in mated females, enabling long-term post-mating responses."
+  },
+  {
+    "gene": "20190314",
+    "text": "lectin-46Ca (lectin-46Ca) encodes a protein with homology to C-type lectins. It is produced in the male accessory gland and transferred to females during mating. In mated females, it binds to sperm in the seminal receptacle. It is required for the binding of the product of SP to sperm, and for maintenance of long-term post-mating responses.",
+    "label": "Lectin-46Ca is a C-type lectin protein produced in male accessory glands that enables sperm binding and long-term post-mating responses in female Drosophila."
+  },
+  {
+    "gene": "20190919",
+    "text": "lectin-24Db (lectin-24Db) encodes a protein that interacts specifically with fucose and mannose.",
+    "label": "Lectin-24Db encodes a carbohydrate-binding protein (lectin) that specifically recognizes and binds to fucose and mannose sugars."
+  },
+  {
+    "gene": "20190307",
+    "text": "HGTX (HGTX) encodes a homeodomain transcription factor that acts in parallel with the product of exex to promote the development and differentiation of motor neurons that innervate ventral body wall muscles. Its major roles include neuronal specification and differentiation.",
+    "label": "HGTX is a homeodomain transcription factor that promotes motor neuron development and differentiation, particularly for neurons innervating ventral body wall muscles in Drosophila."
+  },
+  {
+    "gene": "20190613",
+    "text": "Ephrin (Ephrin) encodes the ligand of the product of Eph. It is involved in nervous system development.",
+    "label": "Ephrin functions as a ligand for the Eph receptor and plays a role in nervous system development."
+  },
+  {
+    "gene": "20190314",
+    "text": "Seipin (Seipin) encodes a transmembrane protein with roles in ER calcium homeostasis and lipid storage.",
+    "label": "Seipin is a transmembrane protein that regulates endoplasmic reticulum calcium levels and lipid storage in cells."
+  },
+  {
+    "gene": "20190314",
+    "text": "mus81 (mus81) encodes the catalytic subunit of the Mus81-mms4 structure-selective endonuclease that functions in DNA repair.",
+    "label": "Mus81 is a structure-selective endonuclease that repairs DNA damage as part of the Mus81-mms4 complex."
+  },
+  {
+    "gene": "20190307",
+    "text": "G9a (G9a) encodes a histone-lysine methyltransferase involved in epigenetic regulation. It contributes to multiple processes including gene expression, dendrite morphogenesis, larval locomotory behavior as well as short and long-term memory.",
+    "label": "G9a is a histone methyltransferase that regulates gene expression and various neurological functions through epigenetic modification."
+  },
+  {
+    "gene": "20190307",
+    "text": "Buffy (Buffy) encodes one of the two Bcl-2 family members in Drosophila (the other being the product of Debcl). Its loss has been linked to altered energy metabolism in larvae.",
+    "label": "Buffy is a Bcl-2 family protein that regulates energy metabolism and cell death in Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "Prosap (Prosap) encodes a member of SH3 and multiple ankyrin repeat domain (SHANK) family of genes that encode synaptic scaffolding proteins. It regulates synaptic growth and development, including the structure of the neuromuscular junction and synapses of the calyx, and olfactory acuity.",
+    "label": "Prosap encodes a synaptic scaffolding protein that regulates synaptic growth and development in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "schlank (schlank) encodes a member of the Ceramide Synthases family involved in sphingolipid metabolism. It is essential for ceramide synthesis and modulates triacylglycerol levels and transcriptional expression of body fat metabolism regulators.",
+    "label": "Schlank is a ceramide synthase that regulates sphingolipid metabolism and body fat homeostasis in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "tamo (tamo) encodes a protein with an essential function during oogenesis where it interacts with the product of dl and proteins that are part of the nuclear import machinery.",
+    "label": "Tamo functions in oogenesis by interacting with dorsal and nuclear import proteins."
+  },
+  {
+    "gene": "20190314",
+    "text": "olf186-F (olf186-F) encodes a plasma membrane localised protein that functions as a pore subunit of the store-operated calcium entry (SOCE) channel.",
+    "label": "Olf186-F functions as a pore-forming component of store-operated calcium channels that regulate calcium entry into cells."
+  },
+  {
+    "gene": "20181108",
+    "text": "Ku80 (Ku80) encodes a protein that forms a Ku heterodimer with the product of Irbp, which binds to DNA double-strand break ends and is required for the non-homologous end joining pathway of DNA repair.",
+    "label": "Ku80 forms part of a protein complex that binds to broken DNA ends and facilitates repair through non-homologous end joining."
+  },
+  {
+    "gene": "20190321",
+    "text": "7B2 (7B2) encodes a peptidase required for the zymogen conversion and secretion of the prohormone convertase 2 encoded by amon.",
+    "label": "7B2 encodes a peptidase that helps activate and secrete prohormone convertase 2."
+  },
+  {
+    "gene": "20190926",
+    "text": "SCAR (SCAR) encodes a primary regulator of the Arp2/3 complex, which promotes actin polymerization and influences cell shape and motility. It is involved in myoblast fusion, eye morphogenesis and axogenesis.",
+    "label": "SCAR regulates actin polymerization through the Arp2/3 complex to control cell shape, movement, and development in processes like myoblast fusion and axon growth."
+  },
+  {
+    "gene": "20181108",
+    "text": "HBS1 (HBS1) encodes an elongation factor class G protein that is implicated in messenger RNA quality control, by forming a protein complex with the product of pelo to promote decay of mRNAs with ribosomal stalls.",
+    "label": "HBS1 is an elongation factor protein that works with pelo to facilitate decay of stalled mRNAs as part of quality control."
+  },
+  {
+    "gene": "20190314",
+    "text": "Notum (Notum) encodes an enzyme that cleaves glycophosphatidylinositol anchors. It acts via the product of dlp to influence the range and activity of secreted signaling proteins that interact with proteoglycans in the imaginal discs.",
+    "label": "Notum encodes an enzyme that regulates signaling protein activity by cleaving glycophosphatidylinositol anchors from proteoglycans in Drosophila imaginal discs."
+  },
+  {
+    "gene": "20190314",
+    "text": "Pmi (Pmi) encodes a ubiquitous protein of the mitochondrial inner membrane that negatively controls the biogenesis of cristae membrane. Pmi-dependent cristae alterations are associated with impaired oxidative metabolism, abnormal mitochondrial shape/size, defective mitochondrial transport in neurons, and lead to stress-induced paralysis in adult flies.",
+    "label": "Pmi is a mitochondrial inner membrane protein that negatively regulates cristae membrane formation, affecting mitochondrial structure and function."
+  },
+  {
+    "gene": "20190314",
+    "text": "Pak3 (Pak3) encodes a Ser/Thr kinase implicated in myoblast fusion, synapse development, wound healing and border cell migration. It functions downstream of the small Rac GTPases to regulate actin cytoskeletal organization.",
+    "label": "Pak3 is a serine/threonine kinase that regulates actin cytoskeleton organization downstream of Rac GTPases to control multiple developmental processes including myoblast fusion, synapse formation, wound healing, and cell migration."
+  },
+  {
+    "gene": "20190919",
+    "text": "vig2 (vig2) encodes a protein involved in heterochromatin organization, histone H3-K9 methylation and chromatin silencing regulation.",
+    "label": "Vig2 functions in heterochromatin organization and chromatin silencing through regulation of histone H3-K9 methylation."
+  },
+  {
+    "gene": "20190919",
+    "text": "Liprin-alpha (Liprin-alpha) encodes a scaffolding protein that interacts with the receptor phosphatase Lar. It is involved in synapse morphogenesis and axon guidance.",
+    "label": "Liprin-alpha is a scaffolding protein that regulates synapse development and axon guidance through interaction with the Lar receptor phosphatase."
+  },
+  {
+    "gene": "20190307",
+    "text": "BG642312 (BG642312) encodes a peptide produced in the male accessory glands and transferred to females during mating.",
+    "label": "BG642312 is a male accessory gland protein that is transferred to females during mating in Drosophila."
+  },
+  {
+    "gene": "20181115",
+    "text": "qless (qless) encodes a catalytic subunit of the mitochondrial prenyl diphosphate synthase complex that sequentially transfers isopentenyl diphosphate to farnesyl diphosphate to produce all-trans-polyprenyl diphosphate of varying chain length. It catalyzes the first step in the synthesis of the isoprenoid side chain of Coenzyme Q (ubiquinone), a lipid component of the mitochondrial electron transport chain.",
+    "label": "Qless is essential for Coenzyme Q synthesis by catalyzing the formation of polyprenyl diphosphate chains needed for the mitochondrial electron transport chain."
+  },
+  {
+    "gene": "20220519",
+    "text": "Jupiter (Jupiter) encodes a microtubule-associated protein. Jupiter-labeled microtubules move through the nurse cell-oocyte ring canals in stage 9 egg chambers.",
+    "label": "Jupiter encodes a microtubule-associated protein that facilitates microtubule movement through ring canals between nurse cells and oocytes during Drosophila egg chamber development."
+  },
+  {
+    "gene": "20190314",
+    "text": "Nnf1b (Nnf1b) encodes a component of the Mis12 complex, which is an essential constituent of the kinetochore.",
+    "label": "Nnf1b encodes a kinetochore protein that functions as part of the Mis12 complex during cell division."
+  },
+  {
+    "gene": "20190801",
+    "text": "smog (smog) encodes a G-protein-coupled receptor with a key role in gastrulation. It contributes to cell intercalation and apical constriction via myosin II activation.",
+    "label": "Smog is a G-protein-coupled receptor that regulates cell movements during gastrulation through myosin II-mediated cell shape changes."
+  },
+  {
+    "gene": "20181115",
+    "text": "saturn (saturn) is a newly evolved gene that encodes a predicted disordered protein with no homology to other known proteins. Males with reduced saturn expression are near-sterile, showing low sperm production and no sperm storage in mated females.",
+    "label": "Saturn is required for male fertility in Drosophila, specifically for proper sperm production and storage in females."
+  },
+  {
+    "gene": "20181115",
+    "text": "meru (meru) encodes a scaffold protein belonging to the N-terminal RASSF (Ras-association domain family) protein family. It is expressed in sensory organ precursor cells, where it promotes the planar polarization of the polarity protein encoded by baz.",
+    "label": "Meru is a scaffold protein that promotes planar polarization of Bazooka in sensory organ precursor cells."
+  },
+  {
+    "gene": "20190307",
+    "text": "Claspin (Claspin) encodes a nuclear protein that is involved in the ATR-Chk1 checkpoint pathway. It is required for the cell cycle checkpoint induced at midblastula transition.",
+    "label": "Claspin is a nuclear protein that functions in the ATR-Chk1 cell cycle checkpoint pathway and is required for checkpoint activation during midblastula transition."
+  },
+  {
+    "gene": "20190321",
+    "text": "zormin (zormin) encodes a protein found in the Z-disc and the M-line of muscles. It probably has a structural function.",
+    "label": "Zormin is a structural protein found in muscle Z-discs and M-lines in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "sphinx2 (sphinx2) encodes a protein related to the serine protease homolog, which is strongly expressed in the male accessory gland.",
+    "label": "Sphinx2 is a serine protease homolog expressed in male accessory glands of Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "sphinx1 (sphinx1) encodes a protein related to the serine protease homolog, which is strongly expressed in the male accessory gland.",
+    "label": "Sphinx1 is a serine protease homolog expressed in male accessory glands of Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "parvin (parvin) encodes a Calponin-homology protein that, together with the products of Ilk and stck, reinforces integrin-matrix adhesion at muscle attachment sites in the developing embryo. The product of parvin contributes to cell adhesion and actin cytoskeleton organisation in muscles, wing and eye epithelial cells.",
+    "label": "Parvin is a Calponin-homology protein that strengthens integrin-matrix adhesion and organizes the actin cytoskeleton in muscle and epithelial cells."
+  },
+  {
+    "gene": "20190307",
+    "text": "His4:CG33901 (His4:CG33901) encodes a histone H4 replacement variant that is part of the nucleosome core. It is the predominant histone H4 in non-dividing cells. Its amino acid sequence is identical to the cell-cycle regulated histone encoded by His4.",
+    "label": "His4:CG33901 encodes a histone H4 variant that forms part of the nucleosome core in non-dividing cells."
+  },
+  {
+    "gene": "20191003",
+    "text": "Zwilch (Zwilch) encodes a subunit of the RZZ complex located at the kinetochores of chromosomes. The RZZ complex plays an essential role in the spindle assembly checkpoint that ensures proper connections between chromosomes and the mitotic spindle.",
+    "label": "Zwilch encodes a kinetochore protein that helps ensure proper chromosome segregation during cell division through its role in the spindle assembly checkpoint."
+  },
+  {
+    "gene": "20190314",
+    "text": "Lasp (Lasp) encodes a member of the nebulin family. It plays subtle roles in modulating the actin cytoskeleton in ovaries, testes, and muscles, by serving as a scaffold protein binding multiple partners, especially actin and myosin. In indirect flight muscles, it contributes to I-band and A-band architecture.",
+    "label": "Lasp functions as a scaffold protein that modulates the actin cytoskeleton in reproductive organs and muscles by binding to actin, myosin, and other partners."
+  },
+  {
+    "gene": "20190314",
+    "text": "Patj (Patj) encodes a PDZ domain-protein that forms an apical protein complex with the products of crb and sdt. It plays supporting roles in apico-basal cell polarity and stability of adherens junction. It is also involved in retinal morphogenesis, maintenance, and planar cell polarity.",
+    "label": "Patj is a PDZ domain-protein that helps establish and maintain cell polarity and junction stability through interactions with other apical complex proteins."
+  },
+  {
+    "gene": "20190228",
+    "text": "Porin2 (Porin2) encodes a protein with voltage-independent cation-selective pore activity that is involved in ion transport.",
+    "label": "Porin2 functions as a voltage-independent cation channel that facilitates ion transport across membranes."
+  },
+  {
+    "gene": "20210128",
+    "text": "inaF-C (inaF-C) encodes one of the four isoforms at the InaF locus, which contains four small ORFs named inaF-A, inaF-B, inaF-C, and inaF-D, each of which is spliced to the same down-stream exon. Mutations in inaF-C and inaF-B greatly suppress the expression of photoreceptor channel protein trp. inaF-C and inaF-B co-immunolocalize with trp to the rhabdomeres, structures containing the photoreceptors.",
+    "label": "inaF-C regulates the expression and localization of the TRP photoreceptor channel protein in Drosophila rhabdomeres, which is essential for proper visual function."
+  },
+  {
+    "gene": "20210128",
+    "text": "inaF-A (inaF-A) encodes one of the four isoforms at the InaF locus, which contains four small ORFs named inaF-A, inaF-B, inaF-C, and inaF-D, each of which is spliced to the same down-stream exon. inaF-A is involved in the response to light stimulus.",
+    "label": "inaF-A functions in light response pathways in Drosophila."
+  },
+  {
+    "gene": "20190228",
+    "text": "natalisin (natalisin) encodes five signaling peptides with potent agonist activities toward the product of TkR86C.",
+    "label": "Natalisin produces signaling peptides that activate the TkR86C receptor."
+  },
+  {
+    "gene": "20190801",
+    "text": "Not1 (Not1) encodes a poly(A)-specific ribonuclease involved in translation inhibition and ovarian follicle cell development.",
+    "label": "Not1 is a ribonuclease that regulates translation and is required for proper ovarian follicle cell development in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "rumi (rumi) encodes an endoplasmic reticulum protein O-glucosyltransferase with dual specificity that catalyzes the attachment of alpha-D-glucose and alpha-D-xylose, via a beta-glycosidic bond, to the hydroxyl group of serine residues in EGF-like repeats of selected membrane or secreted proteins. It modulates the Notch signaling pathway and seems to regulate the function of other proteins, including the product of eys.",
+    "label": "Rumi is an O-glucosyltransferase that modifies EGF-like repeats on proteins in the endoplasmic reticulum, primarily affecting Notch signaling."
+  },
+  {
+    "gene": "20190307",
+    "text": "Invadolysin (Invadolysin) encodes a metalloprotease that is required for mitosis, cell migration and mitochondrial function.",
+    "label": "Invadolysin is a metalloprotease enzyme that plays essential roles in mitosis, cell migration, and mitochondrial function."
+  },
+  {
+    "gene": "20190314",
+    "text": "spn-F (spn-F) encodes a coiled-coil protein that forms part of the IKKepsilon-jvl complex. Its roles include actin and microtubule organization during oocyte development and bristle growth.",
+    "label": "spn-F is a coiled-coil protein that regulates cytoskeletal organization during Drosophila oocyte development and bristle formation."
+  },
+  {
+    "gene": "20190314",
+    "text": "Spf45 (Spf45) encodes a bi-functional protein with roles in both splicing and DNA repair.",
+    "label": "Spf45 functions as a protein involved in both pre-mRNA splicing and DNA repair mechanisms."
+  },
+  {
+    "gene": "20190307",
+    "text": "Bre1 (Bre1) encodes an E3 ubiquitin ligase that interacts with the E2 ubiquitin ligase encoded by Ubc6 to direct ubiquitination of histone H2B on lysine 120 at most RNA Polymerase II transcribed  genes. It regulates Notch signaling.",
+    "label": "Bre1 is an E3 ubiquitin ligase that ubiquitinates histone H2B to regulate gene transcription and Notch signaling."
+  },
+  {
+    "gene": "20190314",
+    "text": "Spc25 (Spc25) encodes a component of the Ndc80 complex, which is an essential kinetochore constituent.",
+    "label": "Spc25 is a kinetochore protein that functions as part of the Ndc80 complex to help ensure proper chromosome segregation during cell division."
+  },
+  {
+    "gene": "20190307",
+    "text": "eater (eater) encodes a transmembrane receptor of the Nimrod family specifically expressed in hemocytes and required for the phagocytosis of Gram positive bacteria and the attachment of hemocytes to sessile niches.",
+    "label": "Eater is a transmembrane receptor expressed in hemocytes that mediates phagocytosis of Gram-positive bacteria and helps hemocytes attach to sessile niches."
+  },
+  {
+    "gene": "20190307",
+    "text": "BG642167 (BG642167) encodes a peptide produced by the male accessory glands and is predicted to be secreted.",
+    "label": "BG642167 is a male accessory gland protein that produces a secreted peptide in Drosophila."
+  },
+  {
+    "gene": "20190228",
+    "text": "futsch (futsch) encodes a microtubule binding protein involved in the formation of synaptic buttons at the neuromuscular junctions. Its expression levels are regulated by the product of TBPH to prevent synaptic defects.",
+    "label": "Futsch is a microtubule binding protein that regulates synaptic button formation at neuromuscular junctions in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "Nedd4 (Nedd4) encodes an E3 ubiquitin ligase that negatively regulates the Notch signaling pathway and the genes comm, Amph. It contributes to neuromuscular synaptogenesis, transverse tubule formation in muscles, and in muscle function.",
+    "label": "Nedd4 is an E3 ubiquitin ligase that regulates neuromuscular development and function through protein degradation and Notch pathway modulation."
+  },
+  {
+    "gene": "20190314",
+    "text": "Mob2 (Mob2) encodes a protein that belongs to the Mob1/phocein domain protein family. Its functions include rhabdomere determination during photoreceptor development.",
+    "label": "Mob2 is involved in determining rhabdomere development in Drosophila photoreceptors."
+  },
+  {
+    "gene": "20190307",
+    "text": "Jabba (Jabba) encodes a lipid droplet protein that sequesters histones on lipid droplets. It promotes proper development of pre-cellular embryos, controls levels of nuclear histones, and mediates anti-bacterial protection.",
+    "label": "Jabba is a lipid droplet protein that stores and regulates histones on lipid droplets, which is essential for proper embryo development and histone homeostasis."
+  },
+  {
+    "gene": "20190321",
+    "text": "wech (wech) encodes a member of the RBCC/TRIM family of cytoplasmic multidomain proteins. It is a regulator of integrin-mediated adhesion. It interacts with the products of rhea and Ilk, which are components of the integrin-cytoskeleton link.",
+    "label": "Wech is a cytoplasmic protein that regulates integrin-mediated cell adhesion by interacting with components of the integrin-cytoskeleton link."
+  },
+  {
+    "gene": "20190314",
+    "text": "loopin-1 (loopin-1) encodes a testis-specific protein with homology to several leucine aminopeptidases. Sequence analysis suggest that it doesn't have enzymatic activity. It accumulates inside the axoneme-associated mitochondrial derivative in mature sperms.",
+    "label": "Loopin-1 is a testis-specific protein that localizes to mitochondrial derivatives in mature Drosophila sperm."
+  },
+  {
+    "gene": "20210128",
+    "text": "inaF-B (inaF-B) encodes one of the four isoforms at the InaF locus, which contains four small ORFs named inaF-A, inaF-B, inaF-C, and inaF-D, each of which is spliced to the same down-stream exon. Mutations in inaF-B and inaF-C greatly suppress the expression of photoreceptor channel protein trp. inaF-B and inaF-C co-immunolocalize with trp to the rhabdomeres, structures containing the photoreceptors.",
+    "label": "inaF-B regulates the expression and localization of the TRP photoreceptor channel protein in Drosophila rhabdomeres, which is essential for proper visual function."
+  },
+  {
+    "gene": "20190314",
+    "text": "nab (nab) encodes a transcriptional co-factor that acts in combination with the transcriptional factors encoded by rn in proximal-distal wing patterning and the product of sqz in CNS development.",
+    "label": "Nab functions as a transcriptional co-factor that regulates wing patterning and CNS development by interacting with specific transcription factors."
+  },
+  {
+    "gene": "20190314",
+    "text": "rhea (rhea) encodes fly talin, a large adaptor protein that is essential for all adhesive functions of integrins. It also has at least one role independent of integrins: repressing shg transcription in follicle cells.",
+    "label": "Rhea encodes talin, a protein that mediates integrin-based cell adhesion and regulates shg transcription in Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "2mit (2mit) encodes a putative leucine-rich repeat transmembrane protein that is mainly expressed in the developing central nervous system. In the adult, it has a role in short-term memory.",
+    "label": "2mit is a transmembrane protein involved in short-term memory formation in Drosophila."
+  },
+  {
+    "gene": "20210128",
+    "text": "inaF-D (inaF-D) encodes one of the four isoforms at the InaF locus, which contains four small ORFs named inaF-A, inaF-B, inaF-C, and inaF-D, each of which is spliced to the same down-stream exon. Contrary to the other isoforms, the biological role of inaF-D is poorly understood.",
+    "label": "The biological function of inaF-D in Drosophila is not well understood, as it is one of four isoforms at the InaF locus that share a common downstream exon."
+  },
+  {
+    "gene": "20190613",
+    "text": "par-1 (par-1) encodes a protein kinase involved in multiple processes, including microtubule cytoskeleton organization, axis specification and cell polarity. It regulates hippo signaling and osk mRNA localization.",
+    "label": "Par-1 is a protein kinase that regulates cell polarity, cytoskeletal organization, and axis specification through phosphorylation of target proteins."
+  },
+  {
+    "gene": "20190919",
+    "text": "Baldspot (Baldspot) encodes a protein involved in spermatogenesis.",
+    "label": "Baldspot functions in spermatogenesis in Drosophila."
+  },
+  {
+    "gene": "20190516",
+    "text": "Xrp1 (Xrp1) encodes an AT-Hook, bZip DNA binding protein involved in genome stability maintenance. It heterodimerizes with the product of Irbp18 to bind to P element sequences  ng to transposition. It is induced by p53 following X-irradiation and by mutations or knockdown of caz or ribosomal protein (Rp) encoding genes. It contributes to the slow growth of Minute (Rp+/-) mutants cell-autonomously by inhibiting translation and non-autonomously through regulation of the product of Ilp8.",
+    "label": "Xrp1 is a DNA-binding protein that regulates genome stability, cellular growth, and translation in response to various cellular stresses including radiation damage and ribosomal protein deficiencies."
+  },
+  {
+    "gene": "20190314",
+    "text": "nero (nero) encodes a deoxyhypusine hydroxylase enzyme that is required for the hypusination of eEF5 and is localized to the endoplasmic reticulum. It negatively regulates autophagy.",
+    "label": "Nero is a deoxyhypusine hydroxylase that modifies eEF5 through hypusination and negatively regulates autophagy."
+  },
+  {
+    "gene": "20190228",
+    "text": "nbs (nbs) encodes a component of the conserved MRN complex, which plays an important role in the repair of DNA double strand breaks. The product of nbs is required to prevent chromosome breakage, interacts with the telomere capping complex and prevents telomeric fusions.",
+    "label": "Nbs is part of the MRN complex that repairs DNA double strand breaks and maintains telomere integrity to prevent chromosome damage."
+  },
+  {
+    "gene": "20190314",
+    "text": "Thor (Thor) encodes a eukaryotic translation initiation factor 4E binding protein that is controlled by the product of tor. It contributes to translation regulation, response to environmental stress and cell growth regulation.",
+    "label": "Thor functions as a translational repressor by binding to eIF4E, regulating cell growth and stress responses downstream of TOR signaling."
+  },
+  {
+    "gene": "20190228",
+    "text": "CoRest (CoRest) encodes a DNA binding factor that controls transcription in cooperation with other transcriptional regulators. It positively modulates Notch signaling as well as showing co-repressor activity via histone modification regulation.",
+    "label": "CoRest is a transcriptional regulator that functions as both a co-activator of Notch signaling and a co-repressor through histone modifications."
+  },
+  {
+    "gene": "20190919",
+    "text": "tweek (tweek) encodes a protein involved in the endocytosis of synaptic vesicles.",
+    "label": "Tweek functions in synaptic vesicle endocytosis in Drosophila neurons."
+  },
+  {
+    "gene": "20190307",
+    "text": "Dbx (Dbx) encodes a homedomain transcription factor expressed in distinct subsets of interneurons. It helps control the differentiation of these neurons, which tend to extend short axons and be GABA-ergic, via cross-repressive interactions with the products of exex and eve. The roles of the product of Dbx include neuronal specification and differentiation.",
+    "label": "Dbx is a homeodomain transcription factor that controls the differentiation and specification of GABAergic interneurons through repressive interactions with other transcription factors."
+  },
+  {
+    "gene": "20190314",
+    "text": "pico (pico) encodes an intracellular adapter protein belonging to the MRL family of proteins, which transduce signals from growth factor receptors to changes in the actin cytoskeleton. Its roles include the regulation of growth and cell migration.",
+    "label": "Pico functions as an adapter protein that mediates signals from growth factor receptors to regulate actin cytoskeleton organization, cell growth, and migration."
+  },
+  {
+    "gene": "20190314",
+    "text": "osa (osa) encodes a subunit of the BAP chromatin remodeling complex. It antagonizes Wnt target gene expression and limits the self-renewal of neural and intestinal stem cells.",
+    "label": "Osa is a chromatin remodeling complex subunit that regulates stem cell self-renewal by suppressing Wnt signaling targets."
+  },
+  {
+    "gene": "20190912",
+    "text": "dikar (dikar) encodes a protein involved in long-term memory.",
+    "label": "Dikar functions in long-term memory formation in Drosophila."
+  },
+  {
+    "gene": "20190307",
+    "text": "dachs (dachs) encodes a myosin family protein that participates in Dachsous-Fat signaling, which polarizes its localization. It influences planar cell polarity, partly through interaction with the product of pk, and growth, through interaction with the product of wts.",
+    "label": "Dachs is a myosin protein that mediates Dachsous-Fat signaling to regulate planar cell polarity and tissue growth in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "magu (magu) encodes a secreted protein that binds glypicans and regulates BMP signaling. It contributes to the regulation of growth and patterning of the wing, germ-line stem cell maintenance and adult life span.",
+    "label": "Magu is a secreted protein that regulates BMP signaling through glypican binding to control tissue growth, stem cell maintenance, and lifespan in Drosophila."
+  },
+  {
+    "gene": "20190516",
+    "text": "Rab8 (Rab8) encodes a member of the Rab GTPase family that regulates the function of the recycling endosome, where it localizes.",
+    "label": "Rab8 is a GTPase that regulates recycling endosome function and localization."
+  },
+  {
+    "gene": "20190314",
+    "text": "Mi-2 (Mi-2) encodes a nuclear ATP-dependent nucleosome remodeler of the CHD family. It associates with active chromatin and utilizes the energy of ATP hydrolysis to move nucleosomes along DNA. It is required for repression of cell type-specific genes, full activation of heat shock genes and regulates higher order chromatin structure of polytene chromosomes.",
+    "label": "Mi-2 is an ATP-dependent nucleosome remodeling protein that regulates gene expression through chromatin modification and restructuring."
+  },
+  {
+    "gene": "20190314",
+    "text": "Myc (Myc) encodes a transcription factor that is homologous to vertebrate Myc proto-oncogenes. It contributes to cell growth, cell competition and regenerative proliferation.",
+    "label": "Myc is a transcription factor that regulates cell growth, competition, and regenerative proliferation in Drosophila."
+  },
+  {
+    "gene": "20190919",
+    "text": "lute (lute) encodes a protein involved in neurogenesis.",
+    "label": "Lute functions in neurogenesis in Drosophila."
+  },
+  {
+    "gene": "20181004",
+    "text": "Mitf (Mitf) encodes a b-HLH-Zip transcription factor that regulates basic cellular processes in part by controlling the expression of the vacuolar (H[+])-ATPase subunits.",
+    "label": "Mitf is a transcription factor that regulates cellular processes by controlling V-ATPase subunit expression."
+  },
+  {
+    "gene": "20190516",
+    "text": "Patronin (Patronin) encodes a microtubule minus-end binding protein that can promote acentrosomal nucleation of microtubules. Apical localisation of the Patronin product orients microtubules in polarised epithelial cells and in oocytes.",
+    "label": "Patronin is a microtubule minus-end binding protein that regulates microtubule organization and orientation in polarized cells."
+  },
+  {
+    "gene": "20190314",
+    "text": "lost (lost) encodes a protein that interacts with the RNA-binding protein encoded by rump for posterior localization of mRNAs by diffusion/entrapment during late stages of oogenesis. The identification of the product of lost in various RNP complexes suggests a broad role in RNA metabolism.",
+    "label": "Lost functions in RNA metabolism and posterior mRNA localization during Drosophila oogenesis through interactions with RNA-binding proteins."
+  },
+  {
+    "gene": "20190307",
+    "text": "ebi (ebi) encodes a nuclear-localized protein that regulates Egfr, Notch and Wg signaling pathways. ebi encoded product contributes to multiple processes including wing growth and eye development as well as regulation of transcription and innate immune response.",
+    "label": "ebi encodes a nuclear protein that regulates multiple signaling pathways (Egfr, Notch, and Wg) involved in development and immune response."
+  },
+  {
+    "gene": "20190627",
+    "text": "qin (qin) is a piRNA pathway gene that encodes a protein involved in posttranscriptional gene silencing.",
+    "label": "Qin functions in the piRNA pathway to regulate gene silencing at the posttranscriptional level."
+  },
+  {
+    "gene": "20190307",
+    "text": "Fife (Fife) encodes a synaptic scaffolding protein that promotes neurotransmitter release and normal motor behavior.",
+    "label": "Fife is a synaptic scaffolding protein that facilitates neurotransmitter release at synapses and supports proper motor function."
+  },
+  {
+    "gene": "20190926",
+    "text": "Lst8 (Lst8) encodes a conserved TOR-binding protein that may be required for Crtc-dependent regulation of cell growth based on genetic evidence.",
+    "label": "Lst8 is a TOR-binding protein involved in regulating cell growth through the TOR signaling pathway."
+  },
+  {
+    "gene": "20190314",
+    "text": "Meltrin (Meltrin) encodes an ADAM protein that belongs to the metzincin superfamily of metalloproteases. It is regulated by the homeobox protein encoded by vnd during embryonic development.",
+    "label": "Meltrin encodes a metalloprotease ADAM protein that is regulated by vnd during Drosophila embryonic development."
+  },
+  {
+    "gene": "20190926",
+    "text": "rudhira (rudhira) is expressed in nephrocytes and encodes a protein that regulates macromolecular uptake and clearance by nephrocytes to maintain tissue homeostasis.",
+    "label": "Rudhira regulates macromolecular uptake and clearance in nephrocytes to maintain tissue homeostasis."
+  },
+  {
+    "gene": "20231116",
+    "text": "tau (tau) encodes a microtubule associated protein, which is a specific marker for posterior signalling center cells, a subtype of immune cells. Its human ortholog is well known for its role in the stabilisation of the neuronal cytoskeleton and implication in diverse neuronal diseases, including Alzheimer's disease, where the accumulation of tau protein causes neuronal decay.",
+    "label": "Tau encodes a microtubule-associated protein that functions as a marker for posterior signaling center immune cells and helps stabilize the cytoskeleton."
+  },
+  {
+    "gene": "20190307",
+    "text": "hog (hog) encodes a short protein required for centripetal follicle cell migration and eggshell formation. It may play a role in modulating transcriptional fidelity in the early embryo.",
+    "label": "Hog is required for proper follicle cell migration during egg development and eggshell formation in Drosophila."
+  },
+  {
+    "gene": "20190314",
+    "text": "JYalpha (JYalpha) is a gene essential for male fertility as mutants produce immotile sperm.",
+    "label": "JYalpha is essential for sperm motility in male Drosophila."
+  },
+  {
+    "gene": "20190321",
+    "text": "Yeti (Yeti) encodes an essential chromatin protein that interacts with subunits of the Tip60 chromatin remodeling complex. Yeti loss results in lethality at the larval stage and in chromosome organization defects.",
+    "label": "Yeti is an essential chromatin protein that regulates chromosome organization through interactions with the Tip60 chromatin remodeling complex."
+  },
+  {
+    "gene": "20190912",
+    "text": "corolla (corolla) encodes a protein phosphatase 1 binding protein involved in centromere clustering and meiotic nuclear division.",
+    "label": "Corolla is a protein phosphatase 1 binding protein that regulates centromere clustering and meiotic nuclear division in Drosophila."
+  },
+  {
+    "gene": "20190328",
+    "text": "vilya (vilya) encodes a meiosis-specific ring-domain-containing protein that is required for programmed meiotic double-strand break formation. It also functions as a component of the recombination nodule.",
+    "label": "Vilya is a meiosis-specific protein that facilitates double-strand break formation and functions in recombination nodules during meiosis."
+  },
+  {
+    "gene": "20190328",
+    "text": "prage (prage) encodes a protein involved in maternal mRNA destabilization during the maternal/zygotic transition in embryonic development.",
+    "label": "Prage functions in degrading maternal mRNAs during the maternal-to-zygotic transition in Drosophila embryo development."
+  },
+  {
+    "gene": "20190328",
+    "text": "Rab1 (Rab1) encodes a small GTPase which regulates endoplasmic reticulum to Golgi and intra Golgi trafficking through different effectors. It has been involved in Notch signaling, cell migration, autophagy and cytokinesis.",
+    "label": "Rab1 is a small GTPase that regulates protein trafficking between the endoplasmic reticulum and Golgi apparatus."
+  },
+  {
+    "gene": "20190307",
+    "text": "xmas (xmas) encodes encodes a hydrophilic protein that is involved in spermatogenesis, oogenesis and embryogenesis.",
+    "label": "Xmas is a hydrophilic protein required for proper gametogenesis and embryonic development in Drosophila."
+  },
+  {
+    "gene": "20250320",
+    "text": "speck (speck) encodes an important enzyme of the melatonin production pathway. It converts serotonin to N-acetylserotonin to regulate melatonin daily cycles.",
+    "label": "Speck converts serotonin to N-acetylserotonin as part of the melatonin biosynthesis pathway in Drosophila."
+  }
+]

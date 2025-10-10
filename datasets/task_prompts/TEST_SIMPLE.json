@@ -1,0 +1,4 @@
+{
+  "Task": "Identify important genes from this test dataset.\n\nCRITICAL: This dataset contains exactly these genes: GENE_1, GENE_2, GENE_3, GENE_4, GENE_5, GENE_6, GENE_7, GENE_8, GENE_9, GENE_10, GENE_11, GENE_12, GENE_13, GENE_14, GENE_15, GENE_16, GENE_17, GENE_18, GENE_19, GENE_20, GENE_21, GENE_22, GENE_23, GENE_24, GENE_25, GENE_26, GENE_27, GENE_28, GENE_29, GENE_30, GENE_31, GENE_32, GENE_33, GENE_34, GENE_35, GENE_36, GENE_37, GENE_38, GENE_39, GENE_40, GENE_41, GENE_42, GENE_43, GENE_44, GENE_45, GENE_46, GENE_47, GENE_48, GENE_49, GENE_50\n\nYou MUST select genes from this exact list. Do NOT use biological gene names.\n\nThe highest scoring genes are: GENE_1, GENE_2, GENE_3, GENE_4, GENE_5\nThe lowest scoring genes are: GENE_46, GENE_47, GENE_48, GENE_49, GENE_50\n\nSelect genes that exist in this dataset only.",
+  "Measurement": "Gene importance score (0.1 to 1.0). Higher = more important."
+}

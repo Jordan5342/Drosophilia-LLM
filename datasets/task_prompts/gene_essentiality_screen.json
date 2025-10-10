@@ -1,0 +1,13 @@
+{
+  "Task": "Identify genes important for gene_essentiality_screen based on screening data",
+  "Measurement": "Gene importance score derived from construct frequency and biological relevance",
+  "Bio_Task_Name": "gene_essentiality_screen",
+  "Generated_Date": "2025-07-31T21:15:44.079064",
+  "Data_Summary": {
+    "Total_Genes": 15073,
+    "Score_Range": [
+      0.01,
+      1.0
+    ]
+  }
+}

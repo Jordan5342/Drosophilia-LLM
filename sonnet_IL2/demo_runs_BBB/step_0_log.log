@@ -1,0 +1,83 @@
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interleukin-2 (IL-2). There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interleukin-2 (IL-2) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+ 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the initial step, there are no previous results to reflect on. We need to start by selecting an initial set of genes to test that could potentially regulate IL-2 production.
+
+2. Research Plan: 
+1. Select an initial set of 64 genes based on known involvement in immune regulation or cytokine production pathways. (Current step)
+2. Conduct the first round of CRISPR screening with these genes and measure IL-2 production.
+3. Analyze results to identify genes with significant effects on IL-2 production.
+4. Use these results to inform the selection of the next set of genes for testing.
+5. Repeat steps 2-4 for subsequent rounds, refining gene selection based on previous results.
+
+3. Solution:
+1. NFAT1, 2. NFAT2, 3. NFKB1, 4. NFKB2, 5. STAT5A, 6. STAT5B, 7. JAK1, 8. JAK3, 9. CD28, 10. CTLA4, 11. IL2RA, 12. IL2RB, 13. IL2RG, 14. ZAP70, 15. LCK, 16. FOXP3, 17. ICOS, 18. CD80, 19. CD86, 20. TRAF6, 21. MAPK1, 22. MAPK3, 23. NFATC1, 24. NFATC2, 25. AP1, 26. JUN, 27. FOS, 28. RELA, 29. RELB, 30. IKBKB, 31. IKBKG, 32. TNFRSF4, 33. CD40LG, 34. IL15, 35. IL21, 36. STAT3, 37. STAT1, 38. IRF4, 39. BATF, 40. ETS1, 41. RUNX1, 42. GATA3, 43. TBX21, 44. EOMES, 45. BCL6, 46. PRDM1, 47. MYC, 48. FOXO1, 49. FOXO3, 50. CREB1, 51. ATF2, 52. NFIL3, 53. IRF1, 54. SOCS1, 55. SOCS3, 56. PTPN22, 57. SHP1, 58. SHP2, 59. PTEN, 60. PI3K, 61. AKT1, 62. mTOR, 63. RHEB, 64. TSC1
+===================tokens=====================
+Number of prompt tokens: 239
+Number of sampled tokens: 588
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interleukin-2 (IL-2). There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interleukin-2 (IL-2) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have so far predicted 57 out of the required 64 genes for this round. These were: 
+['IRF1', 'NFKB2', 'STAT3', 'RELA', 'CD28', 'CD80', 'BATF', 'TSC1', 'STAT1', 'RHEB', 'IL2RA', 'GATA3', 'MAPK1', 'MYC', 'STAT5A', 'CD86', 'ZAP70', 'SOCS3', 'ETS1', 'MAPK3', 'RELB', 'IKBKG', 'ATF2', 'NFKB1', 'BCL6', 'IL2RG', 'ICOS', 'FOXP3', 'TRAF6', 'NFATC1', 'SOCS1', 'IRF4', 'LCK', 'CD40LG', 'IL21', 'PRDM1', 'JAK3', 'IL2RB', 'JUN', 'NFATC2', 'FOXO3', 'FOXO1', 'CTLA4', 'TNFRSF4', 'NFIL3', 'IL15', 'PTEN', 'FOS', 'STAT5B', 'JAK1', 'TBX21', 'AKT1', 'IKBKB', 'EOMES', 'RUNX1', 'CREB1', 'PTPN22']
+ Please add 7 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'SHP1', 'NFAT2', 'mTOR', 'NFAT1', 'SHP2', 'PI3K', 'AP1'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: Based on the previously selected genes, we have covered many key players in IL-2 regulation, including transcription factors, signaling molecules, and immune regulators. To complete the list, we should consider additional genes involved in T cell activation, cytokine signaling, and regulatory pathways that may influence IL-2 production.
+
+2. Research Plan: The current plan involves conducting a genome-wide CRISPR screen to identify genes regulating IL-2 production. We have selected 57 genes based on their known roles in immune regulation and IL-2 signaling. To complete the list of 64 genes, we will add 7 more genes involved in T cell function, cytokine signaling, and regulatory pathways. After this round, we will analyze the results to identify the most significant regulators of IL-2 production and plan subsequent rounds of experimentation.
+
+3. Solution: Here are 7 additional genes to complete the list of 64:
+58. CD3E
+59. LAT
+60. TNFRSF9
+61. IL7R
+62. CBLB
+63. PTPRC
+64. NFKBIA
+===================tokens=====================
+Number of prompt tokens: 588
+Number of sampled tokens: 227
+
+

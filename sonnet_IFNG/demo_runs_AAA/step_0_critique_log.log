@@ -1,0 +1,91 @@
+
+===================prompt=====================
+
+
+Human: You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+            
+
+
+Now for the next round of experiment your students are planning on testing the following genes: 
+['CD226', 'CD28', 'STAT4', 'CTLA4', 'MAPK3', 'BTLA', 'JAK1', 'IL12RB1', 'NFATC2', 'MAPK1', 'JUNB', 'CD27', 'NFIL3', 'ATF3', 'IRF8', 'BATF', 'CTCF', 'IKBKB', 'ICOS', 'IL12RB2', 'IL18RAP', 'NFKB1', 'SMAD3', 'TIGIT', 'EOMES', 'LAG3', 'IRF1', 'GATA3', 'PTEN', 'FOXO1', 'EZH2', 'CD96', 'RUNX3', 'TYK2', 'FOXP3', 'IL18R1', 'STAT1', 'AKT1', 'RELA', 'CREB1', 'GSK3B', 'TNFRSF1A', 'PTPN2', 'SOCS3', 'JAK2', 'SOCS1', 'SMAD4', 'IRF4', 'PTPRC', 'IL2RA', 'CD3E', 'NFATC1', 'TNFSF4', 'IFNGR2', 'NFKBIA', 'TNFRSF4', 'IKZF2', 'IL2', 'IFNGR1', 'LCK', 'STAT3', 'TRAF6', 'ZAP70', 'MAPK14']
+
+As an advisor, please critique this plan and suggest some changes to it. Use this format: 
+1. Critique: include all relevant details of the critique.  
+2. Updated Solution: Give an updated selection of 64 genes based on the critique separated by commas in this format:: 1. <Gene name 1>, 2. <Gene name 2> ... 
+
+
+Please do not critique/make changes if there is no need to make a change.
+
+ 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+After carefully reviewing the proposed list of genes for the next round of experimentation, I find that the selection is well-thought-out and appropriate for the research problem. Here's my assessment:
+
+1. Critique:
+The selected genes represent a diverse and relevant set of targets for investigating the regulation of Interferon-gamma (IFNG) production. The list includes:
+
+- Key transcription factors (e.g., STAT1, STAT3, STAT4, IRF1, IRF4, IRF8)
+- Important signaling molecules (e.g., JAK1, JAK2, MAPK1, MAPK3, AKT1)
+- Cytokine receptors and associated proteins (e.g., IL12RB1, IL12RB2, IL18R1, IL18RAP)
+- T cell activation and co-stimulatory molecules (e.g., CD28, CTLA4, ICOS, CD27)
+- Regulatory T cell-associated factors (e.g., FOXP3, IKZF2)
+- Checkpoint inhibitors (e.g., LAG3, TIGIT, BTLA)
+
+This selection covers multiple aspects of T cell biology and IFNG regulation, including activation, differentiation, and inhibition pathways. The genes chosen are known to be involved in IFNG production or are part of related signaling cascades, making them suitable targets for this CRISPR screen.
+
+Given the well-rounded and appropriate nature of the gene selection, I don't see any significant issues or areas for improvement in the current plan. The list of 64 genes appears to be well-suited for the research problem at hand.
+
+2. Updated Solution:
+As there are no necessary changes to be made, the original list of 64 genes can be maintained for the next round of experimentation.
+===================tokens=====================
+Number of prompt tokens: 555
+Number of sampled tokens: 361
+
+
+
+===================prompt=====================
+
+
+Human: You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+            
+
+
+Now for the next round of experiment your students are planning on testing the following genes: 
+['CD226', 'CD28', 'STAT4', 'CTLA4', 'MAPK3', 'BTLA', 'JAK1', 'IL12RB1', 'NFATC2', 'MAPK1', 'JUNB', 'CD27', 'NFIL3', 'ATF3', 'IRF8', 'BATF', 'CTCF', 'IKBKB', 'ICOS', 'IL12RB2', 'IL18RAP', 'NFKB1', 'SMAD3', 'TIGIT', 'EOMES', 'LAG3', 'IRF1', 'GATA3', 'PTEN', 'FOXO1', 'EZH2', 'CD96', 'RUNX3', 'TYK2', 'FOXP3', 'IL18R1', 'STAT1', 'AKT1', 'RELA', 'CREB1', 'GSK3B', 'TNFRSF1A', 'PTPN2', 'SOCS3', 'JAK2', 'SOCS1', 'SMAD4', 'IRF4', 'PTPRC', 'IL2RA', 'CD3E', 'NFATC1', 'TNFSF4', 'IFNGR2', 'NFKBIA', 'TNFRSF4', 'IKZF2', 'IL2', 'IFNGR1', 'LCK', 'STAT3', 'TRAF6', 'ZAP70', 'MAPK14']
+
+As an advisor, please critique this plan and suggest some changes to it. Use this format: 
+1. Critique: include all relevant details of the critique.  
+2. Updated Solution: Give an updated selection of 64 genes based on the critique separated by commas in this format:: 1. <Gene name 1>, 2. <Gene name 2> ... 
+
+
+Please do not critique/make changes if there is no need to make a change.
+
+
+ You have so far predicted 0 out of the required 64 genes for this round. These were: 
+[]
+ Please add 64 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'As there are no necessary changes to be made'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+Based on the information provided, I don't see any significant issues with the proposed plan. The selection of genes appears to be well-thought-out and includes many key players involved in IFNG regulation and T cell function. However, I can offer a minor suggestion to potentially improve the experimental design:
+
+1. Critique: The current list includes 64 genes, which is the maximum number that can be perturbed at a time. It might be beneficial to include a few additional genes as backups in case any of the selected genes fail in the CRISPR screen process.
+
+2. Updated Solution: I'll provide a list of 64 genes from the original selection, plus 5 additional genes that could serve as backups or alternatives. The genes are listed in the requested format:
+
+1. CD226, 2. CD28, 3. STAT4, 4. CTLA4, 5. MAPK3, 6. BTLA, 7. JAK1, 8. IL12RB1, 9. NFATC2, 10. MAPK1, 11. JUNB, 12. CD27, 13. NFIL3, 14. ATF3, 15. IRF8, 16. BATF, 17. CTCF, 18. IKBKB, 19. ICOS, 20. IL12RB2, 21. IL18RAP, 22. NFKB1, 23. SMAD3, 24. TIGIT, 25. EOMES, 26. LAG3, 27. IRF1, 28. GATA3, 29. PTEN, 30. FOXO1, 31. EZH2, 32. CD96, 33. RUNX3, 34. TYK2, 35. FOXP3, 36. IL18R1, 37. STAT1, 38. AKT1, 39. RELA, 40. CREB1, 41. GSK3B, 42. TNFRSF1A, 43. PTPN2, 44. SOCS3, 45. JAK2, 46. SOCS1, 47. SMAD4, 48. IRF4, 49. PTPRC, 50. IL2RA, 51. CD3E, 52. NFATC1, 53. TNFSF4, 54. IFNGR2, 55. NFKBIA, 56. TNFRSF4, 57. IKZF2, 58. IL2, 59. IFNGR1, 60. LCK, 61. STAT3, 62. TRAF6, 63. ZAP70, 64. MAPK14
+
+Additional backup genes: 65. TBET, 66. IL27RA, 67. TNFRSF9, 68. NFATC3, 69. STAT5B
+
+These additional genes are also relevant to IFNG regulation and T cell function, and could be used if any of the primary 64 genes encounter issues during the CRISPR screen process.
+===================tokens=====================
+Number of prompt tokens: 610
+Number of sampled tokens: 680
+
+

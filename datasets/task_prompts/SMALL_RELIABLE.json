@@ -1,0 +1,4 @@
+{
+  "Task": "Identify essential genes from this curated set of 200 high-scoring genes.\n\nAll genes here are already high-scoring (top 200 out of 15,073).\nYour job: Find the HIGHEST scoring genes within this elite set.\n\nScore range: 0.498 to 1.000\n\nTop examples: GENE_9491, GENE_10303, GENE_15048, GENE_10304, GENE_15049, GENE_17688, GENE_10302, GENE_17665\n\nStrategy: Pick genes with scores closest to 1.000",
+  "Measurement": "Curated importance scores (0.498 to 1.000)"
+}

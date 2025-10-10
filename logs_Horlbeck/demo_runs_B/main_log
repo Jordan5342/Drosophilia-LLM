@@ -1,0 +1,15 @@
+Enabled Tools:['Reflection', 'Arxiv Search']
+================================Start=============================
+You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Identify gene combinations that exhibit interactin effects (synergistic or buffering) on cell fitness in K562 cells upon combinatorial knockdown. An interaction effect should be determined by the deviation between the observed cell fitness and the expected fitness, which is calculated from the average impact of knocking down each gene individually.. There are 18,939 possible  genes to perturb and I can only perturb 32 genes at a time. For each perturbation, I'm able to measure out The difference between the actual change in cell fitness and the expected additive effect from the individual knockdowns of the two genes. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Step 0:

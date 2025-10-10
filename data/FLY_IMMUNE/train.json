@@ -1,0 +1,78 @@
+[
+    {
+      "gene": "spz",
+      "context": "Spätzle (spz) is the cytokine-like ligand that activates the Toll receptor in Drosophila, initiating the Toll pathway involved in antifungal and Gram-positive bacterial immunity.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Toll",
+      "context": "Toll is a transmembrane receptor in Drosophila that mediates immune responses to Gram-positive bacteria and fungi through activation of the NF-κB transcription factors Dorsal and Dif.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Tube",
+      "context": "Tube is an adaptor protein that transmits signals from the Toll receptor to downstream components such as Pelle in Drosophila immune signaling.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Pelle",
+      "context": "Pelle is a serine/threonine kinase activated by the Toll pathway and is essential for signal transduction leading to the degradation of Cactus and activation of Dorsal.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Cactus",
+      "context": "Cactus is the IκB-like inhibitor of NF-κB transcription factors (Dorsal and Dif) in Drosophila, regulating their nuclear localization in immune responses.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Dorsal",
+      "context": "Dorsal is an NF-κB transcription factor activated by Toll signaling in Drosophila, controlling the expression of antimicrobial peptides.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Dif",
+      "context": "Dif is a Rel family transcription factor activated by the Toll pathway, regulating antimicrobial genes in Drosophila immunity.",
+      "label": "TBD"
+    },
+    {
+      "gene": "PGRP-LC",
+      "context": "Peptidoglycan Recognition Protein LC (PGRP-LC) is a pattern recognition receptor in Drosophila that senses DAP-type peptidoglycan and activates the Imd pathway.",
+      "label": "TBD"
+    },
+    {
+      "gene": "IMD",
+      "context": "IMD is an adaptor protein that mediates downstream signaling of the Imd pathway in Drosophila, leading to activation of Relish and antimicrobial gene expression.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Dredd",
+      "context": "Dredd is a caspase required for activation of the NF-κB transcription factor Relish in the Drosophila Imd immune signaling pathway.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Rel",
+      "context": "Relish (Rel) is a Drosophila NF-κB transcription factor activated by the Imd pathway and essential for induction of antimicrobial peptides.",
+      "label": "TBD"
+    },
+    {
+      "gene": "Tak1",
+      "context": "Tak1 is a MAP3K that plays a role in both the Imd and JNK signaling pathways in Drosophila immunity, contributing to Relish activation.",
+      "label": "TBD"
+    },
+    {
+      "gene": "FADD",
+      "context": "FADD is an adaptor protein that facilitates signal transduction in the Drosophila Imd pathway, acting upstream of Dredd.",
+      "label": "TBD"
+    },
+    {
+      "gene": "AttA",
+      "context": "Attacin A (AttA) is an antimicrobial peptide gene induced by the Imd pathway in Drosophila, active against Gram-negative bacteria.",
+      "label": "TBD"
+    },
+    {
+      "gene": "CecA1",
+      "context": "Cecropin A1 (CecA1) is an antimicrobial peptide produced in response to infection in Drosophila and is regulated by both the Imd and Toll pathways.",
+      "label": "TBD"
+    }
+  ]
+  

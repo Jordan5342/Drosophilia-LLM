@@ -1,0 +1,4 @@
+{
+  "Task": "Identify essential genes from this focused high-scoring dataset.\n\nThis dataset contains the top 1000 highest-scoring genes from the full screen.\nScores range from 0.411 to 1.000 (all high-scoring).\n\nSTRATEGY: Since all genes here have relatively high scores, look for:\n1. The highest scoring genes (closest to 1.000)\n2. Genes that score well above the mean (0.469)\n3. Patterns in gene IDs that correlate with importance\n\nTop examples: GENE_9491, GENE_10303, GENE_15048, GENE_10304, GENE_15049, GENE_17688, GENE_10302, GENE_17665, GENE_17662, GENE_17654",
+  "Measurement": "Gene importance score (0.411 to 1.000). All genes are pre-selected high scorers."
+}

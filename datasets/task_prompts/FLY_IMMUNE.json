@@ -1,0 +1,4 @@
+{
+    "Task": "Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.",
+    "Measurement": "The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect."
+  }

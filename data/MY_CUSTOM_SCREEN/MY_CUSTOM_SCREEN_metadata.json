@@ -1,0 +1,64 @@
+{
+  "dataset_name": "MY_CUSTOM_SCREEN",
+  "description": "Identify genes important for gene_essentiality_screen based on screening data",
+  "measurement": "Gene importance score derived from construct frequency and biological relevance",
+  "total_genes": 15073,
+  "positive_hits": 753,
+  "negative_examples": 753,
+  "score_stats": {
+    "min": 0.01,
+    "max": 1.0,
+    "mean": 0.2557100071651297,
+    "std": 0.10482366868125721
+  },
+  "top_genes": [
+    "10303",
+    "9491",
+    "15048",
+    "10304",
+    "15049",
+    "17688",
+    "10302",
+    "17665",
+    "17662",
+    "17654"
+  ],
+  "gene_id_matching": {
+    "strategy_used": "multiple_strategies_attempted",
+    "final_matches": 753,
+    "debug_info": {
+      "direct_matches": 0,
+      "topmovers_to_str": 0,
+      "ground_truth_to_str": 753,
+      "topmovers_sample": [
+        "10303",
+        "9491",
+        "15048",
+        "10304",
+        "15049",
+        "17688",
+        "10302",
+        "17665",
+        "17662",
+        "17654"
+      ],
+      "ground_truth_sample": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  },
+  "source_files": {
+    "ground_truth": "/Users/jordansztejman/Downloads/BioDiscoveryAgent-master/datasets/ground_truth_gene_essentiality_screen.csv",
+    "task_prompt": "/Users/jordansztejman/Downloads/BioDiscoveryAgent-master/datasets/task_prompts/gene_essentiality_screen.json",
+    "topmovers": "/Users/jordansztejman/Downloads/BioDiscoveryAgent-master/datasets/topmovers_gene_essentiality_screen.npy"
+  }
+}

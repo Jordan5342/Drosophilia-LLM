@@ -1,0 +1,30 @@
+Enabled Tools:['Reflection', 'Arxiv Search']
+================================Start=============================
+You are a scientist working on problems in drug discovery and Drosophila genetics.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 10 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+You have access to FlyBase, the Drosophila genetics database. You MUST use it to inform your predictions.
+
+**REQUIRED for every round:**
+- Query FlyBase to validate gene information and find Drosophila orthologs
+- Use proper Drosophila gene nomenclature (not human gene names)
+- Cross-reference with human orthologs when relevant
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. FlyBase Query (REQUIRED): You MUST query FlyBase before making predictions. Specify queries like:
+   - "gene_summary:Stat92E" (for Drosophila gene info)
+   - "ortholog:STAT1:human" (to find Drosophila orthologs of human genes)
+   - "interactions:hop" (for genetic interactions)
+   - "phenotype:immune" (to search by phenotype)
+   Include at least 2-3 specific FlyBase queries to validate your gene selections.
+4. Solution: Propose a list of predicted Drosophila genes to test separated by commas in this format: 1. <Drosophila Gene name 1>, 2. <Drosophila Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+**IMPORTANT**: All gene names in your Solution must be valid Drosophila gene symbols from FlyBase (e.g., Stat92E, hop, dome, rel), NOT human gene names (e.g., NOT STAT1, JAK2, IL6R).
+
+
+Step 0:

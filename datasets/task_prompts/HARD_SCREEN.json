@@ -1,0 +1,4 @@
+{
+  "Task": "Hierarchical gene discovery - Top 30% genes - challenging\n\nDIFFICULTY LEVEL: HARD\nGENE POOL: 600 pre-selected genes (score \u2265 0.307)\nSUCCESS RATE: 100.0% of genes are essential\n\nSTRATEGY FOR THIS LEVEL:\n- Focus on genes with highest scores within this curated set\n- All genes here already passed initial filtering\n- Look for the cream of the crop\n\nTop examples: GENE_9491, GENE_10303, GENE_15048, GENE_10304, GENE_15049, GENE_17688, GENE_10302, GENE_17665",
+  "Measurement": "Curated essentiality scores (\u22650.307). Range: 0.440-1.000"
+}

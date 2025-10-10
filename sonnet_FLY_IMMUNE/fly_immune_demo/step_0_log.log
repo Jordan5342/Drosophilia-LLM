@@ -1,0 +1,34 @@
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to Summarize the effect of the given gene on Drosophila's innate immune response based on the provided context and supporting literature. Focus on whether it activates, suppresses, or modulates specific pathways or antimicrobial peptide production.. There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out The answer should be a concise, factual summary (1-2 sentences) of the gene's perturbation effect. which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+ 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the initial step, there are no previous results to reflect on. We need to start by identifying key genes involved in Drosophila's innate immune response based on existing literature and knowledge.
+
+2. Research Plan: Begin by selecting well-known genes involved in Drosophila immune pathways like Toll and IMD. Then, expand to genes involved in antimicrobial peptide production and regulation. Next, include genes associated with cellular immune responses. Follow up with genes involved in stress responses and metabolism that may indirectly affect immunity. Finally, explore less studied genes with potential immune functions based on homology or expression data.
+
+3. Solution:
+1. Dif, 2. Relish, 3. PGRP-LC, 4. PGRP-LE, 5. Imd, 6. Dredd, 7. Tak1, 8. Kenny, 9. Cactus, 10. Dorsal, 11. Spätzle, 12. Toll, 13. MyD88, 14. Tube, 15. Pelle, 16. Drosomycin, 17. Defensin, 18. Attacin, 19. Cecropin, 20. Metchnikowin, 21. Diptericin, 22. Hemese, 23. Hemolectin, 24. Serpent, 25. Lozenge, 26. Domeless, 27. Hopscotch, 28. Stat92E, 29. TEP1, 30. TEP2, 31. TEP3, 32. TEP4, 33. Hsp83, 34. Hsp70, 35. Hsp60, 36. JNK, 37. Basket, 38. Puckered, 39. Foxo, 40. Thor, 41. Atg1, 42. Atg8a, 43. Atg18, 44. Ras85D, 45. Raf, 46. Mekk1, 47. p38a, 48. p38b, 49. p38c, 50. Dsor1, 51. Rolled, 52. Aop, 53. Pnt, 54. Cdk5, 55. p35, 56. Eip75B, 57. Hr46, 58. Usp, 59. EcR, 60. Broad, 61. Kayak, 62. Jun-related antigen, 63. Dronc, 64. DrICE
+===================tokens=====================
+Number of prompt tokens: 272
+Number of sampled tokens: 552
+
+

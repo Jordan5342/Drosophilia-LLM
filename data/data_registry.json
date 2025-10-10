@@ -1,0 +1,12 @@
+{
+  "datasets": {
+    "MY_CUSTOM_SCREEN": {
+      "path": "data/MY_CUSTOM_SCREEN/MY_CUSTOM_SCREEN.csv",
+      "ground_truth": "data/MY_CUSTOM_SCREEN/MY_CUSTOM_SCREEN_ground_truth.csv",
+      "metadata": "data/MY_CUSTOM_SCREEN/MY_CUSTOM_SCREEN_metadata.json",
+      "description": "Identify genes important for gene_essentiality_screen based on screening data",
+      "total_genes": 15073,
+      "positive_hits": 753
+    }
+  }
+}

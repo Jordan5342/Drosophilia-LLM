@@ -1,0 +1,217 @@
+
+===================prompt=====================
+
+
+Human: Step 1
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interleukin-2 (IL-2). There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interleukin-2 (IL-2) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ This is not your first round. All tested genes and their measured log fold change are: 
+            Score
+Gene             
+IRF1    -0.157190
+STAT3   -0.278570
+RELA    -0.279810
+CD80    -0.098780
+STAT1    0.012047
+RHEB     0.032306
+GATA3   -0.036215
+MAPK1   -0.148210
+STAT5A   0.004139
+CD86    -0.058091
+SOCS3    0.030714
+ETS1    -0.010755
+RELB    -0.005736
+IKBKG   -0.216370
+ATF2    -0.082943
+NFKB1   -0.115020
+BCL6    -0.048463
+ICOS    -0.040072
+FOXP3   -0.099287
+NFATC1   0.099580
+SOCS1   -0.032417
+IRF4     0.121000
+LCK      0.132590
+CD40LG  -0.022008
+IL21     0.012741
+PRDM1   -0.018561
+NFATC2  -0.280190
+FOXO3   -0.211370
+FOXO1    0.068776
+CTLA4    0.309260
+TNFRSF4  0.045562
+NFIL3    0.155530
+IL15     0.100290
+PTEN     0.006596
+FOS     -0.064280
+JAK1    -0.053599
+TBX21   -0.061745
+AKT1     0.049770
+IKBKB    0.255820
+EOMES    0.056064
+RUNX1    0.241920
+CREB1   -0.122900
+TNFRSF9 -0.079510
+IL7R    -0.152760
+NFKBIA   0.145740
+ You have successfully identified 19 hits so far over all experiment cycles! The results for the hits are: 
+          Score
+Gene           
+NFKB2   0.60741
+BATF    0.42521
+TSC1    0.80855
+CD28   -1.72620
+IL2RA   0.57251
+MYC     0.41330
+ZAP70  -2.78080
+CBLB    1.20450
+MAPK3  -0.33118
+IL2RG   1.05700
+CD3E   -1.96430
+TRAF6  -0.73739
+PTPRC  -0.86005
+JAK3    1.07620
+IL2RB   1.12230
+JUN    -0.37464
+STAT5B  0.66825
+LAT    -0.89413
+PTPN22  0.35386
+ Based on these results and prior knowledge of biology, make the best possible prediction of the first 64 genes that I should test to maximize the score. Use HGNC gene naming convention.DO NOT PREDICT GENES THAT HAVE ALREADY BEEN TESTED 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: The previous results have identified several key genes involved in IL-2 regulation, including components of the IL-2 receptor (IL2RA, IL2RB, IL2RG), signaling molecules (ZAP70, JAK3, STAT5B), and transcription factors (NFKB2, BATF, MYC). The strongest positive regulators appear to be CBLB, IL2RB, and JAK3, while the strongest negative regulators are ZAP70, CD28, and CD3E. These results suggest focusing on related pathways and interacting partners of these genes for the next round of testing.
+
+2. Research Plan: 1) Test additional components of T cell receptor signaling pathway. 2) Investigate more cytokine receptors and their downstream signaling molecules. 3) Explore transcription factors known to regulate IL-2 or interact with identified hits. 4) Examine genes involved in T cell activation and differentiation. 5) Include some genes from less explored pathways to potentially uncover novel regulators.
+
+3. Solution:
+1. CD247, 2. LCK, 3. ITK, 4. VAV1, 5. PLCG1, 6. NFATC3, 7. IL4R, 8. IL7, 9. IL15RA, 10. JAK2, 11. SOCS2, 12. PIAS1, 13. NFKB1A, 14. REL, 15. JUNB, 16. JUND, 17. FOXO4, 18. SMAD3, 19. SMAD4, 20. TGFB1, 21. TGFBR1, 22. TGFBR2, 23. TNFRSF18, 24. CD40, 25. CD27, 26. TNFSF14, 27. ICOS, 28. CTNNB1, 29. GSK3B, 30. MAPK14, 31. MAPK8, 32. PIK3CA, 33. PIK3R1, 34. MTOR, 35. RICTOR, 36. RAPTOR, 37. TSC2, 38. RHOA, 39. RAC1, 40. CDC42, 41. NFATC4, 42. CREM, 43. ATF1, 44. ELK1, 45. SRF, 46. CEBPB, 47. ID2, 48. ID3, 49. RUNX3, 50. BCL11B, 51. TCF7, 52. LEF1, 53. SATB1, 54. FOXP1, 55. IKZF1, 56. IKZF2, 57. NOTCH1, 58. HES1, 59. RBPJ, 60. CREBBP, 61. EP300, 62. KAT2B, 63. HDAC1, 64. SIRT1
+===================tokens=====================
+Number of prompt tokens: 967
+Number of sampled tokens: 656
+
+
+
+===================prompt=====================
+
+
+Human: Step 1
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interleukin-2 (IL-2). There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interleukin-2 (IL-2) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ This is not your first round. All tested genes and their measured log fold change are: 
+            Score
+Gene             
+IRF1    -0.157190
+STAT3   -0.278570
+RELA    -0.279810
+CD80    -0.098780
+STAT1    0.012047
+RHEB     0.032306
+GATA3   -0.036215
+MAPK1   -0.148210
+STAT5A   0.004139
+CD86    -0.058091
+SOCS3    0.030714
+ETS1    -0.010755
+RELB    -0.005736
+IKBKG   -0.216370
+ATF2    -0.082943
+NFKB1   -0.115020
+BCL6    -0.048463
+ICOS    -0.040072
+FOXP3   -0.099287
+NFATC1   0.099580
+SOCS1   -0.032417
+IRF4     0.121000
+LCK      0.132590
+CD40LG  -0.022008
+IL21     0.012741
+PRDM1   -0.018561
+NFATC2  -0.280190
+FOXO3   -0.211370
+FOXO1    0.068776
+CTLA4    0.309260
+TNFRSF4  0.045562
+NFIL3    0.155530
+IL15     0.100290
+PTEN     0.006596
+FOS     -0.064280
+JAK1    -0.053599
+TBX21   -0.061745
+AKT1     0.049770
+IKBKB    0.255820
+EOMES    0.056064
+RUNX1    0.241920
+CREB1   -0.122900
+TNFRSF9 -0.079510
+IL7R    -0.152760
+NFKBIA   0.145740
+ You have successfully identified 19 hits so far over all experiment cycles! The results for the hits are: 
+          Score
+Gene           
+NFKB2   0.60741
+BATF    0.42521
+TSC1    0.80855
+CD28   -1.72620
+IL2RA   0.57251
+MYC     0.41330
+ZAP70  -2.78080
+CBLB    1.20450
+MAPK3  -0.33118
+IL2RG   1.05700
+CD3E   -1.96430
+TRAF6  -0.73739
+PTPRC  -0.86005
+JAK3    1.07620
+IL2RB   1.12230
+JUN    -0.37464
+STAT5B  0.66825
+LAT    -0.89413
+PTPN22  0.35386
+ Based on these results and prior knowledge of biology, make the best possible prediction of the first 64 genes that I should test to maximize the score. Use HGNC gene naming convention.DO NOT PREDICT GENES THAT HAVE ALREADY BEEN TESTED
+ You have so far predicted 60 out of the required 64 genes for this round. These were: 
+['HES1', 'HDAC1', 'IL7', 'CDC42', 'RBPJ', 'TCF7', 'IKZF2', 'GSK3B', 'PLCG1', 'ID2', 'SRF', 'ID3', 'ITK', 'SMAD3', 'PIK3R1', 'RICTOR', 'CEBPB', 'LEF1', 'PIAS1', 'TGFBR1', 'IL4R', 'RHOA', 'CTNNB1', 'SOCS2', 'NFATC4', 'CD40', 'TSC2', 'JUNB', 'MTOR', 'RAC1', 'JUND', 'TNFRSF18', 'NOTCH1', 'SATB1', 'TNFSF14', 'RUNX3', 'KAT2B', 'MAPK8', 'CREM', 'FOXP1', 'IL15RA', 'TGFBR2', 'VAV1', 'PIK3CA', 'IKZF1', 'EP300', 'FOXO4', 'CD27', 'TGFB1', 'JAK2', 'MAPK14', 'ATF1', 'SMAD4', 'NFATC3', 'ELK1', 'CREBBP', 'SIRT1', 'CD247', 'REL', 'BCL11B']
+ Please add 4 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'RAPTOR', 'NFKB1A'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: The previous results show a mix of positive and negative regulators of IL-2 production. Some key signaling pathways and transcription factors have been identified as hits. For the next steps, we should focus on genes that are involved in T cell activation, cytokine signaling, and transcriptional regulation of IL-2.
+
+2. Research Plan: Continue testing genes involved in T cell receptor signaling, cytokine signaling pathways, and transcriptional regulation of IL-2. Focus on genes that interact with or are downstream of the identified hits. Explore genes involved in mTOR signaling, NFAT pathway, and JAK-STAT pathway. Investigate genes that regulate T cell differentiation and activation. Consider testing genes involved in epigenetic regulation of IL-2 expression.
+
+3. Solution: Here are 4 additional genes to test:
+61. NFKBIB
+62. PIK3CD
+63. HDAC2
+64. FOXM1
+===================tokens=====================
+Number of prompt tokens: 1319
+Number of sampled tokens: 191
+
+

@@ -1,0 +1,39 @@
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 32 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+ 
+
+Assistant:
+===================claude-3-5-sonnet-20241022 response (2000)=====================
+1. Reflection: This is the initial step, so we have no previous results to reflect on. The challenge requires an efficient strategy to identify key genes regulating IFNG production from a large set of possibilities with limited experimental capacity.
+
+2. Research Plan: 
+- Start with genes known to be involved in immune response pathways and cytokine signaling since IFNG is a key immune cytokine
+- Focus on transcription factors and upstream regulators that could have broad effects on IFNG production
+- Target genes in the JAK-STAT pathway which is known to regulate IFNG
+- Include genes involved in T cell activation and differentiation as IFNG is primarily produced by T cells
+- Test genes involved in cellular stress response and inflammatory pathways that might affect IFNG production
+
+3. Solution:
+1. STAT1, 2. STAT4, 3. IL12RB1, 4. IL12RB2, 5. TBX21, 6. EOMES, 7. NFATC2, 8. RUNX3, 9. JAK1, 10. JAK2, 11. IL18R1, 12. IL18RAP, 13. IRF1, 14. NFKB1, 15. RELA, 16. CD28, 17. ICOS, 18. IKBKB, 19. MAP3K7, 20. MAPK14, 21. IL2RA, 22. IL2RB, 23. IL15RA, 24. CCR5, 25. CXCR3, 26. MYD88, 27. TRAF6, 28. IRAK4, 29. FOXO1, 30. FOXO3, 31. EZH2, 32. DNMT1
+===================tokens=====================
+Number of prompt tokens: 235
+Number of sampled tokens: 378
+
+

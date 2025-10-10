@@ -1,0 +1,4 @@
+{
+  "Task": "Biological gene essentiality discovery.\n\nBIOLOGICAL REASONING:\nEssential genes are critical for:\n- Cell survival and viability\n- Core cellular processes\n- Fundamental biological pathways\n\nHIGH-SCORING GENES likely represent:\n- Essential metabolic enzymes\n- Critical structural proteins  \n- Core regulatory elements\n\nSelect genes that:\n1. Have very high importance scores (>0.426)\n2. Represent likely essential functions\n3. Show consistent high ranking\n\nThink like a biologist - what genes would cells need to survive?",
+  "Measurement": "Biological essentiality score. Higher = more critical for survival."
+}

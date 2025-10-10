@@ -1,0 +1,7 @@
+{
+    "task": "perturb-genes-brief",
+    "target": "Drosophila_Immune_Response",
+    "num_genes": 15,
+    "task_type": "summarization",
+    "domain": "fly_innate_immunity"
+  }

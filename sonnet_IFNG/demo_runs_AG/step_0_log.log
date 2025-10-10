@@ -1,0 +1,223 @@
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 128 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+ 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the initial step, there are no previous results to reflect on. We need to start by identifying key genes that are likely to be involved in IFNG regulation based on existing knowledge.
+
+2. Research Plan: Begin with a literature review to identify genes known to be involved in IFNG regulation or related pathways. Use bioinformatics tools to predict additional genes that may be involved based on network analysis and pathway enrichment. Prioritize genes based on their likelihood of involvement and potential impact. Conduct the initial CRISPR screen with the top predicted genes. Analyze results and iteratively refine the gene list for subsequent rounds of experimentation.
+
+3. Solution: 
+1. STAT1, 2. STAT4, 3. T-bet, 4. EOMES, 5. IL12RB1, 6. IL12RB2, 7. JAK1, 8. JAK2, 9. NFKB1, 10. NFKB2, 11. RELA, 12. IRF1, 13. IRF3, 14. IRF7, 15. NFATC2, 16. CD28, 17. ICOS, 18. CTLA4, 19. PD1, 20. LAG3
+===================tokens=====================
+Number of prompt tokens: 235
+Number of sampled tokens: 272
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 128 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have so far predicted 18 out of the required 128 genes for this round. These were: 
+['STAT1', 'JAK1', 'NFKB2', 'EOMES', 'IRF1', 'CTLA4', 'IL12RB1', 'NFKB1', 'ICOS', 'JAK2', 'STAT4', 'LAG3', 'IL12RB2', 'IRF3', 'NFATC2', 'RELA', 'IRF7', 'CD28']
+ Please add 110 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'T-bet', 'PD1'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: The initial list of 18 genes includes key players in the interferon-gamma signaling pathway and T cell activation. To expand this list, we should consider additional genes involved in T cell differentiation, cytokine signaling, transcriptional regulation, and immune cell activation. We should also explore genes in related pathways that might indirectly influence IFNG production.
+
+2. Research Plan: 1) Include genes involved in T cell receptor signaling and co-stimulation. 2) Add genes related to cytokine production and signaling, particularly those in the IL-12 and IL-18 pathways. 3) Incorporate transcription factors and regulators known to influence T cell function and IFNG expression. 4) Consider genes involved in cell metabolism and epigenetic regulation that may affect T cell activation and cytokine production. 5) Include some genes from related immune pathways to capture potential indirect effects on IFNG production.
+
+3. Solution:
+19. IL2, 20. IL2RA, 21. IL2RB, 22. IL18, 23. IL18R1, 24. IL18RAP, 25. TBX21, 26. GATA3, 27. RUNX3, 28. ZEB2, 29. FOXO1, 30. FOXO3, 31. BATF, 32. NFIL3, 33. BCL6, 34. PRDM1, 35. EZH2, 36. DNMT3A, 37. TET2, 38. KAT2B, 39. HDAC1, 40. SIRT1, 41. mTOR, 42. RHEB, 43. RPTOR, 44. RICTOR, 45. AKT1, 46. PI3K, 47. LCK, 48. ZAP70, 49. LAT, 50. SLP76, 51. GADS, 52. ITK, 53. PLCγ1, 54. VAV1, 55. NFAT, 56. AP1, 57. CD3E, 58. CD3D, 59. CD3G, 60. CD247, 61. CD4, 62. CD8A, 63. CXCR3, 64. CCR5, 65. IFNGR1, 66. IFNGR2, 67. SOCS1, 68. PTPN2, 69. SHP1, 70. SHP2, 71. GRB2, 72. SOS1, 73. RAS, 74. RAF1, 75. MEK1, 76. ERK1, 77. ERK2, 78. p38, 79. JNK, 80. CREB, 81. ELK1, 82. MYC, 83. FOXM1, 84. HIF1A, 85. STAT3, 86. STAT5A, 87. STAT5B, 88. STAT6, 89. IRF4, 90. IRF8, 91. IRF9, 92. SMAD3, 93. SMAD4, 94. TGFBR1, 95. TGFBR2, 96. TGFB1, 97. IL10, 98. IL10RA, 99. IL10RB, 100. IL4, 101. IL4R, 102. IL13, 103. IL13RA1, 104. IL21, 105. IL21R, 106. IL27, 107. IL27RA, 108. EBI3, 109. IL7, 110. IL7R, 111. IL15, 112. IL15RA, 113. TNFSF4, 114. TNFRSF4, 115. CD40LG, 116. CD40, 117. ICAM1, 118. LFA1, 119. CXCL9, 120. CXCL10, 121. CCL5, 122. NLRP3, 123. ASC, 124. CASP1, 125. IL1B, 126. IL1R1, 127. MYD88, 128. IRAK4
+===================tokens=====================
+Number of prompt tokens: 376
+Number of sampled tokens: 938
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 128 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have so far predicted 107 out of the required 128 genes for this round. These were: 
+['STAT1', 'JAK1', 'NFKB2', 'EOMES', 'IRF1', 'CTLA4', 'IL12RB1', 'NFKB1', 'ICOS', 'JAK2', 'STAT4', 'LAG3', 'IL12RB2', 'IRF3', 'NFATC2', 'RELA', 'IRF7', 'CD28', 'CASP1', 'IL18R1', 'EZH2', 'IL15RA', 'VAV1', 'TNFRSF4', 'CD40LG', 'IFNGR2', 'SOS1', 'AKT1', 'MYC', 'HIF1A', 'TET2', 'IRF8', 'TGFBR2', 'GATA3', 'HDAC1', 'EBI3', 'CD3E', 'CD8A', 'FOXO3', 'NFIL3', 'IL2RA', 'TGFB1', 'IL7', 'ICAM1', 'SMAD4', 'IL27RA', 'CXCL10', 'IRF9', 'RUNX3', 'MYD88', 'IL21', 'CD4', 'IL13RA1', 'STAT3', 'ITK', 'SIRT1', 'GRB2', 'IL4R', 'CD3G', 'ELK1', 'CXCL9', 'CXCR3', 'ZAP70', 'TNFSF4', 'IL21R', 'KAT2B', 'BCL6', 'TBX21', 'IL15', 'SMAD3', 'CCL5', 'IL2RB', 'IRF4', 'IL1B', 'PRDM1', 'IL10RB', 'IL7R', 'LCK', 'SOCS1', 'RICTOR', 'IL18', 'IRAK4', 'FOXM1', 'RPTOR', 'CD3D', 'STAT5A', 'CD247', 'DNMT3A', 'STAT6', 'IFNGR1', 'CD40', 'NLRP3', 'BATF', 'ZEB2', 'IL18RAP', 'IL10', 'IL2', 'STAT5B', 'IL10RA', 'IL1R1', 'CCR5', 'TGFBR1', 'RHEB', 'FOXO1', 'PTPN2', 'IL13', 'IL4']
+ Please add 21 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'SHP1', 'NFAT', 'ASC', 'mTOR', 'GADS', 'SHP2', 'JNK', 'AP1', 'LAT', 'ERK1', 'CREB', 'RAS', 'SLP76', 'PLCγ1', 'p38', 'LFA1', 'PI3K', 'IL27', 'RAF1', 'ERK2', 'MEK1'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: Based on the previously predicted genes, we have covered many key players in the IFNG production pathway, including transcription factors, cytokine receptors, and signaling molecules. To complete the list, we should consider additional genes involved in T cell activation, cytokine signaling, and epigenetic regulation that may influence IFNG production.
+
+2. Research Plan: The current plan involves identifying genes that regulate IFNG production through a genome-wide CRISPR screen. We have already selected 107 genes based on their known or potential roles in IFNG regulation. To complete the list of 128 genes, we will add 21 more genes involved in T cell function, cytokine signaling, and epigenetic regulation. After this round, we will analyze the results to refine our understanding of IFNG regulation and plan subsequent experiments.
+
+3. Solution: Here are 21 additional genes to test:
+
+1. NFATC1, 2. CD80, 3. CD86, 4. TNFRSF9, 5. TNFSF9, 6. IKZF1, 7. IKZF3, 8. PTPN22, 9. CTNNB1, 10. NOTCH1, 11. FOXP3, 12. RORC, 13. KDM6B, 14. KMT2D, 15. DNMT1, 16. TET1, 17. CXCR6, 18. CCR7, 19. IL23R, 20. IL6R, 21. TNFRSF18
+===================tokens=====================
+Number of prompt tokens: 899
+Number of sampled tokens: 330
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 128 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+ 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: As this is the initial step, there are no previous results to reflect on. We need to start by selecting an initial set of genes to test that are likely to be involved in IFNG regulation.
+
+2. Research Plan: 1) Begin with a literature review to identify genes known or suspected to be involved in IFNG regulation. 2) Use bioinformatics tools to predict additional genes that may be involved based on pathway analysis and protein-protein interactions. 3) Select a diverse set of genes from different functional categories to maximize the chances of discovering novel regulators. 4) Conduct the first round of CRISPR screening with the selected genes. 5) Analyze the results and use them to inform the selection of genes for subsequent rounds.
+
+3. Solution: 
+1. STAT1, 2. STAT4, 3. TBX21, 4. EOMES, 5. IL12RB1, 6. IL12RB2, 7. IL18R1, 8. IL18RAP, 9. JAK1, 10. JAK2, 11. NFKB1, 12. RELA, 13. IRF1, 14. IRF3, 15. NFATC2, 16. CD28, 17. ICOS, 18. TNFRSF4, 19. IL2RA, 20. IL2RB, 21. IL15RA, 22. IL21R, 23. IFNGR1, 24. IFNGR2, 25. SOCS1, 26. PTPN2, 27. RUNX3, 28. GATA3, 29. FOXO1, 30. FOXO3, 31. MYC, 32. BATF, 33. EZH2, 34. CTLA4, 35. PDCD1, 36. LAG3, 37. HAVCR2, 38. TIGIT, 39. CD274, 40. CBLB, 41. PTPN22, 42. SH2D1A, 43. TNFRSF18, 44. CD27, 45. CD40LG, 46. TNFSF14, 47. IL7R, 48. CCR5, 49. CXCR3, 50. CCR7
+===================tokens=====================
+Number of prompt tokens: 235
+Number of sampled tokens: 515
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 128 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have so far predicted 50 out of the required 128 genes for this round. These were: 
+['CD274', 'SH2D1A', 'TNFRSF18', 'TNFRSF4', 'IL18RAP', 'CD40LG', 'SOCS1', 'FOXO1', 'NFATC2', 'STAT4', 'IL2RB', 'IL12RB1', 'STAT1', 'IFNGR1', 'IL7R', 'PDCD1', 'EOMES', 'CXCR3', 'IL12RB2', 'CCR5', 'EZH2', 'PTPN2', 'GATA3', 'RUNX3', 'JAK1', 'TNFSF14', 'CCR7', 'IL15RA', 'TBX21', 'MYC', 'LAG3', 'CTLA4', 'IRF3', 'BATF', 'IL21R', 'IRF1', 'IFNGR2', 'FOXO3', 'PTPN22', 'CD28', 'HAVCR2', 'IL18R1', 'CBLB', 'CD27', 'RELA', 'IL2RA', 'TIGIT', 'NFKB1', 'JAK2', 'ICOS']
+ Please add 78 more genes to this list. Remember not to include previously tested genes including: 
+ [''] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: We have a good start with 50 genes that are likely involved in regulating IFNG production. These genes cover various aspects of T cell activation, signaling pathways, and transcription factors known to be associated with IFNG. For the remaining 78 genes, we should focus on expanding our coverage of related pathways, additional transcription factors, and genes involved in T cell differentiation and function.
+
+2. Research Plan: The plan is to conduct a genome-wide CRISPR screen to identify genes regulating IFNG production. We've selected 50 genes based on known associations with IFNG regulation and T cell function. We'll now add 78 more genes to complete the 128-gene set for the first round of experimentation. After this round, we'll analyze the results to refine our selection for subsequent rounds, focusing on the most promising candidates and related pathways.
+
+3. Solution: Here are 78 additional genes to test:
+
+1. IL2, 2. IL12A, 3. IL12B, 4. IL15, 5. IL21, 6. TBET, 7. RUNX1, 8. NFATC1, 9. NFATC3, 10. STAT3, 11. STAT5A, 12. STAT5B, 13. JAK3, 14. TYK2, 15. ZAP70, 16. LCK, 17. FYN, 18. ITK, 19. ICOS, 20. CD2, 21. CD3E, 22. CD3D, 23. CD3G, 24. CD4, 25. CD8A, 26. CD8B, 27. TNFRSF9, 28. TNFSF9, 29. TNFRSF14, 30. CD44, 31. CD69, 32. IL23R, 33. IL27RA, 34. IFNAR1, 35. IFNAR2, 36. IRF4, 37. IRF8, 38. PRDM1, 39. BCL6, 40. IKZF1, 41. IKZF3, 42. NFIL3, 43. RORC, 44. FOXP3, 45. SMAD3, 46. SMAD4, 47. TGFB1, 48. TGFBR1, 49. TGFBR2, 50. NOTCH1, 51. DLL1, 52. DLL4, 53. HES1, 54. HEY1, 55. RBPJ, 56. MAPK1, 57. MAPK3, 58. MAP2K1, 59. MAP2K2, 60. NRAS, 61. KRAS, 62. RAF1, 63. BRAF, 64. PIK3CA, 65. PIK3CB, 66. AKT1, 67. MTOR, 68. RHEB, 69. TSC1, 70. TSC2, 71. PTEN, 72. SHIP1, 73. SHP1, 74. SHP2, 75. GRB2, 76. SOS1, 77. VAV1, 78. RAC1
+===================tokens=====================
+Number of prompt tokens: 530
+Number of sampled tokens: 721
+
+
+
+===================prompt=====================
+
+
+Human: Step 0
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 128 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ You have so far predicted 120 out of the required 128 genes for this round. These were: 
+['CD274', 'SH2D1A', 'TNFRSF18', 'TNFRSF4', 'IL18RAP', 'CD40LG', 'SOCS1', 'FOXO1', 'NFATC2', 'STAT4', 'IL2RB', 'IL12RB1', 'STAT1', 'IFNGR1', 'IL7R', 'PDCD1', 'EOMES', 'CXCR3', 'IL12RB2', 'CCR5', 'EZH2', 'PTPN2', 'GATA3', 'RUNX3', 'JAK1', 'TNFSF14', 'CCR7', 'IL15RA', 'TBX21', 'MYC', 'LAG3', 'CTLA4', 'IRF3', 'BATF', 'IL21R', 'IRF1', 'IFNGR2', 'FOXO3', 'PTPN22', 'CD28', 'HAVCR2', 'IL18R1', 'CBLB', 'CD27', 'RELA', 'IL2RA', 'TIGIT', 'NFKB1', 'JAK2', 'ICOS', 'TYK2', 'FYN', 'IRF8', 'JAK3', 'TNFSF9', 'IRF4', 'CD8B', 'MAP2K2', 'SMAD3', 'STAT3', 'HEY1', 'CD3D', 'MTOR', 'SOS1', 'CD3E', 'IFNAR2', 'TGFBR1', 'GRB2', 'RHEB', 'LCK', 'NFATC1', 'CD8A', 'TSC2', 'IL12A', 'SMAD4', 'PIK3CA', 'MAP2K1', 'IL15', 'IFNAR1', 'RBPJ', 'FOXP3', 'KRAS', 'NFATC3', 'IL27RA', 'DLL1', 'STAT5A', 'ITK', 'IL21', 'NOTCH1', 'PTEN', 'AKT1', 'PRDM1', 'TNFRSF9', 'TGFB1', 'TNFRSF14', 'TGFBR2', 'IKZF3', 'MAPK1', 'NRAS', 'NFIL3', 'RORC', 'BRAF', 'PIK3CB', 'DLL4', 'TSC1', 'MAPK3', 'CD3G', 'RUNX1', 'STAT5B', 'CD2', 'IL2', 'VAV1', 'BCL6', 'CD44', 'CD69', 'ZAP70', 'IL23R', 'IKZF1', 'CD4', 'IL12B']
+ Please add 8 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'TBET', 'RAF1', 'RAC1', 'SHP1', 'SHIP1', 'HES1', 'SHP2', 'Here are 78 additional genes to test:'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: Based on the previously predicted genes, we have covered a wide range of important genes involved in T cell activation, cytokine signaling, and immune regulation. To complete the list of 128 genes, we should focus on additional genes that may play a role in IFNG production or regulation, including transcription factors, signaling molecules, and other immune-related genes.
+
+2. Research Plan: The current plan involves conducting a genome-wide CRISPR screen to identify genes regulating IFNG production. We have already selected 120 genes based on their known or potential involvement in IFNG regulation. We will now add 8 more genes to complete the list of 128 genes for the first round of experimentation. After this round, we will analyze the results and plan subsequent rounds based on the findings.
+
+3. Solution: Here are 8 additional genes to test, completing the list of 128 genes:
+
+1. NFKBIA, 2. TNFSF10, 3. IL10, 4. SOCS3, 5. TNFRSF25, 6. IRF7, 7. CXCL10, 8. TNFSF4
+===================tokens=====================
+Number of prompt tokens: 918
+Number of sampled tokens: 237
+
+

@@ -1,0 +1,228 @@
+
+===================prompt=====================
+
+
+Human: Step 1
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ This is not your first round. All tested genes and their measured log fold change are: 
+            Score
+Gene             
+IL12RB2  0.050639
+IFNAR2   0.206712
+NFKB1    0.125557
+BATF     0.068202
+IL2RA    0.117304
+RUNX3   -0.170597
+STAT4   -0.282660
+SOCS1    0.185722
+SMAD3    0.122430
+NFIL3    0.091035
+CTLA4    0.015375
+PDCD1    0.120335
+KDM6B    0.063455
+ICOS    -0.074485
+TCF7    -0.137402
+CD274   -0.043830
+PIAS1   -0.113202
+NFATC2   0.120780
+IL10     0.151242
+MYD88    0.054350
+JAK2     0.132444
+EZH2    -0.130098
+NFATC1   0.048841
+TOX     -0.072623
+FOXO3    0.003810
+TGFB1    0.032735
+IRF9    -0.126400
+IL12RB1 -0.034080
+IFNAR1   0.220668
+IRF1    -0.029467
+KDM6A   -0.171217
+FOXP3    0.145110
+PTPN2    0.072855
+IL2RB    0.253174
+FOXO1    0.125509
+IL18RAP -0.026802
+TET2    -0.274905
+STAT1   -0.023106
+EOMES   -0.086910
+ID2     -0.014265
+IL18R1  -0.011445
+DNMT1    0.371030
+BCL6    -0.058293
+GATA3    0.057780
+CTNNB1   0.077127
+IL27RA  -0.052131
+ You have successfully identified 18 hits so far over all experiment cycles! The results for the hits are: 
+           Score
+Gene            
+TRAF6  -1.865400
+TBX21  -1.401000
+IL2RG  -0.650145
+IFNGR2 -0.975910
+CD3E   -2.657250
+IFNGR1 -0.898070
+IKBKB  -0.922680
+SOCS3   0.536160
+CD28   -2.171850
+CBLB    1.358100
+LCK    -1.373600
+ZAP70  -3.918850
+RELA   -0.840910
+LEF1   -0.405045
+PRDM1  -0.785260
+MAPK1  -0.449405
+JAK1   -1.389050
+MAPK3  -0.734105
+ Based on these results and prior knowledge of biology, make the best possible prediction of the first 64 genes that I should test to maximize the score. Use HGNC gene naming convention.DO NOT PREDICT GENES THAT HAVE ALREADY BEEN TESTED 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: The previous results have identified several significant hits that regulate IFNG production, including key T cell signaling molecules (CD3E, ZAP70, LCK), cytokine receptors (IL2RG, IFNGR1, IFNGR2), and transcription factors (TBX21, RELA). The strong negative scores for many of these genes suggest they are positive regulators of IFNG production. We should continue to explore related pathways and genes involved in T cell activation, differentiation, and cytokine signaling.
+
+2. Research Plan: 
+1) Target additional T cell receptor signaling components and co-stimulatory molecules.
+2) Focus on cytokine signaling pathways, particularly those related to IL-2, IL-12, and IL-18.
+3) Investigate transcription factors known to regulate T cell function and IFNG expression.
+4) Explore epigenetic regulators that may influence T cell differentiation and IFNG production.
+5) Consider targeting negative regulators of T cell activation and IFNG production to potentially increase IFNG levels.
+
+3. Solution:
+1. CD247, 2. LAT, 3. FYN, 4. ITK, 5. PLCG1, 6. VAV1, 7. SOS1, 8. GRB2, 9. GRAP2, 10. PIK3CA, 11. AKT1, 12. MTOR, 13. RHEB, 14. CARD11, 15. BCL10, 16. MALT1, 17. PRKCQ, 18. CD80, 19. CD86, 20. ICOS, 21. IL2, 22. IL12A, 23. IL12B, 24. IL18, 25. STAT3, 26. STAT5A, 27. STAT5B, 28. JAK3, 29. TYK2, 30. NFKBIA, 31. NFKBIB, 32. IKBKG, 33. MAP2K1, 34. MAP2K2, 35. CREB1, 36. JUN, 37. FOS, 38. ETS1, 39. RUNX1, 40. GATA3, 41. RORC, 42. FOXO4, 43. IRF4, 44. BATF3, 45. EOMES, 46. NFAT5, 47. HDAC1, 48. HDAC2, 49. HDAC3, 50. EP300, 51. CREBBP, 52. KAT2B, 53. DNMT3A, 54. DNMT3B, 55. TET1, 56. TET3, 57. EZH1, 58. SUZ12, 59. CTBP1, 60. CTBP2, 61. PTPN22, 62. SHP2, 63. SHIP1, 64. PTEN
+===================tokens=====================
+Number of prompt tokens: 975
+Number of sampled tokens: 651
+
+
+
+===================prompt=====================
+
+
+Human: Step 1
+ You are a scientist working on problems in drug discovery.
+
+Research Problem: I'm planning to run a genome-wide CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). There are 18,939 possible  genes to perturb and I can only perturb 64 genes at a time. For each perturbation, I'm able to measure out the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do a few rounds of experimentation.
+
+Always respond in this format exactly:
+
+1. Reflection: Thoughts on previous results and next steps. 
+2. Research Plan: The full high level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.
+3. Solution: Propose a list of predicted genes to test separated by commas in this format: 1. <Gene name 1>, 2. <Gene name 2> ...
+Do not include any genes from this prompt (since they're already tested).
+
+
+Now let's start!
+
+
+ This is not your first round. All tested genes and their measured log fold change are: 
+            Score
+Gene             
+IL12RB2  0.050639
+IFNAR2   0.206712
+NFKB1    0.125557
+BATF     0.068202
+IL2RA    0.117304
+RUNX3   -0.170597
+STAT4   -0.282660
+SOCS1    0.185722
+SMAD3    0.122430
+NFIL3    0.091035
+CTLA4    0.015375
+PDCD1    0.120335
+KDM6B    0.063455
+ICOS    -0.074485
+TCF7    -0.137402
+CD274   -0.043830
+PIAS1   -0.113202
+NFATC2   0.120780
+IL10     0.151242
+MYD88    0.054350
+JAK2     0.132444
+EZH2    -0.130098
+NFATC1   0.048841
+TOX     -0.072623
+FOXO3    0.003810
+TGFB1    0.032735
+IRF9    -0.126400
+IL12RB1 -0.034080
+IFNAR1   0.220668
+IRF1    -0.029467
+KDM6A   -0.171217
+FOXP3    0.145110
+PTPN2    0.072855
+IL2RB    0.253174
+FOXO1    0.125509
+IL18RAP -0.026802
+TET2    -0.274905
+STAT1   -0.023106
+EOMES   -0.086910
+ID2     -0.014265
+IL18R1  -0.011445
+DNMT1    0.371030
+BCL6    -0.058293
+GATA3    0.057780
+CTNNB1   0.077127
+IL27RA  -0.052131
+ You have successfully identified 18 hits so far over all experiment cycles! The results for the hits are: 
+           Score
+Gene            
+TRAF6  -1.865400
+TBX21  -1.401000
+IL2RG  -0.650145
+IFNGR2 -0.975910
+CD3E   -2.657250
+IFNGR1 -0.898070
+IKBKB  -0.922680
+SOCS3   0.536160
+CD28   -2.171850
+CBLB    1.358100
+LCK    -1.373600
+ZAP70  -3.918850
+RELA   -0.840910
+LEF1   -0.405045
+PRDM1  -0.785260
+MAPK1  -0.449405
+JAK1   -1.389050
+MAPK3  -0.734105
+ Based on these results and prior knowledge of biology, make the best possible prediction of the first 64 genes that I should test to maximize the score. Use HGNC gene naming convention.DO NOT PREDICT GENES THAT HAVE ALREADY BEEN TESTED
+ You have so far predicted 57 out of the required 64 genes for this round. These were: 
+['MTOR', 'BATF3', 'MAP2K1', 'GRB2', 'TET1', 'HDAC3', 'IL2', 'STAT3', 'CARD11', 'NFKBIB', 'ETS1', 'DNMT3A', 'CTBP2', 'ITK', 'JAK3', 'TET3', 'RORC', 'CTBP1', 'HDAC1', 'NFKBIA', 'EP300', 'CREBBP', 'SUZ12', 'MALT1', 'FYN', 'CD80', 'GRAP2', 'MAP2K2', 'RUNX1', 'PLCG1', 'VAV1', 'IL18', 'FOXO4', 'AKT1', 'STAT5A', 'PIK3CA', 'BCL10', 'PRKCQ', 'DNMT3B', 'IL12A', 'IRF4', 'RHEB', 'JUN', 'STAT5B', 'KAT2B', 'IKBKG', 'CD86', 'HDAC2', 'SOS1', 'CD247', 'CREB1', 'PTPN22', 'IL12B', 'FOS', 'NFAT5', 'PTEN', 'TYK2']
+ Please add 7 more genes to this list. Remember not to include previously tested genes including: 
+ ['', 'SHIP1', 'EZH1', 'SHP2', 'LAT'] 
+
+Assistant:
+===================claude-3-5-sonnet-20240620 response (2000)=====================
+1. Reflection: Based on the previous results, we've identified several key regulators of IFNG production, including both positive and negative regulators. The hits include important T cell signaling molecules (CD3E, ZAP70, LCK), cytokine receptors (IL2RG, IFNGR1, IFNGR2), and transcription factors (TBX21). To expand our search, we should focus on additional genes involved in T cell activation, cytokine signaling, and transcriptional regulation of IFNG.
+
+2. Research Plan: Continue testing genes involved in T cell signaling, cytokine signaling, and transcriptional regulation of IFNG. Focus on genes that interact with or are downstream of our identified hits. Explore epigenetic regulators and other transcription factors known to be involved in T cell function. Investigate negative regulators of IFNG production to potentially identify therapeutic targets. Lastly, consider testing genes involved in post-transcriptional regulation of IFNG.
+
+3. Solution: Here are 7 additional genes to test, completing the list of 64:
+
+58. CD4
+59. TNFRSF4
+60. NFKBID
+61. RBPJ
+62. TNFSF4
+63. IL21R
+64. TNFRSF9
+
+These genes are involved in T cell activation, signaling, and regulation of cytokine production, and have not been previously tested according to the provided information.
+===================tokens=====================
+Number of prompt tokens: 1314
+Number of sampled tokens: 286
+
+

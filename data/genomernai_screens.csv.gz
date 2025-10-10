@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><script src="/assets/74d607fc6e707d20/stack/en/core.js" type="text/javascript"></script><script src="/assets/74d607fc6e707d20/ctx/assets/jquery.min.js" type="text/javascript"></script><script src="/assets/74d607fc6e707d20/app/pages/Index.js" type="text/javascript"></script><script src="/assets/74d607fc6e707d20/ctx/assets/jquery.hoverbox.min.js" type="text/javascript"></script><script src="/assets/74d607fc6e707d20/app/components/Header.js" type="text/javascript"></script><script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+var u="//tr-denbi.embl.de/heimdall/";
+_paq.push(['setTrackerUrl', u+'p.php']);
+_paq.push(['setSiteId', '24']);
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'p.js'; s.parentNode.insertBefore(g,s);
+})();
+</script><link type="text/css" rel="stylesheet" href="/assets/74d607fc6e707d20/core/default.css"/><link type="text/css" rel="stylesheet" href="/assets/74d607fc6e707d20/core/tapestry-console.css"/><link type="text/css" rel="stylesheet" href="/assets/74d607fc6e707d20/core/t5-alerts.css"/><link type="text/css" rel="stylesheet" href="/assets/74d607fc6e707d20/core/tree.css"/><link type="text/css" rel="stylesheet" href="/assets/74d607fc6e707d20/ctx/assets/Index.css"/><link type="text/css" rel="stylesheet" href="/assets/74d607fc6e707d20/ctx/assets/style_tomdavis.css"/><meta content="Apache Tapestry Framework (version 5.3.7)" name="generator"/></head><body id="home"><div id="wrap"><html xmlns="http://www.w3.org/1999/xhtml"><link type="text/css" rel="stylesheet" href="http://fast.fonts.com/cssapi/699bf457-212c-4495-90c1-7e8f79875ae4.css"/><head><title>GenomeRNAi - a database for RNAi phenotypes and reagents</title><link href="/assets/74d607fc6e707d20/ctx/assets/icons/favicon.ico" type="image/x-icon" rel="icon"/><link href="/assets/74d607fc6e707d20/ctx/assets/icons/favicon.ico" type="image/x-icon" rel="shortcut icon"/></head><div id="header"><h1><a href="/Index"></a></h1><ul id="menu"><li id="home_li"><a class="home" href="/Index">Home</a></li><li id="browse_li"><a class="browseAll" href="/v17/allExperiments">Browse</a></li><li id="download_li"><a class="download" href="/DownloadAllExperimentsForm">Download</a></li><li id="siteindex_li"><a class="siteindex" href="/SiteIndex">Site Index</a></li><li id="about_li"><a class="about" href="/About">About</a></li><li id="help_li"><a target="_blank" class="help" href="http://rnai-screening-wiki.dkfz.de/signaling/wiki/display/genomernai/Home">Help</a></li></ul></div></html><div id="content"><div id="about"><h2>What is GenomeRNAi?</h2><h3>GenomeRNAi is a database containing phenotypes from RNA
+interference (RNAi) screens in Drosophila and
+Homo sapiens. In addition, the database provides an updated resource
+of RNAi reagents and their
+predicted quality.
+</h3><h3>
+RNAi screening data is extracted from the literature by manual curation.
+</h3><h3>
+Please remember to
+<a href="/index.citelink;jsessionid=2E3BD3DDE39B5A1B381C7917C01404E3">cite GenomeRNAi</a>
+to help us secure future funding. We also appreciate your
+<a href="mailto:contact@genomernai.org">feedback and suggestions</a>!
+</h3><!--<h3>
+						 Check out the beta version of our <a href="/v17/screencomparison">screen comparison tool</a> and let us know what you think!
+					</h3>--></div><div id="search"><div class="headings"><h2>Search</h2><h3>... gene</h3></div><div id="searchFrameGene" class="searchFrame"><label for="gene" id="gene-label">
+Enter a gene symbol or identifier
+<p></p></label><textarea type="text" name="gene" id="geneTxt"></textarea><span id="searchSpanGene">You can paste a list of genes, one gene per row.</span><button class="searchButtons" id="clickGene">Search</button><a id="searchGene" href="/index.searchgene;jsessionid=2E3BD3DDE39B5A1B381C7917C01404E3"></a><!-- this is like a hidden field for submitting context, forms do not work in DKFZ enterprise--></div><div class="headings"><h3>…by RNAi identifier</h3></div><div class="searchFrame"><label for="sirna" id="sirna-label">Enter an RNAi reagent identifier<p></p></label><input class="searchTextfield" id="sirnaTxt" type="text"></input><button class="searchButtons" id="clickRNAi">Search</button><a id="searchSiRNA" href="/index.searchsirna;jsessionid=2E3BD3DDE39B5A1B381C7917C01404E3"></a><!-- this is like a hidden field for submitting context, forms do not work in DKFZ enterprise--></div><div class="headings"><h3>...by phenotype</h3></div><div class="searchFrame"><label for="phenotypeTxt" id="phenotype-label">Enter a phenotype term<p></p></label><input class="searchTextfield" id="phenotypeTxt" type="text"></input><button class="searchButtons" id="clickPhenotype">Search</button><!--<t:actionLink t:id="searchPhenotype" id="searchPhenotype"></t:actionLink>--><!-- this is like a hidden field for submitting context, forms do not work in DKFZ enterprise--><!--<t:actionLink t:id="searchPhenotypeTerms"></t:actionLink>--><!-- this is like a hidden field for directly accessing context through links from the main web page--></div><div class="headings"><h3>...by screen</h3></div><div class="searchFrame"><label for="publicationTxt" id="publication-label">Enter a PubMed ID, first author, or GR stable ID<p></p></label><input class="searchTextfield" id="publicationTxt" type="text"></input><button class="searchButtons" id="clickPublicationSearch">Search</button></div></div><div id="browse"><h2>Browse</h2><h3>
+the GenomeRNAi database either
+by <a href="/v17/allExperiments">viewing all screens</a>,
+by looking at <a href="FrequentHitters">frequent hitters</a> or by choosing an example below
+</h3><div><span class="organism">Genes: </span><a href="/v17/genedetails/841">841</a>
+,
+<a href="/v17/genedetails/1499">CTNNB1</a>
+,
+<a href="/v17/genedetails/34127">Pvr</a>
+,
+<a href="/v17/genedetails/33807">CG9171</a>
+,
+<a href="/v17/genedetails/39259">FBgn0036141</a></div><div><span class="organism">Reagents: </span><a href="/v17/reagentdetails/DRSC03504">DRSC03504</a>
+,
+<a href="/v17/reagentdetails/BKN25930">BKN25930</a></div><div><span class="organism">Phenotypes: </span><a href="/v17/phenotypesOverview/regulation">regulation</a>
+,
+<a href="/v17/phenotypesOverview/decreased">decreased</a>
+,
+<a href="/v17/phenotypesOverview/Toll">Toll</a></div></div><div id="news"><h2>News</h2><ul><li><a href="NewsSite" id="news-anchor">GenomeRNAi v17 released</a><span>27 November, 2017<br/>
+GenomeRNAi version 17.0 contains a total of 687 RNAi screen: 478 in human and in 209 Drosophila. In order to facilitate the submission and release process, from now it is possible to visualize submitted screens and publications also before the new database version is released. For performance and availability, We switched from DAS to the currently popular bioinformatics file formats bigbed and 2bit in the Genome browser.
+<br/>
+Many thanks to <a href="/v17/singleExpPhenotypes/GR00400-S-1">Falkenberg et al.</a> that submitted a screen on an anti-cancer agent sensitivity and to all the users of GenomeRNAi that sent us feedbacks and reactions.
+</span></li></ul></div><div class="cB"></div><div id="newsletterX"><form onsubmit="javascript:return Tapestry.waitForPage(event);" action="/index.mynewsletterform;jsessionid=2E3BD3DDE39B5A1B381C7917C01404E3" method="post" id="myNewsletterForm"><div class="t-invisible"><input value="J+ff+zs9l/hia+HVt5NX8uGSdlA=:H4sIAAAAAAAAAFvzloEVAN3OqfcEAAAA" name="t:formdata" type="hidden"></input></div><!--			<h3>Keep in touch</h3>
+						<div>with our latest news from GenomeRNAi</div>
+                        <a href="http://www.facebook.com/pages/GenomeRNAi/223916001009765" id="twitterLink" class="pagelink_2_button" target="_blank">Facebook</a>
+
+                        <a href="http://www.twitter.com/genomernai" id="twitterLink" class="pagelink_2_button" target="_blank">Twitter</a>
+
+                        <t:pagelink page="NewsSite" t:id="newsletterMailId" t:class="pagelink_2_button">Join Newsletter</t:pagelink> --></form><p><div id="citeGenomeRNAi"><FONT SIZE="-1">Please cite: <a target="_blank" href="http://nar.oxfordjournals.org/cgi/content/full/gks1170?ijkey=zCvkxivmnr1RRvN;keytype=ref">Schmidt et al. (2012).</a> GenomeRNAi: a database for cell-based and <i>in vivo</i> RNAi phenotypes, 2013 update.</FONT></div></p><p><font color="red"></font></p></div></div></div><!-- here we put all the variables we need in the jscript later --><div style="visibility:hidden" id="ajaxSearchURL"></div><script type="text/javascript">Tapestry.onDOMLoaded(function() {
+Tapestry.init({"formEventManager":[{"formId":"myNewsletterForm","validate":{"submit":true,"blur":true}}]});
+});
+</script></body></html>

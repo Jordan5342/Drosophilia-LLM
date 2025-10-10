@@ -1,0 +1,4 @@
+{
+  "Task": "Identify genes important for gene_essentiality_screen based on screening data",
+  "Measurement": "Gene importance score derived from construct frequency and biological relevance"
+}

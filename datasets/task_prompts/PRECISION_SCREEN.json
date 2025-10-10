@@ -1,0 +1,4 @@
+{
+  "Task": "Elite gene discovery from the top 500 highest-scoring genes.\n\nDATASET: Ultra-high quality - Top 500/15073 genes (3.3%)\nEXPECTED SUCCESS RATE: 100.0% of genes are essential\nSCORE RANGE: 0.450 to 1.000 (all high-scoring)\n\nSTRATEGY: Since ALL genes here are high-scoring, focus on:\n1. THE HIGHEST scorers (top 10% within this elite set)\n2. Genes with scores > 0.579\n3. Pattern recognition in the highest performers\n\nElite examples: GENE_9491, GENE_10303, GENE_15048, GENE_10304, GENE_15049, GENE_17688, GENE_10302, GENE_17665, GENE_17662, GENE_17654\n\nThis is precision-focused discovery - every prediction should count!",
+  "Measurement": "Elite importance scores (0.450 to 1.000). All pre-selected high scorers."
+}

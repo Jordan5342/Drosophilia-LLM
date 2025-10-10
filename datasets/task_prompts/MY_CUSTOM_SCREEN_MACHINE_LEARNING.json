@@ -1,0 +1,4 @@
+{
+  "Task": "Machine learning pattern recognition for gene discovery.\n\nML APPROACH:\n- Feature: Gene importance score\n- Target: Essential vs non-essential classification\n- Method: High-score threshold optimization\n\nLEARNED PATTERNS:\n- Decision boundary: ~0.388\n- High-confidence zone: >0.426\n- Precision-optimized threshold: >0.455\n\nApply ML logic:\n1. Rank by confidence score\n2. Select above optimal threshold\n3. Maximize precision over recall\n\nUse data-driven decision making.",
+  "Measurement": "ML confidence score. Optimize for precision."
+}

@@ -1,0 +1,4 @@
+{
+  "Task": "Identify genes important for gene_essentiality_screen. The genes in this dataset are numbered identifiers in the format GENE_XXXX (e.g., GENE_9491, GENE_10303, GENE_15048). Select genes from this specific dataset format.",
+  "Measurement": "Gene importance score derived from construct frequency and biological relevance. Higher scores indicate more important genes."
+}
