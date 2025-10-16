@@ -1,5 +1,25 @@
 # BioDiscoveryAgent
 
+Changes to original biodiscovery agent files:
+
+Flybase api and web tool labeled as flybase_tool.py
+
+Edited research_assistant.py and tools.py to be able to use the flybase_tool.py in the LLM's queries.
+
+In order to call the fly base tool, you must call --flybase_tool True.
+Sample:   python research_assistant.py  --task perturb-genes-brief --model claude-3-5-sonnet-20240620 --run_name test --data_name IFNG --steps 5 --num_genes 128 --log_dir sonnet_all --lit_review True --critique True --reactome True --flybase_tool
+
+To clone the repository: git clone https://github.com/Jordan5342/Drosophilia-LLM.git
+cd Drosophilia-LLM
+
+Install dependencies: pip install -r requirements.txt
+
+Set up your API key: export ANTHROPIC_API_KEY='your-api-key-here'
+
+Usage:
+
+python research_assistant.py  --task perturb-genes-brief --model claude-3-5-sonnet-20240620 --run_name test --data_name IFNG --steps 5 --num_genes 128 --log_dir sonnet_all --lit_review True --critique True --reactome True --flybase_tool
+
 BioDiscoveryAgent is an AI agent for closed loop design of 
 biological experiments. BioDiscoveryAgent designs genetic perturbation experiments 
 using only an LLM (Claude v1) paired with a suite of tools (literature 
